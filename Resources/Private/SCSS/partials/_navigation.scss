@@ -1,0 +1,153 @@
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: $header-background-color;
+  transition: margin 300ms;
+
+  @media screen and (min-width: $break-desktop-1) {
+    display: none;
+  }
+
+  div.logo {
+    float: left;
+  }
+
+  #hamburger {
+    cursor: pointer;
+    display: block;
+    height: 30px;
+    margin: 10px;
+    padding: 3px 4px 3px;
+    position: relative;
+    width: 30px;
+    float: right;
+
+    @media screen and (min-width: $break-desktop-1) {
+      display: none;
+    }
+
+    div {
+      background-color: #fff;
+      height: 3px;
+      margin-top: 3px;
+      width: 100%;
+    }
+  }
+}
+
+nav {
+  font-family: $menu-font-stack;
+  background-color: $menu-background-color;
+  position: absolute;
+  top: 0;
+  left: -202px;
+  height: 100%;
+  z-index: 200;
+  width: 200px;
+  border-right: 2px solid #b3cb3d;
+  transition: left 300ms;
+  @media screen and (min-width: $break-desktop-1) {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: initial;
+    border: 0;
+    border-top: 10px solid #b3cb3d;
+    transition: height 150ms, border 150ms;
+    display: block;
+  }
+
+  div.logo {
+    width: 40px;
+    height: 30px;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+
+    @media screen and (min-width: $break-desktop-1) {
+      width: 100px;
+      padding: 15px 0;
+      float: left;
+      margin-left: 0;
+    }
+  }
+  .pagenav {
+    font-size: 1.4rem;
+    margin-top: 30px;
+    @media screen and (min-width: $break-desktop-1) {
+      float: left;
+      margin-top: 0;
+    }
+  }
+  .footer {
+    @media screen and (min-width: $break-desktop-1) {
+      text-align: right;
+    }
+  }
+  .footer ol,
+  .pagenav ol {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      margin-right: 2rem;
+      padding: 0;
+      a {
+        display: block;
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+        height: 25px;
+        line-height: 25px;
+        vertical-align: baseline;
+
+        @media screen and (min-width: $break-desktop-1) {
+          display: inline-block;
+          color: rgba(255, 255, 255, 0.6);
+          text-decoration: none;
+          height: 60px;
+          line-height: 60px;
+          vertical-align: baseline;
+          transition: height 150ms, line-height 150ms;
+        }
+      }
+      a.active {
+        color: #ffffff;
+        font-weight: 600;
+      }
+      a:hover {
+        color: #ffffff;
+      }
+    }
+  }
+}
+nav:hover {
+  @media screen and (min-width: $break-desktop-1) {
+    height: 100px;
+    border-top: 5px solid #b3cb3d;
+    .footer ol, .pagenav {
+      li {
+        a {
+          height: 90px;
+          line-height: 90px;
+        }
+      }
+    }
+  }
+  span.logo {
+    margin-top: 15px;
+  }
+}
+
+span.logo {
+  background-image: url('../images/logo.svg');
+  background-size: cover;
+  width: 40px;
+  height: 30px;
+  display: block;
+  transition: margin 150ms;
+}

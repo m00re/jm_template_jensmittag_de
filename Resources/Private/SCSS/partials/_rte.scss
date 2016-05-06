@@ -1,0 +1,319 @@
+.base-letter-spacing {
+  letter-spacing: 0.04rem;
+}
+
+h1, .h1 {
+  @extend .base-letter-spacing;
+  font-size: 26px;
+  font-size: 2.6rem;
+  border-bottom: 1px solid #848484;
+}
+h2, .h2 {
+  @extend .base-letter-spacing;
+  font-size: 24px;
+  font-size: 2.4rem;
+  color: #b3cb3d;
+}
+h3, .h3 {
+  @extend .base-letter-spacing;
+  font-size: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+h4, .h4 {
+  @extend .base-letter-spacing;
+  font-size: 20px;
+  font-size: 2.0rem;
+}
+h5, .h5 {
+  @extend .base-letter-spacing;
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+h6, .h6 {
+  @extend .base-letter-spacing;
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+.csc-default,
+.csc-default-lbr-padding,
+.csc-default-lr-padding,
+p {
+  @extend .base-letter-spacing;
+  font-size: 19px;
+  font-size: 1.9rem;
+}
+
+blockquote.align-right,
+p.align-right { text-align: right; }
+blockquote.align-left,
+p.align-left { text-align: left; }
+blockquote.align-center,
+p.align-center { text-align: center; }
+blockquote.align-justify,
+p.align-justify { text-align: justify; }
+
+/* Allow a first letter to be larger than the res of the paragraph */
+span.increased-first-letter {
+  font-size: $font-size-increased-first-letter;
+  float: left;
+  font-weight: bold;
+  margin: $increased-first-letter-padding;
+  height: $font-size-increased-first-letter;
+  max-height: $font-size-increased-first-letter;
+  line-height: 1;
+}
+
+/* Blockquote styles */
+blockquote {
+  margin: $blockquote-margin;
+  font-size: $font-size-blockquote;
+  font-family: $quote-font-stack;
+}
+blockquote p.quote {
+  display: inline-block;
+  font-size: $font-size-blockquote;
+  margin: 0;
+}
+blockquote p.quote:before {
+  content: '\201C';
+  margin-right: $blockquote-quotes-margin;
+}
+blockquote p.quote:after {
+  content: '\201D';
+  margin-left: $blockquote-quotes-margin;
+}
+blockquote p.author {
+  margin: 0;
+  text-align: right;
+  font-family: $menu-font-stack;
+  font-size: $font-size-blockquote-author;
+  font-weight: 300;
+}
+blockquote.align-right p.author {
+  text-align: left;
+}
+
+/* Allow containers that are wider than parent */
+div.extended-width {
+  margin: 2.7rem 0;
+  background-color: $very-light-grey;
+  @media screen and (min-width: $break-desktop-1) {
+    margin-left: -$content-container-page-padding-1;
+    margin-right: -$content-container-page-padding-1;
+  }
+  @media screen and (min-width: $break-desktop-2) {
+    margin-left: -$content-container-page-padding-2;
+    margin-right: -$content-container-page-padding-2;
+  }
+  @media screen and (min-width: $break-desktop-3) {
+    margin: 5.4rem 0;
+    margin-left: -$content-container-page-padding-3;
+    margin-right: -$content-container-page-padding-3;
+  }
+  p.caption {
+    @extend .caption;
+  }
+  p.caption {
+    @extend .caption;
+    background-color: $light-grey;
+    color: $black;
+  }
+}
+
+/* Styling of preformatted text */
+pre {
+  border: 0;
+  border-radius: 0 !important;
+  padding: 2.7rem !important;
+  background-color: transparent !important;
+}
+
+/* Rounded Labels */
+label.button {
+  @extend .btn;
+  background-color: $light-grey;
+  padding: $button-padding;
+}
+label.button-grey {
+  @extend .button;
+  background-color: $grey;
+}
+label.button-very-light-grey {
+  @extend .button;
+  background-color: $very-light-grey;
+}
+label.button-dark-grey {
+  @extend .button;
+  background-color: $dark-grey;
+  color: $very-light-grey;
+}
+label.button-green {
+  @extend .button;
+  background-color: $green;
+}
+label.button-light-green {
+  @extend .button;
+  background-color: $light-green;
+}
+label.button-lime {
+  @extend .button;
+  background-color: $lime;
+}
+label.button-indigo {
+  @extend .button;
+  background-color: $indigo;
+  color: $very-light-grey;
+}
+label.button-blue {
+  @extend .button;
+  background-color: $blue;
+}
+label.button-light-blue {
+  @extend .button;
+  background-color: $light-blue;
+}
+label.button-red {
+  @extend .button;
+  background-color: $red;
+}
+label.button-yellow {
+  @extend .button;
+  background-color: $yellow;
+}
+label.button-orange {
+  @extend .button;
+  background-color: $orange;
+}
+label.button-amber {
+  @extend .button;
+  background-color: $amber;
+}
+label.button-black {
+  @extend .button;
+  background-color: $black;
+  color: $very-light-grey;
+}
+label.button-dark-grey:hover,
+label.button-indigo:hover,
+label.button-black:hover {
+  color: $very-light-grey;
+}
+
+/* Non-Rounded Labels */
+/* Rounded Labels */
+label.button-angular {
+  @extend .button;
+  border-radius: 0;
+  background-color: $light-grey;
+  padding: $button-angular-padding;
+}
+label.button-angular-grey {
+  @extend .button-angular;
+  background-color: $grey;
+}
+label.button-angular-very-light-grey {
+  @extend .button-angular;
+  background-color: $very-light-grey;
+}
+label.button-angular-dark-grey {
+  @extend .button-angular;
+  background-color: $dark-grey;
+  color: $very-light-grey;
+}
+label.button-angular-green {
+  @extend .button-angular;
+  background-color: $green;
+}
+label.button-angular-light-green {
+  @extend .button-angular;
+  background-color: $light-green;
+}
+label.button-angular-lime {
+  @extend .button-angular;
+  background-color: $lime;
+}
+label.button-angular-indigo {
+  @extend .button-angular;
+  background-color: $indigo;
+  color: $very-light-grey;
+}
+label.button-angular-blue {
+  @extend .button-angular;
+  background-color: $blue;
+}
+label.button-angular-light-blue {
+  @extend .button-angular;
+  background-color: $light-blue;
+}
+label.button-angular-red {
+  @extend .button-angular;
+  background-color: $red;
+}
+label.button-angular-yellow {
+  @extend .button-angular;
+  background-color: $yellow;
+}
+label.button-angular-orange {
+  @extend .button-angular;
+  background-color: $orange;
+}
+label.button-angular-amber {
+  @extend .button-angular;
+  background-color: $amber;
+}
+label.button-angular-black {
+  @extend .button-angular;
+  background-color: $black;
+  color: $very-light-grey;
+}
+label.button-angular-dark-grey:hover,
+label.button-angular-indigo:hover,
+label.button-angular-black:hover {
+  color: $very-light-grey;
+}
+
+/* Link Styles */
+a.internal {
+  text-decoration: none;
+  color: $light-green;
+  &:hover {
+    text-decoration: none;
+    color: $lime;
+  }
+}
+a.external {
+  @extend .internal;
+  &:before {
+    content: $icon-external-link;
+    font-family: $icon-font-stack;
+    font-size: 1.25rem;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    padding-right: 0.4rem;
+    text-decoration: none;
+  }
+}
+
+/* Alert Boxes */
+p.alert-success {
+  @extend .alert;
+  border-radius: 0;
+  border-left: 5px solid $green;
+}
+p.alert-info {
+  @extend .alert;
+  border-radius: 0;
+  border-left: 5px solid $blue;
+}
+p.alert-warning {
+  @extend .alert;
+  border-radius: 0;
+  border-left: 5px solid $yellow;
+}
+p.alert-danger {
+  @extend .alert;
+  border-radius: 0;
+  border-left: 5px solid $red;
+}

@@ -1,0 +1,95 @@
+.csc-default-lbr-padding,
+.csc-default-lr-padding,
+.csc-default-tlr-padding,
+.csc-default {
+  position: relative;
+  @media screen and (min-width: $break-desktop-1) {
+    background-color: $white;
+  }
+}
+.csc-default {
+  padding: $content-container-tiny-padding;
+  @media screen and (min-width: $break-desktop-1) {
+    padding: $content-container-tiny-padding-1;
+  }
+  @media screen and (min-width: $break-desktop-2) {
+    padding: $content-container-tiny-padding-2;
+  }
+  @media screen and (min-width: $break-desktop-3) {
+    padding: $content-container-tiny-padding-3;
+  }
+}
+.csc-default-lbr-padding {
+  padding-top: 0;
+  padding-right: $content-container-tiny-padding;
+  padding-bottom: $content-container-tiny-padding;
+  padding-bottom: $content-container-tiny-padding;
+  @media screen and (min-width: $break-desktop-1) {
+    top: -21px;
+    padding-top: 0;
+    padding-right: $content-container-tiny-padding-1;
+    padding-bottom: $content-container-tiny-padding-1;
+    padding-left: $content-container-tiny-padding-1;
+  }
+  @media screen and (min-width: $break-desktop-2) {
+    padding-right: $content-container-tiny-padding-2;
+    padding-bottom: $content-container-tiny-padding-2;
+    padding-left: $content-container-tiny-padding-2;
+  }
+  @media screen and (min-width: $break-desktop-3) {
+    padding-right: $content-container-tiny-padding-3;
+    padding-bottom: $content-container-tiny-padding-3;
+    padding-left: $content-container-tiny-padding-3;
+  }
+}
+.csc-default-lr-padding {
+  padding: 0 $content-container-tiny-padding;
+  @media screen and (min-width: $break-desktop-1) {
+    top: -21px;
+    padding: 0 $content-container-tiny-padding-1;
+  }
+  @media screen and (min-width: $break-desktop-2) {
+    padding: 0 $content-container-tiny-padding-2;
+  }
+  @media screen and (min-width: $break-desktop-3) {
+    padding: 0 $content-container-tiny-padding-3;
+  }
+}
+.csc-default-tlr-padding {
+  padding: $content-container-tiny-padding;
+  @media screen and (min-width: $break-desktop-1) {
+    padding: $content-container-tiny-padding-1;
+  }
+  @media screen and (min-width: $break-desktop-2) {
+    padding: $content-container-tiny-padding-2;
+  }
+  @media screen and (min-width: $break-desktop-3) {
+    padding: $content-container-tiny-padding-3;
+  }
+}
+
+/* Define drop shadow effect below content element blocks */
+@media screen and (min-width: $break-desktop-1) {
+  .csc-default-lbr-padding:before,
+  .csc-default-lbr-padding:after,
+  .csc-default:before,
+  .csc-default:after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    height: 20px;
+    max-width: 300px;
+    background: $dark-grey;
+    @include box-shadow(0 15px 10px $dark-grey);
+    @include transform(rotate(-1.5deg));
+  }
+  .csc-default-lbr-padding:after,
+  .csc-default:after {
+    @include transform(rotate(1.5deg));
+    right: 10px;
+    left: auto;
+  }
+}

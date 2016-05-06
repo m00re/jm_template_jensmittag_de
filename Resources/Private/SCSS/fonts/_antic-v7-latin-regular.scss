@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Antic';
+  src: url('#{$font-path}antic-v7-latin-regular.eot');
+  src: url('#{$font-path}antic-v7-latin-regular.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path}antic-v7-latin-regular.woff2') format('woff2'),
+  url('#{$font-path}antic-v7-latin-regular.woff') format('woff'),
+  url('#{$font-path}antic-v7-latin-regular.ttf') format('truetype'),
+  url('#{$font-path}antic-v7-latin-regular.svg#Antic') format('svg');
+}

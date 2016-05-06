@@ -1,0 +1,43 @@
+// Bootstrap: Core variables and mixins
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables';
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins';
+
+// Reset and dependencies
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/normalize';
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/print';
+
+// Bootstrap: Core CSS
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding';
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/type';
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/code';
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/grid';
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/tables';
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/forms';
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/buttons';
+
+// Bootstrap: Components
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/alerts';
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/labels';
+
+@import 'config';
+@import 'colors';
+@import 'fonts/glyphicons-halflings-regular';
+@import 'fonts/antic-v7-latin-regular';
+@import 'fonts/open-sans-v13-latin-regular';
+@import 'fonts/open-sans-v13-latin-300';
+@import 'fonts/open-sans-v13-latin-600';
+@import 'fonts/bitter-v7-latin-regular';
+
+@import 'partials/rte';
+
+// RESET HTML AND BODY
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+body.htmlarea-content-body {
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-family: $base-font-stack;
+  padding: 1rem;
+}
