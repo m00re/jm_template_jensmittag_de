@@ -7,36 +7,36 @@ RTE.classes {
     quote.name = Zitat
     author.name = Author
     extended-width.name = Komplette Breite
-    button.name = Standard (abgerundet)
-    button-grey.name = Grauer (abgerundet)
-    button-very-light-grey.name = Hellgrau (abgerundet)
-    button-dark-grey.name = Dunkelgrau (abgerundet)
-    button-green.name = Grün (abgerundet)
-    button-light-green.name = Hellgrün (abgerundet)
-    button-lime.name = Lime (abgerundet)
-    button-indigo.name = Indigo (abgerundet)
-    button-blue.name = Blau (abgerundet)
-    button-light-blue.name = Hellblau (abgerundet)
-    button-red.name = Rot (abgerundet)
-    button-yellow.name = Gelb (abgerundet)
-    button-orange.name = Orange (abgerundet)
-    button-amber.name = Amber (abgerundet)
-    button-black.name = Schwarz (abgerundet)
-    button-angular.name = Standard (rechteckig)
-    button-angular-grey.name = Grauer (rechteckig)
-    button-angular-very-light-grey.name = Hellgrau (rechteckig)
-    button-angular-dark-grey.name = Dunkelgrau (rechteckig)
-    button-angular-green.name = Grün (rechteckig)
-    button-angular-light-green.name = Hellgrün (rechteckig)
-    button-angular-lime.name = Lime (rechteckig)
-    button-angular-indigo.name = Indigo (rechteckig)
-    button-angular-blue.name = Blau (rechteckig)
-    button-angular-light-blue.name = Hellblau (rechteckig)
-    button-angular-red.name = Rot (rechteckig)
-    button-angular-yellow.name = Gelb (rechteckig)
-    button-angular-orange.name = Orange (rechteckig)
-    button-angular-amber.name = Amber (rechteckig)
-    button-angular-black.name = Schwarz (rechteckig)
+    label.name = Abgerundetes Label (Standard)
+    label-grey.name = Abgerundetes Label (Grau)
+    label-very-light-grey.name = Abgerundetes Label (Hellgrau)
+    label-dark-grey.name = Abgerundetes Label (Dunkelgrau)
+    label-green.name = Abgerundetes Label (Grün)
+    label-light-green.name = Abgerundetes Label (Hellgrün)
+    label-lime.name = Abgerundetes Label (Lime)
+    label-indigo.name = Abgerundetes Label (Indigo)
+    label-blue.name = Abgerundetes Label (Blau)
+    label-light-blue.name = Abgerundetes Label (Hellblau)
+    label-red.name = Abgerundetes Label (Rot)
+    label-yellow.name = Abgerundetes Label (Gelb)
+    label-orange.name = Abgerundetes Label (Orange)
+    label-amber.name = Abgerundetes Label (Amber)
+    label-black.name = Abgerundetes Label (Schwarz)
+    label-angular.name = Eckiges Label (Standard)
+    label-angular-grey.name = Eckiges Label (Grau)
+    label-angular-very-light-grey.name = Eckiges Label (Hellgrau)
+    label-angular-dark-grey.name = Eckiges Label (Dunkelgrau)
+    label-angular-green.name = Eckiges Label (Grün)
+    label-angular-light-green.name = Eckiges Label (Hellgrün)
+    label-angular-lime.name = Eckiges Label (Lime)
+    label-angular-indigo.name = Eckiges Label (Indigo)
+    label-angular-blue.name = Eckiges Label (Blau)
+    label-angular-light-blue.name = Eckiges Label (Hellblau)
+    label-angular-red.name = Eckiges Label (Rot)
+    label-angular-yellow.name = Eckiges Label (Gelb)
+    label-angular-orange.name = Eckiges Label (Orange)
+    label-angular-amber.name = Eckiges Label (Amber)
+    label-angular-black.name = Eckiges Label (Schwarz)
     internal.name = Interner Link
     external.name = Externer Link
     alert-success.name = Meldung: Erfolgreich
@@ -66,6 +66,8 @@ RTE.default {
             tags {
                 span {
                     allowedClasses := addToList(increased-first-letter)
+                    allowedClasses := addToList(label,label-grey,label-very-light-grey,label-dark-grey,label-green,label-light-green,label-lime,label-indigo,label-blue,label-light-blue,label-red,label-yellow,label-orange,label-amber,label-black)
+                    allowedClasses := addToList(label-angular,label-angular-grey,label-angular-very-light-grey,label-angular-dark-grey,label-angular-green,label-angular-light-green,label-angular-lime,label-angular-indigo,label-angular-blue,label-angular-light-blue,label-angular-red,label-angular-yellow,label-angular-orange,label-angular-amber,label-angular-black)
                 }
             }
         }
@@ -75,5 +77,7 @@ RTE.default {
         allowedClasses := addToList(align-right, align-left, align-center, align-justify)
         allowedClasses := addToList(alert-success, alert-info, alert-warning, alert-danger)
         allowedClasses := addToList(quote, author, caption)
+        allowedClasses := addToList(label,label-grey,label-very-light-grey,label-dark-grey,label-green,label-light-green,label-lime,label-indigo,label-blue,label-light-blue,label-red,label-yellow,label-orange,label-amber,label-black)
+        allowedClasses := addToList(label-angular,label-angular-grey,label-angular-very-light-grey,label-angular-dark-grey,label-angular-green,label-angular-light-green,label-angular-lime,label-angular-indigo,label-angular-blue,label-angular-light-blue,label-angular-red,label-angular-yellow,label-angular-orange,label-angular-amber,label-angular-black)
     }
 }

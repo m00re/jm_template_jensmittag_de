@@ -7,8 +7,8 @@ gulp.task('css', ['css:sass', 'css:minify', 'css:fonts']);
 
 gulp.task('css:minify', ['css:sass'], function() {
     return gulp.src([
-            './Resources/Private/SCSS/rtehtmlarea.scss',
-            './Resources/Private/SCSS/frontend.scss'
+            './Resources/Public/CSS/rtehtmlarea.css',
+            './Resources/Public/CSS/frontend.css'
         ])
         .pipe(cleanCSS({
             compatibility: 'ie8',

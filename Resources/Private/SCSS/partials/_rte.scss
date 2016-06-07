@@ -131,147 +131,148 @@ pre {
 }
 
 /* Rounded Labels */
-label.button {
+span.label {
   @extend .btn;
   background-color: $light-grey;
   padding: $button-padding;
+  color: $dark-grey;
+  font-weight: normal;
 }
-label.button-grey {
-  @extend .button;
+span.label:hover {
+  color: $dark-grey!important;
+}
+span.label-grey {
+  @extend .label;
   background-color: $grey;
+  color: white;
 }
-label.button-very-light-grey {
-  @extend .button;
+span.label-grey:hover {
+  color: white!important;
+}
+span.label-very-light-grey {
+  @extend .label;
   background-color: $very-light-grey;
 }
-label.button-dark-grey {
-  @extend .button;
+span.label-dark-grey {
+  @extend .label-grey;
   background-color: $dark-grey;
-  color: $very-light-grey;
 }
-label.button-green {
-  @extend .button;
+span.label-green {
+  @extend .label-grey;
   background-color: $green;
 }
-label.button-light-green {
-  @extend .button;
+span.label-light-green {
+  @extend .label-grey;
   background-color: $light-green;
 }
-label.button-lime {
-  @extend .button;
+span.label-lime {
+  @extend .label-grey;
   background-color: $lime;
 }
-label.button-indigo {
-  @extend .button;
+span.label-indigo {
+  @extend .label-grey;
   background-color: $indigo;
-  color: $very-light-grey;
 }
-label.button-blue {
-  @extend .button;
+span.label-blue {
+  @extend .label-grey;
   background-color: $blue;
 }
-label.button-light-blue {
-  @extend .button;
+span.label-light-blue {
+  @extend .label-grey;
   background-color: $light-blue;
 }
-label.button-red {
-  @extend .button;
+span.label-red {
+  @extend .label-grey;
   background-color: $red;
 }
-label.button-yellow {
-  @extend .button;
+span.label-yellow {
+  @extend .label-grey;
   background-color: $yellow;
 }
-label.button-orange {
-  @extend .button;
+span.label-orange {
+  @extend .label-grey;
   background-color: $orange;
 }
-label.button-amber {
-  @extend .button;
+span.label-amber {
+  @extend .label-grey;
   background-color: $amber;
 }
-label.button-black {
-  @extend .button;
+span.label-black {
+  @extend .label-grey;
   background-color: $black;
-  color: $very-light-grey;
-}
-label.button-dark-grey:hover,
-label.button-indigo:hover,
-label.button-black:hover {
-  color: $very-light-grey;
 }
 
 /* Non-Rounded Labels */
 /* Rounded Labels */
-label.button-angular {
-  @extend .button;
+span.label-angular {
+  @extend .label;
   border-radius: 0;
   background-color: $light-grey;
   padding: $button-angular-padding;
+  color: $dark-grey;
 }
-label.button-angular-grey {
-  @extend .button-angular;
+span.label-angular:hover {
+  color: $dark-grey!important;
+}
+span.label-angular-grey {
+  @extend .label-angular;
   background-color: $grey;
+  color: white;
 }
-label.button-angular-very-light-grey {
-  @extend .button-angular;
+span.label-angular-grey:hover {
+  color: white!important;
+}
+span.label-angular-very-light-grey {
+  @extend .label-angular;
   background-color: $very-light-grey;
 }
-label.button-angular-dark-grey {
-  @extend .button-angular;
+span.label-angular-dark-grey {
+  @extend .label-angular-grey;
   background-color: $dark-grey;
-  color: $very-light-grey;
 }
-label.button-angular-green {
-  @extend .button-angular;
+span.label-angular-green {
+  @extend .label-angular-grey;
   background-color: $green;
 }
-label.button-angular-light-green {
-  @extend .button-angular;
+span.label-angular-light-green {
+  @extend .label-angular-grey;
   background-color: $light-green;
 }
-label.button-angular-lime {
-  @extend .button-angular;
+span.label-angular-lime {
+  @extend .label-angular-grey;
   background-color: $lime;
 }
-label.button-angular-indigo {
-  @extend .button-angular;
+span.label-angular-indigo {
+  @extend .label-angular-grey;
   background-color: $indigo;
-  color: $very-light-grey;
 }
-label.button-angular-blue {
-  @extend .button-angular;
+span.label-angular-blue {
+  @extend .label-angular-grey;
   background-color: $blue;
 }
-label.button-angular-light-blue {
-  @extend .button-angular;
+span.label-angular-light-blue {
+  @extend .label-angular-grey;
   background-color: $light-blue;
 }
-label.button-angular-red {
-  @extend .button-angular;
+span.label-angular-red {
+  @extend .label-angular-grey;
   background-color: $red;
 }
-label.button-angular-yellow {
-  @extend .button-angular;
+span.label-angular-yellow {
+  @extend .label-angular-grey;
   background-color: $yellow;
 }
-label.button-angular-orange {
-  @extend .button-angular;
+span.label-angular-orange {
+  @extend .label-angular-grey;
   background-color: $orange;
 }
-label.button-angular-amber {
-  @extend .button-angular;
+span.label-angular-amber {
+  @extend .label-angular-grey;
   background-color: $amber;
 }
-label.button-angular-black {
-  @extend .button-angular;
+span.label-angular-black {
+  @extend .label-angular-grey;
   background-color: $black;
-  color: $very-light-grey;
-}
-label.button-angular-dark-grey:hover,
-label.button-angular-indigo:hover,
-label.button-angular-black:hover {
-  color: $very-light-grey;
 }
 
 /* Link Styles */
@@ -317,3 +318,5 @@ p.alert-danger {
   border-radius: 0;
   border-left: 5px solid $red;
 }
+
+/* Images */
