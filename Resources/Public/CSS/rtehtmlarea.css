@@ -2616,6 +2616,9 @@ p {
   font-size: 19px;
   font-size: 1.9rem; }
 
+p.bodytext {
+  margin: 3.6rem 0 0; }
+
 blockquote.align-right,
 p.align-right {
   text-align: right; }
@@ -2671,13 +2674,19 @@ blockquote p.author {
 blockquote.align-right p.author {
   text-align: left; }
 
+/* Captions */
+.caption {
+  margin: 0;
+  padding: 0.15rem 2.7rem 0.35rem 2.7rem;
+  font-size: 1.4rem;
+  font-family: "Open Sans", sans-serif;
+  background-color: #eeeeee;
+  color: #333; }
+
 /* Allow containers that are wider than parent */
 div.extended-width {
   margin: 2.7rem 0;
   background-color: #f9f9f9; }
-  div.extended-width p.caption {
-    background-color: #eeeeee;
-    color: #333; }
 
 @media screen and (min-width: 750px) {
   .csc-default div.extended-width,
@@ -2685,7 +2694,13 @@ div.extended-width {
   .csc-default-ltr-padding div.extended-width,
   .csc-default-lr-padding div.extended-width {
     margin-left: -56px;
-    margin-right: -56px; } }
+    margin-right: -56px; }
+    .csc-default div.extended-width .caption,
+    .csc-default-lbr-padding div.extended-width .caption,
+    .csc-default-ltr-padding div.extended-width .caption,
+    .csc-default-lr-padding div.extended-width .caption {
+      padding-left: -28px;
+      padding-right: -28px; } }
 
 @media screen and (min-width: 992px) {
   .csc-default div.extended-width,
@@ -2693,7 +2708,13 @@ div.extended-width {
   .csc-default-ltr-padding div.extended-width,
   .csc-default-lr-padding div.extended-width {
     margin-left: -73px;
-    margin-right: -73px; } }
+    margin-right: -73px; }
+    .csc-default div.extended-width .caption,
+    .csc-default-lbr-padding div.extended-width .caption,
+    .csc-default-ltr-padding div.extended-width .caption,
+    .csc-default-lr-padding div.extended-width .caption {
+      padding-left: -36.5px;
+      padding-right: -36.5px; } }
 
 @media screen and (min-width: 1170px) {
   .csc-default div.extended-width,
@@ -2702,7 +2723,13 @@ div.extended-width {
   .csc-default-lr-padding div.extended-width {
     margin: 5.4rem 0;
     margin-left: -88px;
-    margin-right: -88px; } }
+    margin-right: -88px; }
+    .csc-default div.extended-width .caption,
+    .csc-default-lbr-padding div.extended-width .caption,
+    .csc-default-ltr-padding div.extended-width .caption,
+    .csc-default-lr-padding div.extended-width .caption {
+      padding-left: -44px;
+      padding-right: -44px; } }
 
 @media screen and (min-width: 750px) {
   .csc-wide div.extended-width,
@@ -2710,7 +2737,13 @@ div.extended-width {
   .csc-wide-ltr-padding div.extended-width,
   .csc-wide-lr-padding div.extended-width {
     margin-left: -112px;
-    margin-right: -112px; } }
+    margin-right: -112px; }
+    .csc-wide div.extended-width .caption,
+    .csc-wide-lbr-padding div.extended-width .caption,
+    .csc-wide-ltr-padding div.extended-width .caption,
+    .csc-wide-lr-padding div.extended-width .caption {
+      padding-left: -56px;
+      padding-right: -56px; } }
 
 @media screen and (min-width: 992px) {
   .csc-wide div.extended-width,
@@ -2718,7 +2751,13 @@ div.extended-width {
   .csc-wide-ltr-padding div.extended-width,
   .csc-wide-lr-padding div.extended-width {
     margin-left: -146px;
-    margin-right: -146px; } }
+    margin-right: -146px; }
+    .csc-wide div.extended-width .caption,
+    .csc-wide-lbr-padding div.extended-width .caption,
+    .csc-wide-ltr-padding div.extended-width .caption,
+    .csc-wide-lr-padding div.extended-width .caption {
+      padding-left: -73px;
+      padding-right: -73px; } }
 
 @media screen and (min-width: 1170px) {
   .csc-wide div.extended-width,
@@ -2727,14 +2766,22 @@ div.extended-width {
   .csc-wide-lr-padding div.extended-width {
     margin: 5.4rem 0;
     margin-left: -176px;
-    margin-right: -176px; } }
+    margin-right: -176px; }
+    .csc-wide div.extended-width .caption,
+    .csc-wide-lbr-padding div.extended-width .caption,
+    .csc-wide-ltr-padding div.extended-width .caption,
+    .csc-wide-lr-padding div.extended-width .caption {
+      padding-left: -88px;
+      padding-right: -88px; } }
 
 /* Styling of preformatted text */
 pre {
   border: 0;
   border-radius: 0 !important;
   padding: 2.7rem !important;
-  background-color: transparent !important; }
+  margin: 3.6rem 0;
+  margin-bottom: 0;
+  background-color: #f9f9f9 !important; }
 
 /* Rounded Labels */
 span.label, span.label-grey, span.label-dark-grey, span.label-green, span.label-light-green, span.label-lime, span.label-indigo, span.label-blue, span.label-light-blue, span.label-red, span.label-yellow, span.label-orange, span.label-amber, span.label-black, span.label-very-light-grey, span.label-angular, span.label-angular-grey, span.label-angular-dark-grey, span.label-angular-green, span.label-angular-light-green, span.label-angular-lime, span.label-angular-indigo, span.label-angular-blue, span.label-angular-light-blue, span.label-angular-red, span.label-angular-yellow, span.label-angular-orange, span.label-angular-amber, span.label-angular-black, span.label-angular-very-light-grey {
