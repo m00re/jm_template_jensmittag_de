@@ -17,8 +17,6 @@ tx_ddgooglesitemap.forceStartPid = 1
 config.linkVars =
 config.tx_realurl_enable = 1
 
-#page.config.contentObjectExceptionHandler = 0
-
 page {
     includeCSSLibs {
         bootstrap >
