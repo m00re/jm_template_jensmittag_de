@@ -44,6 +44,14 @@ RTE.classes {
     alert-warning.name = Meldung: Warnung
     alert-danger.name = Meldung: Gefahr
     caption.name = Unterttitel
+    float-left-25.name = Links-floating Block (25% Breite)
+    float-left-33.name = Links-floating Block (33% Breite)
+    float-left-40.name = Links-floating Block (40% Breite)
+    float-left-50.name = Links-floating Block (50% Breite)
+    float-right-25.name = Rechts-floating Block (25% Breite)
+    float-right-33.name = Rechts-floating Block (33% Breite)
+    float-right-40.name = Rechts-floating Block (40% Breite)
+    float-right-50.name = Rechts-floating Block (50% Breite)
 }
 
 RTE.default {
@@ -58,6 +66,8 @@ RTE.default {
                     allowedClasses := addToList(align-right, align-left, align-center, align-justify)
                     allowedClasses := addToList(alert-success, alert-info, alert-warning, alert-danger)
                     allowedClasses := addToList(quote, author, caption)
+                    allowedClasses := addToList(float-left-25, float-left-33, float-left-40, float-left-50)
+                    allowedClasses := addToList(float-right-25, float-right-33, float-right-40, float-right-50)
                 }
             }
         }
@@ -79,5 +89,7 @@ RTE.default {
         allowedClasses := addToList(quote, author, caption)
         allowedClasses := addToList(label,label-grey,label-very-light-grey,label-dark-grey,label-green,label-light-green,label-lime,label-indigo,label-blue,label-light-blue,label-red,label-yellow,label-orange,label-amber,label-black)
         allowedClasses := addToList(label-angular,label-angular-grey,label-angular-very-light-grey,label-angular-dark-grey,label-angular-green,label-angular-light-green,label-angular-lime,label-angular-indigo,label-angular-blue,label-angular-light-blue,label-angular-red,label-angular-yellow,label-angular-orange,label-angular-amber,label-angular-black)
+        allowedClasses := addToList(float-left-25, float-left-33, float-left-40, float-left-50)
+        allowedClasses := addToList(float-right-25, float-right-33, float-right-40, float-right-50)
     }
 }
