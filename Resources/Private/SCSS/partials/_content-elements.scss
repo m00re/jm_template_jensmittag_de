@@ -1,12 +1,19 @@
+.csc-no-padding,
 .csc-default-lbr-padding,
 .csc-default-lr-padding,
-.csc-default-tlr-padding,
+.csc-default-ltr-padding,
+.csc-wide,
+.csc-wide-lbr-padding,
+.csc-wide-lr-padding,
+.csc-wide-ltr-padding,
 .csc-default {
   position: relative;
   @media screen and (min-width: $break-desktop-1) {
     background-color: $white;
   }
 }
+
+/* Default padding frames for content elements */
 .csc-default {
   padding: $content-container-tiny-padding;
   @media screen and (min-width: $break-desktop-1) {
@@ -55,7 +62,7 @@
     padding: 0 $content-container-tiny-padding-3;
   }
 }
-.csc-default-tlr-padding {
+.csc-default-ltr-padding {
   padding: $content-container-tiny-padding;
   @media screen and (min-width: $break-desktop-1) {
     padding: $content-container-tiny-padding-1;
@@ -68,12 +75,91 @@
   }
 }
 
+/* No-padding frames for content elements */
+.csc-no-padding {
+  padding: 0;
+}
+
+/* Wide padding frames for content elements */
+.csc-wide {
+  padding: $content-container-page-padding;
+  @media screen and (min-width: $break-desktop-1) {
+    padding: $content-container-page-padding-1;
+  }
+  @media screen and (min-width: $break-desktop-2) {
+    padding: $content-container-page-padding-2;
+  }
+  @media screen and (min-width: $break-desktop-3) {
+    padding: $content-container-page-padding-3;
+  }
+}
+.csc-wide-lbr-padding {
+  @media screen and (min-width: $break-desktop-1) {
+    top: -21px;
+    padding-top: 0;
+    padding-right: $content-container-page-padding-1;
+    padding-bottom: $content-container-page-padding-1;
+    padding-left: $content-container-page-padding-1;
+  }
+  @media screen and (min-width: $break-desktop-2) {
+    padding-right: $content-container-page-padding-2;
+    padding-bottom: $content-container-page-padding-2;
+    padding-left: $content-container-page-padding-2;
+  }
+  @media screen and (min-width: $break-desktop-3) {
+    padding-right: $content-container-page-padding-3;
+    padding-bottom: $content-container-page-padding-3;
+    padding-left: $content-container-page-padding-3;
+  }
+}
+.csc-wide-lr-padding {
+  padding: 0 $content-container-page-padding;
+  @media screen and (min-width: $break-desktop-1) {
+    top: -21px;
+    padding: 0 $content-container-page-padding-1;
+  }
+  @media screen and (min-width: $break-desktop-2) {
+    padding: 0 $content-container-page-padding-2;
+  }
+  @media screen and (min-width: $break-desktop-3) {
+    padding: 0 $content-container-page-padding-3;
+  }
+}
+.csc-wide-ltr-padding {
+  padding-top: $content-container-page-padding;
+  padding-right: $content-container-page-padding;
+  padding-bottom: $content-container-tiny-padding;
+  padding-left: $content-container-page-padding;
+  @media screen and (min-width: $break-desktop-1) {
+    padding-top: $content-container-page-padding-1;
+    padding-right: $content-container-page-padding-1;
+    padding-bottom: $content-container-tiny-padding-1;
+    padding-left: $content-container-page-padding-1;
+  }
+  @media screen and (min-width: $break-desktop-2) {
+    padding-top: $content-container-page-padding-2;
+    padding-right: $content-container-page-padding-2;
+    padding-bottom: $content-container-tiny-padding-2;
+    padding-left: $content-container-page-padding-2;
+  }
+  @media screen and (min-width: $break-desktop-3) {
+    padding-top: $content-container-page-padding-3;
+    padding-right: $content-container-page-padding-3;
+    padding-bottom: $content-container-tiny-padding-3;
+    padding-left: $content-container-page-padding-3;
+  }
+}
+
 /* Define drop shadow effect below content element blocks */
 @media screen and (min-width: $break-desktop-1) {
   .csc-default-lbr-padding:before,
   .csc-default-lbr-padding:after,
+  .csc-wide-lbr-padding:before,
+  .csc-wide-lbr-padding:after,
   .csc-default:before,
-  .csc-default:after {
+  .csc-default:after,
+  .csc-wide:before,
+  .csc-wide:after {
     z-index: -1;
     position: absolute;
     content: "";
@@ -87,7 +173,9 @@
     @include transform(rotate(-1.5deg));
   }
   .csc-default-lbr-padding:after,
-  .csc-default:after {
+  .csc-wide-lbr-padding:after,
+  .csc-default:after,
+  .csc-wide:after {
     @include transform(rotate(1.5deg));
     right: 10px;
     left: auto;

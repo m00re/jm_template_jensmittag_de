@@ -37,8 +37,13 @@ h6, .h6 {
 }
 
 .csc-default,
+.csc-wide,
 .csc-default-lbr-padding,
+.csc-default-ltr-padding,
 .csc-default-lr-padding,
+.csc-wide-lbr-padding,
+.csc-wide-ltr-padding,
+.csc-wide-lr-padding,
 p {
   @extend .base-letter-spacing;
   font-size: 19px;
@@ -99,26 +104,51 @@ blockquote.align-right p.author {
 div.extended-width {
   margin: 2.7rem 0;
   background-color: $very-light-grey;
-  @media screen and (min-width: $break-desktop-1) {
-    margin-left: -$content-container-page-padding-1;
-    margin-right: -$content-container-page-padding-1;
-  }
-  @media screen and (min-width: $break-desktop-2) {
-    margin-left: -$content-container-page-padding-2;
-    margin-right: -$content-container-page-padding-2;
-  }
-  @media screen and (min-width: $break-desktop-3) {
-    margin: 5.4rem 0;
-    margin-left: -$content-container-page-padding-3;
-    margin-right: -$content-container-page-padding-3;
-  }
-  p.caption {
-    @extend .caption;
-  }
   p.caption {
     @extend .caption;
     background-color: $light-grey;
     color: $black;
+  }
+}
+
+.csc-default,
+.csc-default-lbr-padding,
+.csc-default-ltr-padding,
+.csc-default-lr-padding {
+  div.extended-width {
+    @media screen and (min-width: $break-desktop-1) {
+      margin-left: -$content-container-tiny-padding-1;
+      margin-right: -$content-container-tiny-padding-1;
+    }
+    @media screen and (min-width: $break-desktop-2) {
+      margin-left: -$content-container-tiny-padding-2;
+      margin-right: -$content-container-tiny-padding-2;
+    }
+    @media screen and (min-width: $break-desktop-3) {
+      margin: 5.4rem 0;
+      margin-left: -$content-container-tiny-padding-3;
+      margin-right: -$content-container-tiny-padding-3;
+    }
+  }
+}
+.csc-wide,
+.csc-wide-lbr-padding,
+.csc-wide-ltr-padding,
+.csc-wide-lr-padding {
+  div.extended-width {
+    @media screen and (min-width: $break-desktop-1) {
+      margin-left: -$content-container-page-padding-1;
+      margin-right: -$content-container-page-padding-1;
+    }
+    @media screen and (min-width: $break-desktop-2) {
+      margin-left: -$content-container-page-padding-2;
+      margin-right: -$content-container-page-padding-2;
+    }
+    @media screen and (min-width: $break-desktop-3) {
+      margin: 5.4rem 0;
+      margin-left: -$content-container-page-padding-3;
+      margin-right: -$content-container-page-padding-3;
+    }
   }
 }
 

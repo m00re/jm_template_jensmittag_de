@@ -1,0 +1,26 @@
+# Alle Rahmen entfernen, außer
+TCEFORM.tt_content.section_frame {
+     removeItems = 1,5,6,10,11,12,20,21
+}
+
+
+# Neue Rahmen hinzufügen
+TCEFORM.tt_content.section_frame {
+     addItems.1101 = Normaler Innenabstand: Grauer Hintergrund
+     addItems.1102 = Normaler Innenabstand (links & rechts): Weißer Hintergrund
+     addItems.1103 = Normaler Innenabstand (links & rechts): Grauer Hintergrund
+     addItems.1104 = Normaler Innenabstand (links, unten & rechts): Weißer Hintergrund
+     addItems.1105 = Normaler Innenabstand (links, unten & rechts): Grauer Hintergrund
+     addItems.1106 = Normaler Innenabstand (links, oben & rechts): Weißer Hintergrund
+     addItems.1107 = Normaler Innenabstand (links, oben & rechts): Grauer Hintergrund
+     addItems.1201 = Kein Innenabstand: Weißer Hintergrund
+     addItems.1202 = Kein Innenabstand: Grauer Hintergrund
+     addItems.1301 = Großer Innenabstand: Weißer Hintergrund
+     addItems.1302 = Großer Innenabstand: Grauer Hintergrund
+     addItems.1303 = Großer Innenabstand (links & rechts): Weißer Hintergrund
+     addItems.1304 = Großer Innenabstand (links & rechts): Grauer Hintergrund
+     addItems.1305 = Großer Innenabstand (links, unten & rechts): Weißer Hintergrund
+     addItems.1306 = Großer Innenabstand (links, unten & rechts): Grauer Hintergrund
+     addItems.1307 = Großer Innenabstand (links, oben & rechts): Weißer Hintergrund
+     addItems.1308 = Großer Innenabstand (links, oben & rechts): Grauer Hintergrund
+}

@@ -1,0 +1,41 @@
+# Frame type styles anpassen
+tt_content.stdWrap.innerWrap.cObject = CASE
+tt_content.stdWrap.innerWrap.cObject {
+    key.field = section_frame
+    1101 = TEXT
+    1101.value = <div class="csc-default bg-very-light-grey">|</div>
+    1102 = TEXT
+    1102.value = <div class="csc-default-lr">|</div>
+    1103 = TEXT
+    1103.value = <div class="csc-default-lr bg-very-light-grey">|</div>
+    1104 = TEXT
+    1104.value = <div class="csc-default-lbr">|</div>
+    1105 = TEXT
+    1105.value = <div class="csc-default-lbr bg-very-light-grey">|</div>
+    1106 = TEXT
+    1106.value = <div class="csc-default-ltr">|</div>
+    1107 = TEXT
+    1107.value = <div class="csc-default-ltr bg-very-light-grey">|</div>
+
+    1201 = TEXT
+    1201.value = <div class="csc-no-padding">|</div>
+    1202 = TEXT
+    1202.value = <div class="csc-no-padding bg-very-light-grey">|</div>
+
+    1301 = TEXT
+    1301.value = <div class="csc-wide">|</div>
+    1302 = TEXT
+    1302.value = <div class="csc-wide bg-very-light-grey">|</div>
+    1303 = TEXT
+    1303.value = <div class="csc-wide-lr-padding">|</div>
+    1304 = TEXT
+    1304.value = <div class="csc-wide-lr-padding bg-very-light-grey">|</div>
+    1305 = TEXT
+    1305.value = <div class="csc-wide-lbr-padding">|</div>
+    1306 = TEXT
+    1306.value = <div class="csc-wide-lbr-padding bg-very-light-grey">|</div>
+    1307 = TEXT
+    1307.value = <div class="csc-wide-ltr-padding">|</div>
+    1308 = TEXT
+    1308.value = <div class="csc-wide-ltr-padding bg-very-light-grey">|</div>
+}

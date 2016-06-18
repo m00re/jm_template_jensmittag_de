@@ -2429,6 +2429,9 @@ a.label:hover, a.label:focus {
 .bg-light-grey {
   background-color: #eeeeee; }
 
+.bg-very-light-grey {
+  background-color: #f9f9f9 !important; }
+
 .bg-dark-grey {
   background-color: #616161; }
 
@@ -2564,8 +2567,13 @@ a.label:hover, a.label:focus {
   /* Legacy iOS */ }
 
 .base-letter-spacing, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, .csc-default,
+.csc-wide,
 .csc-default-lbr-padding,
+.csc-default-ltr-padding,
 .csc-default-lr-padding,
+.csc-wide-lbr-padding,
+.csc-wide-ltr-padding,
+.csc-wide-lr-padding,
 p {
   letter-spacing: 0.04rem; }
 
@@ -2597,8 +2605,13 @@ h6, .h6 {
   font-size: 1.6rem; }
 
 .csc-default,
+.csc-wide,
 .csc-default-lbr-padding,
+.csc-default-ltr-padding,
 .csc-default-lr-padding,
+.csc-wide-lbr-padding,
+.csc-wide-ltr-padding,
+.csc-wide-lr-padding,
 p {
   font-size: 19px;
   font-size: 1.9rem; }
@@ -2662,22 +2675,59 @@ blockquote.align-right p.author {
 div.extended-width {
   margin: 2.7rem 0;
   background-color: #f9f9f9; }
-  @media screen and (min-width: 750px) {
-    div.extended-width {
-      margin-left: -112px;
-      margin-right: -112px; } }
-  @media screen and (min-width: 992px) {
-    div.extended-width {
-      margin-left: -146px;
-      margin-right: -146px; } }
-  @media screen and (min-width: 1170px) {
-    div.extended-width {
-      margin: 5.4rem 0;
-      margin-left: -176px;
-      margin-right: -176px; } }
   div.extended-width p.caption {
     background-color: #eeeeee;
     color: #333; }
+
+@media screen and (min-width: 750px) {
+  .csc-default div.extended-width,
+  .csc-default-lbr-padding div.extended-width,
+  .csc-default-ltr-padding div.extended-width,
+  .csc-default-lr-padding div.extended-width {
+    margin-left: -56px;
+    margin-right: -56px; } }
+
+@media screen and (min-width: 992px) {
+  .csc-default div.extended-width,
+  .csc-default-lbr-padding div.extended-width,
+  .csc-default-ltr-padding div.extended-width,
+  .csc-default-lr-padding div.extended-width {
+    margin-left: -73px;
+    margin-right: -73px; } }
+
+@media screen and (min-width: 1170px) {
+  .csc-default div.extended-width,
+  .csc-default-lbr-padding div.extended-width,
+  .csc-default-ltr-padding div.extended-width,
+  .csc-default-lr-padding div.extended-width {
+    margin: 5.4rem 0;
+    margin-left: -88px;
+    margin-right: -88px; } }
+
+@media screen and (min-width: 750px) {
+  .csc-wide div.extended-width,
+  .csc-wide-lbr-padding div.extended-width,
+  .csc-wide-ltr-padding div.extended-width,
+  .csc-wide-lr-padding div.extended-width {
+    margin-left: -112px;
+    margin-right: -112px; } }
+
+@media screen and (min-width: 992px) {
+  .csc-wide div.extended-width,
+  .csc-wide-lbr-padding div.extended-width,
+  .csc-wide-ltr-padding div.extended-width,
+  .csc-wide-lr-padding div.extended-width {
+    margin-left: -146px;
+    margin-right: -146px; } }
+
+@media screen and (min-width: 1170px) {
+  .csc-wide div.extended-width,
+  .csc-wide-lbr-padding div.extended-width,
+  .csc-wide-ltr-padding div.extended-width,
+  .csc-wide-lr-padding div.extended-width {
+    margin: 5.4rem 0;
+    margin-left: -176px;
+    margin-right: -176px; } }
 
 /* Styling of preformatted text */
 pre {
