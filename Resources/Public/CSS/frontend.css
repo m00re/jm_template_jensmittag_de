@@ -2614,6 +2614,9 @@ header {
 
 nav {
   font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-size: 1.4rem;
+  letter-spacing: initial;
   background-color: #292929;
   position: absolute;
   top: 0;
@@ -2661,7 +2664,10 @@ nav {
   nav .pagenav ol {
     list-style: outside none none;
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    font-size: 14px;
+    font-size: 1.4rem;
+    letter-spacing: initial; }
     nav .footer ol li,
     nav .pagenav ol li {
       display: inline-block;
