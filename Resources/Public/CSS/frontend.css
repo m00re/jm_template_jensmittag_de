@@ -2720,6 +2720,8 @@ span.logo {
 .csc-wide-lbr-padding,
 .csc-wide-ltr-padding,
 .csc-wide-lr-padding,
+ol,
+ul,
 p {
   letter-spacing: 0.04rem; }
 
@@ -2758,6 +2760,8 @@ h6, .h6 {
 .csc-wide-lbr-padding,
 .csc-wide-ltr-padding,
 .csc-wide-lr-padding,
+ol,
+ul,
 p {
   font-size: 19px;
   font-size: 1.9rem; }
@@ -3092,7 +3096,7 @@ p.float-left-50 {
   display: block;
   float: left;
   margin-left: -1.25%;
-  margin-top: 3.2rem;
+  margin-top: 1.4rem;
   margin-right: 2.7rem;
   margin-bottom: 2.7rem; }
   @media screen and (min-width: 750px) {
@@ -3215,7 +3219,7 @@ p.float-right-50 {
   display: block;
   float: right;
   margin-right: -1.25%;
-  margin-top: 3.2rem;
+  margin-top: 1.4rem;
   margin-left: 2.7rem;
   margin-bottom: 2.7rem; }
   @media screen and (min-width: 750px) {
@@ -3329,6 +3333,53 @@ p.float-right-40 {
 .float-right-50,
 p.float-right-50 {
   width: 50%; }
+
+/* Highlighted/marked Text in Paragraph */
+span.marked {
+  padding: 0.2rem 0.5rem;
+  background-color: #eeeeee; }
+
+/* Ordered lists, down to level 3 */
+ol {
+  list-style-type: decimal;
+  margin: 3.6rem 0; }
+  ol li ol {
+    list-style: lower-latin;
+    margin: 0.9rem 0; }
+    ol li ol li ol {
+      list-style: lower-roman;
+      margin: 0.9rem 0; }
+      ol li ol li ol li p {
+        display: none; }
+      ol li ol li ol p {
+        display: none; }
+    ol li ol li p {
+      display: none; }
+    ol li ol p {
+      display: none; }
+  ol li p {
+    display: none; }
+  ol p {
+    display: none; }
+
+ul {
+  margin: 3.6rem 0; }
+  ul li ul {
+    margin: 0.9rem 0; }
+    ul li ul li ul {
+      margin: 0.9rem 0; }
+      ul li ul li ul li p {
+        display: none; }
+      ul li ul li ul p {
+        display: none; }
+    ul li ul li p {
+      display: none; }
+    ul li ul p {
+      display: none; }
+  ul li p {
+    display: none; }
+  ul p {
+    display: none; }
 
 .csc-no-padding,
 .csc-default-lbr-padding,

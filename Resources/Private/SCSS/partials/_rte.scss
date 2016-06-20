@@ -44,6 +44,8 @@ h6, .h6 {
 .csc-wide-lbr-padding,
 .csc-wide-ltr-padding,
 .csc-wide-lr-padding,
+ol,
+ul,
 p {
   @extend .base-letter-spacing;
   font-size: 19px;
@@ -397,7 +399,7 @@ img {
   display: block;
   float: left;
   margin-left: -($content-container-tiny-padding / 2);
-  margin-top: 3.2rem;
+  margin-top: 1.4rem;
   margin-right: 2.7rem;
   margin-bottom: 2.7rem;
   @media screen and (min-width: $break-desktop-1) {
@@ -454,7 +456,7 @@ p.float-left-50 {
   display: block;
   float: right;
   margin-right: -($content-container-tiny-padding / 2);
-  margin-top: 3.2rem;
+  margin-top: 1.4rem;
   margin-left: 2.7rem;
   margin-bottom: 2.7rem;
   @media screen and (min-width: $break-desktop-1) {
@@ -506,4 +508,58 @@ p.float-right-40 {
 p.float-right-50 {
   @extend .float-right-block;
   width: 50%;
+}
+
+/* Highlighted/marked Text in Paragraph */
+span.marked {
+  padding: 0.2rem 0.5rem;
+  background-color: $light-grey;
+}
+
+/* Ordered lists, down to level 3 */
+ol {
+  list-style-type: decimal;
+  margin: $paragraph-margin;
+  li {
+    ol {
+      list-style: lower-latin;
+      margin: 0.9rem 0;
+      li {
+        ol {
+          list-style: lower-roman;
+          margin: 0.9rem 0;
+          li {
+            p { display: none; }
+          }
+          p { display: none; }
+        }
+        p { display: none; }
+      }
+      p { display: none; }
+    }
+    p { display: none; }
+  }
+  p { display: none; }
+}
+
+ul {
+  margin: $paragraph-margin;
+  li {
+    ul {
+      margin: 0.9rem 0;
+      li {
+        ul {
+          margin: 0.9rem 0;
+          li {
+            p { display: none; }
+          }
+          p { display: none; }
+        }
+        p { display: none; }
+      }
+      p { display: none; }
+    }
+    p { display: none; }
+  }
+  p { display: none; }
 }
