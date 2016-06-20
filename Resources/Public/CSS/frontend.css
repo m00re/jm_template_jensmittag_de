@@ -2826,6 +2826,7 @@ blockquote.align-right p.author {
 
 /* Captions */
 .caption,
+span.caption,
 p.caption {
   margin: 0;
   padding: 0.15rem 2.7rem 0.35rem 2.7rem;
@@ -2835,95 +2836,95 @@ p.caption {
   color: #333; }
 
 /* Allow containers that are wider than parent */
-div.extended-width {
-  margin: 2.7rem 0;
-  background-color: #f9f9f9; }
+p.extended-width {
+  background-color: #eeeeee;
+  margin: 3.6rem 0; }
 
 @media screen and (min-width: 750px) {
-  .csc-default div.extended-width,
-  .csc-default-lbr-padding div.extended-width,
-  .csc-default-ltr-padding div.extended-width,
-  .csc-default-lr-padding div.extended-width {
+  .csc-default .extended-width,
+  .csc-default-lbr-padding .extended-width,
+  .csc-default-ltr-padding .extended-width,
+  .csc-default-lr-padding .extended-width {
     margin-left: -56px;
     margin-right: -56px; }
-    .csc-default div.extended-width .caption,
-    .csc-default-lbr-padding div.extended-width .caption,
-    .csc-default-ltr-padding div.extended-width .caption,
-    .csc-default-lr-padding div.extended-width .caption {
-      padding-left: -28px;
-      padding-right: -28px; } }
+    .csc-default .extended-width .caption,
+    .csc-default-lbr-padding .extended-width .caption,
+    .csc-default-ltr-padding .extended-width .caption,
+    .csc-default-lr-padding .extended-width .caption {
+      padding-left: 28px;
+      padding-right: 28px; } }
 
 @media screen and (min-width: 992px) {
-  .csc-default div.extended-width,
-  .csc-default-lbr-padding div.extended-width,
-  .csc-default-ltr-padding div.extended-width,
-  .csc-default-lr-padding div.extended-width {
+  .csc-default .extended-width,
+  .csc-default-lbr-padding .extended-width,
+  .csc-default-ltr-padding .extended-width,
+  .csc-default-lr-padding .extended-width {
     margin-left: -73px;
     margin-right: -73px; }
-    .csc-default div.extended-width .caption,
-    .csc-default-lbr-padding div.extended-width .caption,
-    .csc-default-ltr-padding div.extended-width .caption,
-    .csc-default-lr-padding div.extended-width .caption {
-      padding-left: -36.5px;
-      padding-right: -36.5px; } }
+    .csc-default .extended-width .caption,
+    .csc-default-lbr-padding .extended-width .caption,
+    .csc-default-ltr-padding .extended-width .caption,
+    .csc-default-lr-padding .extended-width .caption {
+      padding-left: 36.5px;
+      padding-right: 36.5px; } }
 
 @media screen and (min-width: 1170px) {
-  .csc-default div.extended-width,
-  .csc-default-lbr-padding div.extended-width,
-  .csc-default-ltr-padding div.extended-width,
-  .csc-default-lr-padding div.extended-width {
+  .csc-default .extended-width,
+  .csc-default-lbr-padding .extended-width,
+  .csc-default-ltr-padding .extended-width,
+  .csc-default-lr-padding .extended-width {
     margin: 5.4rem 0;
     margin-left: -88px;
     margin-right: -88px; }
-    .csc-default div.extended-width .caption,
-    .csc-default-lbr-padding div.extended-width .caption,
-    .csc-default-ltr-padding div.extended-width .caption,
-    .csc-default-lr-padding div.extended-width .caption {
-      padding-left: -44px;
-      padding-right: -44px; } }
+    .csc-default .extended-width .caption,
+    .csc-default-lbr-padding .extended-width .caption,
+    .csc-default-ltr-padding .extended-width .caption,
+    .csc-default-lr-padding .extended-width .caption {
+      padding-left: 44px;
+      padding-right: 44px; } }
 
 @media screen and (min-width: 750px) {
-  .csc-wide div.extended-width,
-  .csc-wide-lbr-padding div.extended-width,
-  .csc-wide-ltr-padding div.extended-width,
-  .csc-wide-lr-padding div.extended-width {
+  .csc-wide .extended-width,
+  .csc-wide-lbr-padding .extended-width,
+  .csc-wide-ltr-padding .extended-width,
+  .csc-wide-lr-padding .extended-width {
     margin-left: -112px;
     margin-right: -112px; }
-    .csc-wide div.extended-width .caption,
-    .csc-wide-lbr-padding div.extended-width .caption,
-    .csc-wide-ltr-padding div.extended-width .caption,
-    .csc-wide-lr-padding div.extended-width .caption {
-      padding-left: -56px;
-      padding-right: -56px; } }
+    .csc-wide .extended-width .caption,
+    .csc-wide-lbr-padding .extended-width .caption,
+    .csc-wide-ltr-padding .extended-width .caption,
+    .csc-wide-lr-padding .extended-width .caption {
+      padding-left: 56px;
+      padding-right: 56px; } }
 
 @media screen and (min-width: 992px) {
-  .csc-wide div.extended-width,
-  .csc-wide-lbr-padding div.extended-width,
-  .csc-wide-ltr-padding div.extended-width,
-  .csc-wide-lr-padding div.extended-width {
+  .csc-wide .extended-width,
+  .csc-wide-lbr-padding .extended-width,
+  .csc-wide-ltr-padding .extended-width,
+  .csc-wide-lr-padding .extended-width {
     margin-left: -146px;
     margin-right: -146px; }
-    .csc-wide div.extended-width .caption,
-    .csc-wide-lbr-padding div.extended-width .caption,
-    .csc-wide-ltr-padding div.extended-width .caption,
-    .csc-wide-lr-padding div.extended-width .caption {
-      padding-left: -73px;
-      padding-right: -73px; } }
+    .csc-wide .extended-width .caption,
+    .csc-wide-lbr-padding .extended-width .caption,
+    .csc-wide-ltr-padding .extended-width .caption,
+    .csc-wide-lr-padding .extended-width .caption {
+      padding-left: 73px;
+      padding-right: 73px; } }
 
 @media screen and (min-width: 1170px) {
-  .csc-wide div.extended-width,
-  .csc-wide-lbr-padding div.extended-width,
-  .csc-wide-ltr-padding div.extended-width,
-  .csc-wide-lr-padding div.extended-width {
+  .csc-wide .extended-width,
+  .csc-wide-lbr-padding .extended-width,
+  .csc-wide-ltr-padding .extended-width,
+  .csc-wide-lr-padding .extended-width {
     margin: 5.4rem 0;
     margin-left: -176px;
     margin-right: -176px; }
-    .csc-wide div.extended-width .caption,
-    .csc-wide-lbr-padding div.extended-width .caption,
-    .csc-wide-ltr-padding div.extended-width .caption,
-    .csc-wide-lr-padding div.extended-width .caption {
-      padding-left: -88px;
-      padding-right: -88px; } }
+    .csc-wide .extended-width .caption,
+    .csc-wide-lbr-padding .extended-width .caption,
+    .csc-wide-ltr-padding .extended-width .caption,
+    .csc-wide-lr-padding .extended-width .caption {
+      padding-left: 88px;
+      padding-right: 88px; } }
 
 /* Styling of preformatted text */
 pre {

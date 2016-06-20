@@ -108,6 +108,7 @@ blockquote.align-right p.author {
 
 /* Captions */
 .caption,
+span.caption,
 p.caption {
   margin: 0;
   padding: 0.15rem 2.7rem 0.35rem 2.7rem;
@@ -118,30 +119,30 @@ p.caption {
 }
 
 /* Allow containers that are wider than parent */
-div.extended-width {
-  margin: 2.7rem 0;
-  background-color: $very-light-grey;
+p.extended-width {
+  background-color: $light-grey;
+  margin: $paragraph-margin;
 }
 
 .csc-default,
 .csc-default-lbr-padding,
 .csc-default-ltr-padding,
 .csc-default-lr-padding {
-  div.extended-width {
+  .extended-width {
     @media screen and (min-width: $break-desktop-1) {
       margin-left: -$content-container-tiny-padding-1;
       margin-right: -$content-container-tiny-padding-1;
       .caption {
-        padding-left: -($content-container-tiny-padding-1 / 2);
-        padding-right: -($content-container-tiny-padding-1 / 2);
+        padding-left: $content-container-tiny-padding-1 / 2;
+        padding-right: $content-container-tiny-padding-1 / 2;
       }
     }
     @media screen and (min-width: $break-desktop-2) {
       margin-left: -$content-container-tiny-padding-2;
       margin-right: -$content-container-tiny-padding-2;
       .caption {
-        padding-left: -($content-container-tiny-padding-2 / 2);
-        padding-right: -($content-container-tiny-padding-2 / 2);
+        padding-left: $content-container-tiny-padding-2 / 2;
+        padding-right: $content-container-tiny-padding-2 / 2;
       }
     }
     @media screen and (min-width: $break-desktop-3) {
@@ -149,8 +150,8 @@ div.extended-width {
       margin-left: -$content-container-tiny-padding-3;
       margin-right: -$content-container-tiny-padding-3;
       .caption {
-        padding-left: -($content-container-tiny-padding-3 / 2);
-        padding-right: -($content-container-tiny-padding-3 / 2);
+        padding-left: $content-container-tiny-padding-3 / 2;
+        padding-right: $content-container-tiny-padding-3 / 2;
       }
     }
   }
@@ -159,21 +160,21 @@ div.extended-width {
 .csc-wide-lbr-padding,
 .csc-wide-ltr-padding,
 .csc-wide-lr-padding {
-  div.extended-width {
+  .extended-width {
     @media screen and (min-width: $break-desktop-1) {
       margin-left: -$content-container-page-padding-1;
       margin-right: -$content-container-page-padding-1;
       .caption {
-        padding-left: -($content-container-page-padding-1 / 2);
-        padding-right: -($content-container-page-padding-1 / 2);
+        padding-left: $content-container-page-padding-1 / 2;
+        padding-right: $content-container-page-padding-1 / 2;
       }
     }
     @media screen and (min-width: $break-desktop-2) {
       margin-left: -$content-container-page-padding-2;
       margin-right: -$content-container-page-padding-2;
       .caption {
-        padding-left: -($content-container-page-padding-2 / 2);
-        padding-right: -($content-container-page-padding-2 / 2);
+        padding-left: $content-container-page-padding-2 / 2;
+        padding-right: $content-container-page-padding-2 / 2;
       }
     }
     @media screen and (min-width: $break-desktop-3) {
@@ -181,8 +182,8 @@ div.extended-width {
       margin-left: -$content-container-page-padding-3;
       margin-right: -$content-container-page-padding-3;
       .caption {
-        padding-left: -($content-container-page-padding-3 / 2);
-        padding-right: -($content-container-page-padding-3 / 2);
+        padding-left: $content-container-page-padding-3 / 2;
+        padding-right: $content-container-page-padding-3 / 2;
       }
     }
   }
