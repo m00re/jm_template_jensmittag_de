@@ -2,35 +2,35 @@
   letter-spacing: 0.04rem;
 }
 
-h1, .h1 {
+h1 {
   @extend .base-letter-spacing;
   font-size: 26px;
   font-size: 2.6rem;
   border-bottom: 1px solid #848484;
 }
-h2, .h2 {
+h2 {
   @extend .base-letter-spacing;
   font-size: 24px;
   font-size: 2.4rem;
   color: #b3cb3d;
 }
-h3, .h3 {
+h3 {
   @extend .base-letter-spacing;
   font-size: 20px;
   font-size: 2rem;
   font-weight: bold;
 }
-h4, .h4 {
+h4 {
   @extend .base-letter-spacing;
   font-size: 20px;
   font-size: 2.0rem;
 }
-h5, .h5 {
+h5 {
   @extend .base-letter-spacing;
   font-size: 18px;
   font-size: 1.8rem;
 }
-h6, .h6 {
+h6 {
   @extend .base-letter-spacing;
   font-size: 16px;
   font-size: 1.6rem;
@@ -210,8 +210,16 @@ span.label {
 span.label:hover {
   color: $dark-grey!important;
 }
+
+/* Non-Rounded Labels */
+span.label-angular {
+  @extend span.label;
+  border-radius: 0;
+  padding: $button-angular-padding;
+}
+
+/* Background & Text Colors */
 span.label-grey {
-  @extend .label;
   background-color: $grey;
   color: white;
 }
@@ -219,7 +227,6 @@ span.label-grey:hover {
   color: white!important;
 }
 span.label-very-light-grey {
-  @extend .label;
   background-color: $very-light-grey;
 }
 span.label-dark-grey {
@@ -268,79 +275,6 @@ span.label-amber {
 }
 span.label-black {
   @extend .label-grey;
-  background-color: $black;
-}
-
-/* Non-Rounded Labels */
-/* Rounded Labels */
-span.label-angular {
-  @extend .label;
-  border-radius: 0;
-  background-color: $light-grey;
-  padding: $button-angular-padding;
-  color: $dark-grey;
-}
-span.label-angular:hover {
-  color: $dark-grey!important;
-}
-span.label-angular-grey {
-  @extend .label-angular;
-  background-color: $grey;
-  color: white;
-}
-span.label-angular-grey:hover {
-  color: white!important;
-}
-span.label-angular-very-light-grey {
-  @extend .label-angular;
-  background-color: $very-light-grey;
-}
-span.label-angular-dark-grey {
-  @extend .label-angular-grey;
-  background-color: $dark-grey;
-}
-span.label-angular-green {
-  @extend .label-angular-grey;
-  background-color: $green;
-}
-span.label-angular-light-green {
-  @extend .label-angular-grey;
-  background-color: $light-green;
-}
-span.label-angular-lime {
-  @extend .label-angular-grey;
-  background-color: $lime;
-}
-span.label-angular-indigo {
-  @extend .label-angular-grey;
-  background-color: $indigo;
-}
-span.label-angular-blue {
-  @extend .label-angular-grey;
-  background-color: $blue;
-}
-span.label-angular-light-blue {
-  @extend .label-angular-grey;
-  background-color: $light-blue;
-}
-span.label-angular-red {
-  @extend .label-angular-grey;
-  background-color: $red;
-}
-span.label-angular-yellow {
-  @extend .label-angular-grey;
-  background-color: $yellow;
-}
-span.label-angular-orange {
-  @extend .label-angular-grey;
-  background-color: $orange;
-}
-span.label-angular-amber {
-  @extend .label-angular-grey;
-  background-color: $amber;
-}
-span.label-angular-black {
-  @extend .label-angular-grey;
   background-color: $black;
 }
 
@@ -396,7 +330,7 @@ img {
 }
 
 /* Floating Boxes */
-.float-left-block {
+p.float-left-block {
   display: block;
   float: left;
   margin-left: -($content-container-tiny-padding / 2);
@@ -433,29 +367,9 @@ img {
     }
   }
 }
-.float-left-25,
-p.float-left-25 {
-  @extend .float-left-block;
-  width: 25%;
-}
-.float-left-33,
-p.float-left-33 {
-  @extend .float-left-block;
-  width: 33.33%;
-}
-.float-left-40,
-p.float-left-40 {
-  @extend .float-left-block;
-  width: 40%;
-}
-.float-left-50,
-p.float-left-50 {
-  @extend .float-left-block;
-  width: 50%;
-}
-.float-right-block {
+p.float-right-block {
   display: block;
-  float: right;
+  float: right !important;
   margin-right: -($content-container-tiny-padding / 2);
   margin-top: 1.4rem;
   margin-left: 2.7rem;
@@ -489,26 +403,6 @@ p.float-left-50 {
       margin-right: -($content-container-page-padding-3 / 2);
     }
   }
-}
-.float-right-25,
-p.float-right-25 {
-  @extend .float-right-block;
-  width: 25%;
-}
-.float-right-33,
-p.float-right-33 {
-  @extend .float-right-block;
-  width: 33.33%;
-}
-.float-right-40,
-p.float-right-40 {
-  @extend .float-right-block;
-  width: 40%;
-}
-.float-right-50,
-p.float-right-50 {
-  @extend .float-right-block;
-  width: 50%;
 }
 
 /* Highlighted/marked Text in Paragraph */
@@ -563,4 +457,87 @@ ul {
     p { display: none; }
   }
   p { display: none; }
+}
+
+/* Textmarkierungen: About Me Section */
+span.marked-bg-black-fg-white {
+  font-size: 2rem;
+  display: inline-block;
+  font-family: $menu-font-stack;
+  background-color: $black;
+  color: $white;
+  padding: 0.1rem 1.2rem;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  a, a:hover, a:focus {
+    color: #b3cb3d;
+  }
+}
+
+span.marked-bg-black-fg-lime {
+  @extend span.marked-bg-black-fg-white;
+  color: #b3cb3d;
+}
+
+p.font-size-h1,
+span.font-size-h1 {
+  font-size: 5.0rem;
+}
+p.font-size-h2,
+span.font-size-h2 {
+  font-size: 3.8rem;
+}
+p.font-size-h3,
+span.font-size-h3 {
+  font-size: 2.6rem;
+}
+p.font-size-footnote,
+span.font-size-footnote {
+  font-size: $font-size-blockquote-author;
+}
+
+/* Bootstrap Columns */
+p.col-md-1 {
+  @extend .col-md-1;
+  padding-left: 0 !important;
+}
+p.col-md-2 {
+  @extend .col-md-2;
+  padding-left: 0 !important;
+}
+p.col-md-3 {
+  @extend .col-md-3;
+  padding-left: 0 !important;
+}
+p.col-md-4 {
+  @extend .col-md-4;
+  padding-left: 0 !important;
+}
+p.col-md-5 {
+  @extend .col-md-5;
+  padding-left: 0 !important;
+}
+p.col-md-6 {
+  @extend .col-md-6;
+  padding-left: 0 !important;
+}
+p.col-md-7 {
+  @extend .col-md-7;
+  padding-left: 0 !important;
+}
+p.col-md-8 {
+  @extend .col-md-8;
+  padding-left: 0 !important;
+}
+p.col-md-9 {
+  @extend .col-md-9;
+  padding-left: 0 !important;
+}
+p.col-md-10 {
+  @extend .col-md-10;
+  padding-left: 0 !important;
+}
+p.col-md-11 {
+  @extend .col-md-11;
+  padding-left: 0 !important;
 }

@@ -1,7 +1,7 @@
 plugin.tx_jmhtml5bootstrap.piwik.siteId = 2
 plugin.tx_jmhtml5bootstrap.homeLink.pageId = 1
 plugin.tx_jmhtml5bootstrap.siteName = IT-Consulting & Software Entwicklung
-plugin.tx_jmhtml5bootstrap.mainMenuPageIds = 7,6,8,5,4,6,3
+plugin.tx_jmhtml5bootstrap.mainMenuPageIds = 7,6,8,5,4,3
 plugin.tx_jmhtml5bootstrap.googleFonts =
 plugin.tx_jmhtml5bootstrap.piwik.domain = www.jensmittag.de
 plugin.tx_jmhtml5bootstrap.baseURL = https://www.jensmittag.de/

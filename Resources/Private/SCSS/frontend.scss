@@ -51,8 +51,11 @@ body {
   }
 }
 
+div.csc-textpic .csc-textpic-imagewrap .csc-textpic-image {
+  margin-bottom: 0 !important;
+}
+
 @import 'partials/navigation';
 @import 'partials/rte';
 @import 'partials/content-elements';
 @import 'partials/layouts';
-@import 'partials/about';

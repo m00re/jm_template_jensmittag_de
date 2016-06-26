@@ -217,40 +217,12 @@ th {
     page-break-after: avoid; }
   .navbar {
     display: none; }
-  .btn > .caret, span.label > .caret, span.label-grey > .caret, span.label-dark-grey > .caret, span.label-green > .caret, span.label-light-green > .caret, span.label-lime > .caret, span.label-indigo > .caret, span.label-blue > .caret, span.label-light-blue > .caret, span.label-red > .caret, span.label-yellow > .caret, span.label-orange > .caret, span.label-amber > .caret, span.label-black > .caret, span.label-very-light-grey > .caret, span.label-angular > .caret, span.label-angular-grey > .caret, span.label-angular-dark-grey > .caret, span.label-angular-green > .caret, span.label-angular-light-green > .caret, span.label-angular-lime > .caret, span.label-angular-indigo > .caret, span.label-angular-blue > .caret, span.label-angular-light-blue > .caret, span.label-angular-red > .caret, span.label-angular-yellow > .caret, span.label-angular-orange > .caret, span.label-angular-amber > .caret, span.label-angular-black > .caret, span.label-angular-very-light-grey > .caret,
+  .btn > .caret, span.label > .caret, span.label-angular > .caret,
   .dropup > .btn > .caret,
   .dropup > span.label > .caret,
-  .dropup > span.label-grey > .caret,
-  .dropup > span.label-dark-grey > .caret,
-  .dropup > span.label-green > .caret,
-  .dropup > span.label-light-green > .caret,
-  .dropup > span.label-lime > .caret,
-  .dropup > span.label-indigo > .caret,
-  .dropup > span.label-blue > .caret,
-  .dropup > span.label-light-blue > .caret,
-  .dropup > span.label-red > .caret,
-  .dropup > span.label-yellow > .caret,
-  .dropup > span.label-orange > .caret,
-  .dropup > span.label-amber > .caret,
-  .dropup > span.label-black > .caret,
-  .dropup > span.label-very-light-grey > .caret,
-  .dropup > span.label-angular > .caret,
-  .dropup > span.label-angular-grey > .caret,
-  .dropup > span.label-angular-dark-grey > .caret,
-  .dropup > span.label-angular-green > .caret,
-  .dropup > span.label-angular-light-green > .caret,
-  .dropup > span.label-angular-lime > .caret,
-  .dropup > span.label-angular-indigo > .caret,
-  .dropup > span.label-angular-blue > .caret,
-  .dropup > span.label-angular-light-blue > .caret,
-  .dropup > span.label-angular-red > .caret,
-  .dropup > span.label-angular-yellow > .caret,
-  .dropup > span.label-angular-orange > .caret,
-  .dropup > span.label-angular-amber > .caret,
-  .dropup > span.label-angular-black > .caret,
-  .dropup > span.label-angular-very-light-grey > .caret {
+  .dropup > span.label-angular > .caret {
     border-top-color: #000 !important; }
-  .label, span.label-grey, span.label-dark-grey, span.label-green, span.label-light-green, span.label-lime, span.label-indigo, span.label-blue, span.label-light-blue, span.label-red, span.label-yellow, span.label-orange, span.label-amber, span.label-black, span.label-very-light-grey, span.label-angular, span.label-angular-grey, span.label-angular-dark-grey, span.label-angular-green, span.label-angular-light-green, span.label-angular-lime, span.label-angular-indigo, span.label-angular-blue, span.label-angular-light-blue, span.label-angular-red, span.label-angular-yellow, span.label-angular-orange, span.label-angular-amber, span.label-angular-black, span.label-angular-very-light-grey {
+  .label {
     border: 1px solid #000; }
   .table {
     border-collapse: collapse !important; }
@@ -761,7 +733,7 @@ pre {
   .row:after {
     clear: both; }
 
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, p.col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, p.col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, p.col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, p.col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, p.col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, p.col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, p.col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, p.col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, p.col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, p.col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, p.col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -1030,29 +1002,29 @@ pre {
     margin-left: 100%; } }
 
 @media (min-width: 992px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .col-md-1, p.col-md-1, .col-md-2, p.col-md-2, .col-md-3, p.col-md-3, .col-md-4, p.col-md-4, .col-md-5, p.col-md-5, .col-md-6, p.col-md-6, .col-md-7, p.col-md-7, .col-md-8, p.col-md-8, .col-md-9, p.col-md-9, .col-md-10, p.col-md-10, .col-md-11, p.col-md-11, .col-md-12 {
     float: left; }
-  .col-md-1 {
+  .col-md-1, p.col-md-1 {
     width: 8.33333%; }
-  .col-md-2 {
+  .col-md-2, p.col-md-2 {
     width: 16.66667%; }
-  .col-md-3 {
+  .col-md-3, p.col-md-3 {
     width: 25%; }
-  .col-md-4 {
+  .col-md-4, p.col-md-4 {
     width: 33.33333%; }
-  .col-md-5 {
+  .col-md-5, p.col-md-5 {
     width: 41.66667%; }
-  .col-md-6 {
+  .col-md-6, p.col-md-6 {
     width: 50%; }
-  .col-md-7 {
+  .col-md-7, p.col-md-7 {
     width: 58.33333%; }
-  .col-md-8 {
+  .col-md-8, p.col-md-8 {
     width: 66.66667%; }
-  .col-md-9 {
+  .col-md-9, p.col-md-9 {
     width: 75%; }
-  .col-md-10 {
+  .col-md-10, p.col-md-10 {
     width: 83.33333%; }
-  .col-md-11 {
+  .col-md-11, p.col-md-11 {
     width: 91.66667%; }
   .col-md-12 {
     width: 100%; }
@@ -1960,7 +1932,7 @@ select[multiple].input-lg {
     padding-top: 6px;
     font-size: 12px; } }
 
-.btn, span.label, span.label-grey, span.label-dark-grey, span.label-green, span.label-light-green, span.label-lime, span.label-indigo, span.label-blue, span.label-light-blue, span.label-red, span.label-yellow, span.label-orange, span.label-amber, span.label-black, span.label-very-light-grey, span.label-angular, span.label-angular-grey, span.label-angular-dark-grey, span.label-angular-green, span.label-angular-light-green, span.label-angular-lime, span.label-angular-indigo, span.label-angular-blue, span.label-angular-light-blue, span.label-angular-red, span.label-angular-yellow, span.label-angular-orange, span.label-angular-amber, span.label-angular-black, span.label-angular-very-light-grey {
+.btn, span.label, span.label-angular {
   display: inline-block;
   margin-bottom: 0;
   font-weight: normal;
@@ -1979,50 +1951,22 @@ select[multiple].input-lg {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
-  .btn:focus, span.label:focus, span.label-grey:focus, span.label-dark-grey:focus, span.label-green:focus, span.label-light-green:focus, span.label-lime:focus, span.label-indigo:focus, span.label-blue:focus, span.label-light-blue:focus, span.label-red:focus, span.label-yellow:focus, span.label-orange:focus, span.label-amber:focus, span.label-black:focus, span.label-very-light-grey:focus, span.label-angular:focus, span.label-angular-grey:focus, span.label-angular-dark-grey:focus, span.label-angular-green:focus, span.label-angular-light-green:focus, span.label-angular-lime:focus, span.label-angular-indigo:focus, span.label-angular-blue:focus, span.label-angular-light-blue:focus, span.label-angular-red:focus, span.label-angular-yellow:focus, span.label-angular-orange:focus, span.label-angular-amber:focus, span.label-angular-black:focus, span.label-angular-very-light-grey:focus, .btn.focus, span.focus.label, span.focus.label-grey, span.focus.label-dark-grey, span.focus.label-green, span.focus.label-light-green, span.focus.label-lime, span.focus.label-indigo, span.focus.label-blue, span.focus.label-light-blue, span.focus.label-red, span.focus.label-yellow, span.focus.label-orange, span.focus.label-amber, span.focus.label-black, span.focus.label-very-light-grey, span.focus.label-angular, span.focus.label-angular-grey, span.focus.label-angular-dark-grey, span.focus.label-angular-green, span.focus.label-angular-light-green, span.focus.label-angular-lime, span.focus.label-angular-indigo, span.focus.label-angular-blue, span.focus.label-angular-light-blue, span.focus.label-angular-red, span.focus.label-angular-yellow, span.focus.label-angular-orange, span.focus.label-angular-amber, span.focus.label-angular-black, span.focus.label-angular-very-light-grey, .btn:active:focus, span.label:active:focus, span.label-grey:active:focus, span.label-dark-grey:active:focus, span.label-green:active:focus, span.label-light-green:active:focus, span.label-lime:active:focus, span.label-indigo:active:focus, span.label-blue:active:focus, span.label-light-blue:active:focus, span.label-red:active:focus, span.label-yellow:active:focus, span.label-orange:active:focus, span.label-amber:active:focus, span.label-black:active:focus, span.label-very-light-grey:active:focus, span.label-angular:active:focus, span.label-angular-grey:active:focus, span.label-angular-dark-grey:active:focus, span.label-angular-green:active:focus, span.label-angular-light-green:active:focus, span.label-angular-lime:active:focus, span.label-angular-indigo:active:focus, span.label-angular-blue:active:focus, span.label-angular-light-blue:active:focus, span.label-angular-red:active:focus, span.label-angular-yellow:active:focus, span.label-angular-orange:active:focus, span.label-angular-amber:active:focus, span.label-angular-black:active:focus, span.label-angular-very-light-grey:active:focus, .btn:active.focus, span.label:active.focus, span.label-grey:active.focus, span.label-dark-grey:active.focus, span.label-green:active.focus, span.label-light-green:active.focus, span.label-lime:active.focus, span.label-indigo:active.focus, span.label-blue:active.focus, span.label-light-blue:active.focus, span.label-red:active.focus, span.label-yellow:active.focus, span.label-orange:active.focus, span.label-amber:active.focus, span.label-black:active.focus, span.label-very-light-grey:active.focus, span.label-angular:active.focus, span.label-angular-grey:active.focus, span.label-angular-dark-grey:active.focus, span.label-angular-green:active.focus, span.label-angular-light-green:active.focus, span.label-angular-lime:active.focus, span.label-angular-indigo:active.focus, span.label-angular-blue:active.focus, span.label-angular-light-blue:active.focus, span.label-angular-red:active.focus, span.label-angular-yellow:active.focus, span.label-angular-orange:active.focus, span.label-angular-amber:active.focus, span.label-angular-black:active.focus, span.label-angular-very-light-grey:active.focus, .btn.active:focus, span.active.label:focus, span.active.label-grey:focus, span.active.label-dark-grey:focus, span.active.label-green:focus, span.active.label-light-green:focus, span.active.label-lime:focus, span.active.label-indigo:focus, span.active.label-blue:focus, span.active.label-light-blue:focus, span.active.label-red:focus, span.active.label-yellow:focus, span.active.label-orange:focus, span.active.label-amber:focus, span.active.label-black:focus, span.active.label-very-light-grey:focus, span.active.label-angular:focus, span.active.label-angular-grey:focus, span.active.label-angular-dark-grey:focus, span.active.label-angular-green:focus, span.active.label-angular-light-green:focus, span.active.label-angular-lime:focus, span.active.label-angular-indigo:focus, span.active.label-angular-blue:focus, span.active.label-angular-light-blue:focus, span.active.label-angular-red:focus, span.active.label-angular-yellow:focus, span.active.label-angular-orange:focus, span.active.label-angular-amber:focus, span.active.label-angular-black:focus, span.active.label-angular-very-light-grey:focus, .btn.active.focus, span.active.focus.label, span.active.focus.label-grey, span.active.focus.label-dark-grey, span.active.focus.label-green, span.active.focus.label-light-green, span.active.focus.label-lime, span.active.focus.label-indigo, span.active.focus.label-blue, span.active.focus.label-light-blue, span.active.focus.label-red, span.active.focus.label-yellow, span.active.focus.label-orange, span.active.focus.label-amber, span.active.focus.label-black, span.active.focus.label-very-light-grey, span.active.focus.label-angular, span.active.focus.label-angular-grey, span.active.focus.label-angular-dark-grey, span.active.focus.label-angular-green, span.active.focus.label-angular-light-green, span.active.focus.label-angular-lime, span.active.focus.label-angular-indigo, span.active.focus.label-angular-blue, span.active.focus.label-angular-light-blue, span.active.focus.label-angular-red, span.active.focus.label-angular-yellow, span.active.focus.label-angular-orange, span.active.focus.label-angular-amber, span.active.focus.label-angular-black, span.active.focus.label-angular-very-light-grey {
+  .btn:focus, span.label:focus, span.label-angular:focus, .btn.focus, span.focus.label, span.focus.label-angular, .btn:active:focus, span.label:active:focus, span.label-angular:active:focus, .btn:active.focus, span.label:active.focus, span.label-angular:active.focus, .btn.active:focus, span.active.label:focus, span.active.label-angular:focus, .btn.active.focus, span.active.focus.label, span.active.focus.label-angular {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px; }
-  .btn:hover, span.label:hover, span.label-grey:hover, span.label-dark-grey:hover, span.label-green:hover, span.label-light-green:hover, span.label-lime:hover, span.label-indigo:hover, span.label-blue:hover, span.label-light-blue:hover, span.label-red:hover, span.label-yellow:hover, span.label-orange:hover, span.label-amber:hover, span.label-black:hover, span.label-very-light-grey:hover, span.label-angular:hover, span.label-angular-grey:hover, span.label-angular-dark-grey:hover, span.label-angular-green:hover, span.label-angular-light-green:hover, span.label-angular-lime:hover, span.label-angular-indigo:hover, span.label-angular-blue:hover, span.label-angular-light-blue:hover, span.label-angular-red:hover, span.label-angular-yellow:hover, span.label-angular-orange:hover, span.label-angular-amber:hover, span.label-angular-black:hover, span.label-angular-very-light-grey:hover, .btn:focus, span.label:focus, span.label-grey:focus, span.label-dark-grey:focus, span.label-green:focus, span.label-light-green:focus, span.label-lime:focus, span.label-indigo:focus, span.label-blue:focus, span.label-light-blue:focus, span.label-red:focus, span.label-yellow:focus, span.label-orange:focus, span.label-amber:focus, span.label-black:focus, span.label-very-light-grey:focus, span.label-angular:focus, span.label-angular-grey:focus, span.label-angular-dark-grey:focus, span.label-angular-green:focus, span.label-angular-light-green:focus, span.label-angular-lime:focus, span.label-angular-indigo:focus, span.label-angular-blue:focus, span.label-angular-light-blue:focus, span.label-angular-red:focus, span.label-angular-yellow:focus, span.label-angular-orange:focus, span.label-angular-amber:focus, span.label-angular-black:focus, span.label-angular-very-light-grey:focus, .btn.focus, span.focus.label, span.focus.label-grey, span.focus.label-dark-grey, span.focus.label-green, span.focus.label-light-green, span.focus.label-lime, span.focus.label-indigo, span.focus.label-blue, span.focus.label-light-blue, span.focus.label-red, span.focus.label-yellow, span.focus.label-orange, span.focus.label-amber, span.focus.label-black, span.focus.label-very-light-grey, span.focus.label-angular, span.focus.label-angular-grey, span.focus.label-angular-dark-grey, span.focus.label-angular-green, span.focus.label-angular-light-green, span.focus.label-angular-lime, span.focus.label-angular-indigo, span.focus.label-angular-blue, span.focus.label-angular-light-blue, span.focus.label-angular-red, span.focus.label-angular-yellow, span.focus.label-angular-orange, span.focus.label-angular-amber, span.focus.label-angular-black, span.focus.label-angular-very-light-grey {
+  .btn:hover, span.label:hover, span.label-angular:hover, .btn:focus, span.label:focus, span.label-angular:focus, .btn.focus, span.focus.label, span.focus.label-angular {
     color: #333;
     text-decoration: none; }
-  .btn:active, span.label:active, span.label-grey:active, span.label-dark-grey:active, span.label-green:active, span.label-light-green:active, span.label-lime:active, span.label-indigo:active, span.label-blue:active, span.label-light-blue:active, span.label-red:active, span.label-yellow:active, span.label-orange:active, span.label-amber:active, span.label-black:active, span.label-very-light-grey:active, span.label-angular:active, span.label-angular-grey:active, span.label-angular-dark-grey:active, span.label-angular-green:active, span.label-angular-light-green:active, span.label-angular-lime:active, span.label-angular-indigo:active, span.label-angular-blue:active, span.label-angular-light-blue:active, span.label-angular-red:active, span.label-angular-yellow:active, span.label-angular-orange:active, span.label-angular-amber:active, span.label-angular-black:active, span.label-angular-very-light-grey:active, .btn.active, span.active.label, span.active.label-grey, span.active.label-dark-grey, span.active.label-green, span.active.label-light-green, span.active.label-lime, span.active.label-indigo, span.active.label-blue, span.active.label-light-blue, span.active.label-red, span.active.label-yellow, span.active.label-orange, span.active.label-amber, span.active.label-black, span.active.label-very-light-grey, span.active.label-angular, span.active.label-angular-grey, span.active.label-angular-dark-grey, span.active.label-angular-green, span.active.label-angular-light-green, span.active.label-angular-lime, span.active.label-angular-indigo, span.active.label-angular-blue, span.active.label-angular-light-blue, span.active.label-angular-red, span.active.label-angular-yellow, span.active.label-angular-orange, span.active.label-angular-amber, span.active.label-angular-black, span.active.label-angular-very-light-grey {
+  .btn:active, span.label:active, span.label-angular:active, .btn.active, span.active.label, span.active.label-angular {
     outline: 0;
     background-image: none;
     -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
-  .btn.disabled, span.disabled.label, span.disabled.label-grey, span.disabled.label-dark-grey, span.disabled.label-green, span.disabled.label-light-green, span.disabled.label-lime, span.disabled.label-indigo, span.disabled.label-blue, span.disabled.label-light-blue, span.disabled.label-red, span.disabled.label-yellow, span.disabled.label-orange, span.disabled.label-amber, span.disabled.label-black, span.disabled.label-very-light-grey, span.disabled.label-angular, span.disabled.label-angular-grey, span.disabled.label-angular-dark-grey, span.disabled.label-angular-green, span.disabled.label-angular-light-green, span.disabled.label-angular-lime, span.disabled.label-angular-indigo, span.disabled.label-angular-blue, span.disabled.label-angular-light-blue, span.disabled.label-angular-red, span.disabled.label-angular-yellow, span.disabled.label-angular-orange, span.disabled.label-angular-amber, span.disabled.label-angular-black, span.disabled.label-angular-very-light-grey, .btn[disabled], span[disabled].label, span[disabled].label-grey, span[disabled].label-dark-grey, span[disabled].label-green, span[disabled].label-light-green, span[disabled].label-lime, span[disabled].label-indigo, span[disabled].label-blue, span[disabled].label-light-blue, span[disabled].label-red, span[disabled].label-yellow, span[disabled].label-orange, span[disabled].label-amber, span[disabled].label-black, span[disabled].label-very-light-grey, span[disabled].label-angular, span[disabled].label-angular-grey, span[disabled].label-angular-dark-grey, span[disabled].label-angular-green, span[disabled].label-angular-light-green, span[disabled].label-angular-lime, span[disabled].label-angular-indigo, span[disabled].label-angular-blue, span[disabled].label-angular-light-blue, span[disabled].label-angular-red, span[disabled].label-angular-yellow, span[disabled].label-angular-orange, span[disabled].label-angular-amber, span[disabled].label-angular-black, span[disabled].label-angular-very-light-grey,
+  .btn.disabled, span.disabled.label, span.disabled.label-angular, .btn[disabled], span[disabled].label, span[disabled].label-angular,
   fieldset[disabled] .btn,
   fieldset[disabled] span.label,
-  fieldset[disabled] span.label-grey,
-  fieldset[disabled] span.label-dark-grey,
-  fieldset[disabled] span.label-green,
-  fieldset[disabled] span.label-light-green,
-  fieldset[disabled] span.label-lime,
-  fieldset[disabled] span.label-indigo,
-  fieldset[disabled] span.label-blue,
-  fieldset[disabled] span.label-light-blue,
-  fieldset[disabled] span.label-red,
-  fieldset[disabled] span.label-yellow,
-  fieldset[disabled] span.label-orange,
-  fieldset[disabled] span.label-amber,
-  fieldset[disabled] span.label-black,
-  fieldset[disabled] span.label-very-light-grey,
-  fieldset[disabled] span.label-angular,
-  fieldset[disabled] span.label-angular-grey,
-  fieldset[disabled] span.label-angular-dark-grey,
-  fieldset[disabled] span.label-angular-green,
-  fieldset[disabled] span.label-angular-light-green,
-  fieldset[disabled] span.label-angular-lime,
-  fieldset[disabled] span.label-angular-indigo,
-  fieldset[disabled] span.label-angular-blue,
-  fieldset[disabled] span.label-angular-light-blue,
-  fieldset[disabled] span.label-angular-red,
-  fieldset[disabled] span.label-angular-yellow,
-  fieldset[disabled] span.label-angular-orange,
-  fieldset[disabled] span.label-angular-amber,
-  fieldset[disabled] span.label-angular-black,
-  fieldset[disabled] span.label-angular-very-light-grey {
+  fieldset[disabled] span.label-angular {
     cursor: not-allowed;
     opacity: 0.65;
     filter: alpha(opacity=65);
@@ -2368,7 +2312,7 @@ input[type="button"].btn-block {
   .alert-danger .alert-link {
     color: #843534; }
 
-.label, span.label-grey, span.label-dark-grey, span.label-green, span.label-light-green, span.label-lime, span.label-indigo, span.label-blue, span.label-light-blue, span.label-red, span.label-yellow, span.label-orange, span.label-amber, span.label-black, span.label-very-light-grey, span.label-angular, span.label-angular-grey, span.label-angular-dark-grey, span.label-angular-green, span.label-angular-light-green, span.label-angular-lime, span.label-angular-indigo, span.label-angular-blue, span.label-angular-light-blue, span.label-angular-red, span.label-angular-yellow, span.label-angular-orange, span.label-angular-amber, span.label-angular-black, span.label-angular-very-light-grey {
+.label {
   display: inline;
   padding: .2em .6em .3em;
   font-size: 75%;
@@ -2379,9 +2323,9 @@ input[type="button"].btn-block {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: .25em; }
-  .label:empty, span.label-grey:empty, span.label-dark-grey:empty, span.label-green:empty, span.label-light-green:empty, span.label-lime:empty, span.label-indigo:empty, span.label-blue:empty, span.label-light-blue:empty, span.label-red:empty, span.label-yellow:empty, span.label-orange:empty, span.label-amber:empty, span.label-black:empty, span.label-very-light-grey:empty, span.label-angular:empty, span.label-angular-grey:empty, span.label-angular-dark-grey:empty, span.label-angular-green:empty, span.label-angular-light-green:empty, span.label-angular-lime:empty, span.label-angular-indigo:empty, span.label-angular-blue:empty, span.label-angular-light-blue:empty, span.label-angular-red:empty, span.label-angular-yellow:empty, span.label-angular-orange:empty, span.label-angular-amber:empty, span.label-angular-black:empty, span.label-angular-very-light-grey:empty {
+  .label:empty {
     display: none; }
-  .btn .label, span.label .label, span.label-grey .label, span.label-dark-grey .label, span.label-green .label, span.label-light-green .label, span.label-lime .label, span.label-indigo .label, span.label-blue .label, span.label-light-blue .label, span.label-red .label, span.label-yellow .label, span.label-orange .label, span.label-amber .label, span.label-black .label, span.label-very-light-grey .label, span.label-angular .label, span.label-angular-grey .label, span.label-angular-dark-grey .label, span.label-angular-green .label, span.label-angular-light-green .label, span.label-angular-lime .label, span.label-angular-indigo .label, span.label-angular-blue .label, span.label-angular-light-blue .label, span.label-angular-red .label, span.label-angular-yellow .label, span.label-angular-orange .label, span.label-angular-amber .label, span.label-angular-black .label, span.label-angular-very-light-grey .label, .btn span.label-grey, span.label span.label-grey, span.label-grey span.label-grey, span.label-dark-grey span.label-grey, span.label-green span.label-grey, span.label-light-green span.label-grey, span.label-lime span.label-grey, span.label-indigo span.label-grey, span.label-blue span.label-grey, span.label-light-blue span.label-grey, span.label-red span.label-grey, span.label-yellow span.label-grey, span.label-orange span.label-grey, span.label-amber span.label-grey, span.label-black span.label-grey, span.label-very-light-grey span.label-grey, span.label-angular span.label-grey, span.label-angular-grey span.label-grey, span.label-angular-dark-grey span.label-grey, span.label-angular-green span.label-grey, span.label-angular-light-green span.label-grey, span.label-angular-lime span.label-grey, span.label-angular-indigo span.label-grey, span.label-angular-blue span.label-grey, span.label-angular-light-blue span.label-grey, span.label-angular-red span.label-grey, span.label-angular-yellow span.label-grey, span.label-angular-orange span.label-grey, span.label-angular-amber span.label-grey, span.label-angular-black span.label-grey, span.label-angular-very-light-grey span.label-grey, .btn span.label-dark-grey, span.label span.label-dark-grey, span.label-grey span.label-dark-grey, span.label-dark-grey span.label-dark-grey, span.label-green span.label-dark-grey, span.label-light-green span.label-dark-grey, span.label-lime span.label-dark-grey, span.label-indigo span.label-dark-grey, span.label-blue span.label-dark-grey, span.label-light-blue span.label-dark-grey, span.label-red span.label-dark-grey, span.label-yellow span.label-dark-grey, span.label-orange span.label-dark-grey, span.label-amber span.label-dark-grey, span.label-black span.label-dark-grey, span.label-very-light-grey span.label-dark-grey, span.label-angular span.label-dark-grey, span.label-angular-grey span.label-dark-grey, span.label-angular-dark-grey span.label-dark-grey, span.label-angular-green span.label-dark-grey, span.label-angular-light-green span.label-dark-grey, span.label-angular-lime span.label-dark-grey, span.label-angular-indigo span.label-dark-grey, span.label-angular-blue span.label-dark-grey, span.label-angular-light-blue span.label-dark-grey, span.label-angular-red span.label-dark-grey, span.label-angular-yellow span.label-dark-grey, span.label-angular-orange span.label-dark-grey, span.label-angular-amber span.label-dark-grey, span.label-angular-black span.label-dark-grey, span.label-angular-very-light-grey span.label-dark-grey, .btn span.label-green, span.label span.label-green, span.label-grey span.label-green, span.label-dark-grey span.label-green, span.label-green span.label-green, span.label-light-green span.label-green, span.label-lime span.label-green, span.label-indigo span.label-green, span.label-blue span.label-green, span.label-light-blue span.label-green, span.label-red span.label-green, span.label-yellow span.label-green, span.label-orange span.label-green, span.label-amber span.label-green, span.label-black span.label-green, span.label-very-light-grey span.label-green, span.label-angular span.label-green, span.label-angular-grey span.label-green, span.label-angular-dark-grey span.label-green, span.label-angular-green span.label-green, span.label-angular-light-green span.label-green, span.label-angular-lime span.label-green, span.label-angular-indigo span.label-green, span.label-angular-blue span.label-green, span.label-angular-light-blue span.label-green, span.label-angular-red span.label-green, span.label-angular-yellow span.label-green, span.label-angular-orange span.label-green, span.label-angular-amber span.label-green, span.label-angular-black span.label-green, span.label-angular-very-light-grey span.label-green, .btn span.label-light-green, span.label span.label-light-green, span.label-grey span.label-light-green, span.label-dark-grey span.label-light-green, span.label-green span.label-light-green, span.label-light-green span.label-light-green, span.label-lime span.label-light-green, span.label-indigo span.label-light-green, span.label-blue span.label-light-green, span.label-light-blue span.label-light-green, span.label-red span.label-light-green, span.label-yellow span.label-light-green, span.label-orange span.label-light-green, span.label-amber span.label-light-green, span.label-black span.label-light-green, span.label-very-light-grey span.label-light-green, span.label-angular span.label-light-green, span.label-angular-grey span.label-light-green, span.label-angular-dark-grey span.label-light-green, span.label-angular-green span.label-light-green, span.label-angular-light-green span.label-light-green, span.label-angular-lime span.label-light-green, span.label-angular-indigo span.label-light-green, span.label-angular-blue span.label-light-green, span.label-angular-light-blue span.label-light-green, span.label-angular-red span.label-light-green, span.label-angular-yellow span.label-light-green, span.label-angular-orange span.label-light-green, span.label-angular-amber span.label-light-green, span.label-angular-black span.label-light-green, span.label-angular-very-light-grey span.label-light-green, .btn span.label-lime, span.label span.label-lime, span.label-grey span.label-lime, span.label-dark-grey span.label-lime, span.label-green span.label-lime, span.label-light-green span.label-lime, span.label-lime span.label-lime, span.label-indigo span.label-lime, span.label-blue span.label-lime, span.label-light-blue span.label-lime, span.label-red span.label-lime, span.label-yellow span.label-lime, span.label-orange span.label-lime, span.label-amber span.label-lime, span.label-black span.label-lime, span.label-very-light-grey span.label-lime, span.label-angular span.label-lime, span.label-angular-grey span.label-lime, span.label-angular-dark-grey span.label-lime, span.label-angular-green span.label-lime, span.label-angular-light-green span.label-lime, span.label-angular-lime span.label-lime, span.label-angular-indigo span.label-lime, span.label-angular-blue span.label-lime, span.label-angular-light-blue span.label-lime, span.label-angular-red span.label-lime, span.label-angular-yellow span.label-lime, span.label-angular-orange span.label-lime, span.label-angular-amber span.label-lime, span.label-angular-black span.label-lime, span.label-angular-very-light-grey span.label-lime, .btn span.label-indigo, span.label span.label-indigo, span.label-grey span.label-indigo, span.label-dark-grey span.label-indigo, span.label-green span.label-indigo, span.label-light-green span.label-indigo, span.label-lime span.label-indigo, span.label-indigo span.label-indigo, span.label-blue span.label-indigo, span.label-light-blue span.label-indigo, span.label-red span.label-indigo, span.label-yellow span.label-indigo, span.label-orange span.label-indigo, span.label-amber span.label-indigo, span.label-black span.label-indigo, span.label-very-light-grey span.label-indigo, span.label-angular span.label-indigo, span.label-angular-grey span.label-indigo, span.label-angular-dark-grey span.label-indigo, span.label-angular-green span.label-indigo, span.label-angular-light-green span.label-indigo, span.label-angular-lime span.label-indigo, span.label-angular-indigo span.label-indigo, span.label-angular-blue span.label-indigo, span.label-angular-light-blue span.label-indigo, span.label-angular-red span.label-indigo, span.label-angular-yellow span.label-indigo, span.label-angular-orange span.label-indigo, span.label-angular-amber span.label-indigo, span.label-angular-black span.label-indigo, span.label-angular-very-light-grey span.label-indigo, .btn span.label-blue, span.label span.label-blue, span.label-grey span.label-blue, span.label-dark-grey span.label-blue, span.label-green span.label-blue, span.label-light-green span.label-blue, span.label-lime span.label-blue, span.label-indigo span.label-blue, span.label-blue span.label-blue, span.label-light-blue span.label-blue, span.label-red span.label-blue, span.label-yellow span.label-blue, span.label-orange span.label-blue, span.label-amber span.label-blue, span.label-black span.label-blue, span.label-very-light-grey span.label-blue, span.label-angular span.label-blue, span.label-angular-grey span.label-blue, span.label-angular-dark-grey span.label-blue, span.label-angular-green span.label-blue, span.label-angular-light-green span.label-blue, span.label-angular-lime span.label-blue, span.label-angular-indigo span.label-blue, span.label-angular-blue span.label-blue, span.label-angular-light-blue span.label-blue, span.label-angular-red span.label-blue, span.label-angular-yellow span.label-blue, span.label-angular-orange span.label-blue, span.label-angular-amber span.label-blue, span.label-angular-black span.label-blue, span.label-angular-very-light-grey span.label-blue, .btn span.label-light-blue, span.label span.label-light-blue, span.label-grey span.label-light-blue, span.label-dark-grey span.label-light-blue, span.label-green span.label-light-blue, span.label-light-green span.label-light-blue, span.label-lime span.label-light-blue, span.label-indigo span.label-light-blue, span.label-blue span.label-light-blue, span.label-light-blue span.label-light-blue, span.label-red span.label-light-blue, span.label-yellow span.label-light-blue, span.label-orange span.label-light-blue, span.label-amber span.label-light-blue, span.label-black span.label-light-blue, span.label-very-light-grey span.label-light-blue, span.label-angular span.label-light-blue, span.label-angular-grey span.label-light-blue, span.label-angular-dark-grey span.label-light-blue, span.label-angular-green span.label-light-blue, span.label-angular-light-green span.label-light-blue, span.label-angular-lime span.label-light-blue, span.label-angular-indigo span.label-light-blue, span.label-angular-blue span.label-light-blue, span.label-angular-light-blue span.label-light-blue, span.label-angular-red span.label-light-blue, span.label-angular-yellow span.label-light-blue, span.label-angular-orange span.label-light-blue, span.label-angular-amber span.label-light-blue, span.label-angular-black span.label-light-blue, span.label-angular-very-light-grey span.label-light-blue, .btn span.label-red, span.label span.label-red, span.label-grey span.label-red, span.label-dark-grey span.label-red, span.label-green span.label-red, span.label-light-green span.label-red, span.label-lime span.label-red, span.label-indigo span.label-red, span.label-blue span.label-red, span.label-light-blue span.label-red, span.label-red span.label-red, span.label-yellow span.label-red, span.label-orange span.label-red, span.label-amber span.label-red, span.label-black span.label-red, span.label-very-light-grey span.label-red, span.label-angular span.label-red, span.label-angular-grey span.label-red, span.label-angular-dark-grey span.label-red, span.label-angular-green span.label-red, span.label-angular-light-green span.label-red, span.label-angular-lime span.label-red, span.label-angular-indigo span.label-red, span.label-angular-blue span.label-red, span.label-angular-light-blue span.label-red, span.label-angular-red span.label-red, span.label-angular-yellow span.label-red, span.label-angular-orange span.label-red, span.label-angular-amber span.label-red, span.label-angular-black span.label-red, span.label-angular-very-light-grey span.label-red, .btn span.label-yellow, span.label span.label-yellow, span.label-grey span.label-yellow, span.label-dark-grey span.label-yellow, span.label-green span.label-yellow, span.label-light-green span.label-yellow, span.label-lime span.label-yellow, span.label-indigo span.label-yellow, span.label-blue span.label-yellow, span.label-light-blue span.label-yellow, span.label-red span.label-yellow, span.label-yellow span.label-yellow, span.label-orange span.label-yellow, span.label-amber span.label-yellow, span.label-black span.label-yellow, span.label-very-light-grey span.label-yellow, span.label-angular span.label-yellow, span.label-angular-grey span.label-yellow, span.label-angular-dark-grey span.label-yellow, span.label-angular-green span.label-yellow, span.label-angular-light-green span.label-yellow, span.label-angular-lime span.label-yellow, span.label-angular-indigo span.label-yellow, span.label-angular-blue span.label-yellow, span.label-angular-light-blue span.label-yellow, span.label-angular-red span.label-yellow, span.label-angular-yellow span.label-yellow, span.label-angular-orange span.label-yellow, span.label-angular-amber span.label-yellow, span.label-angular-black span.label-yellow, span.label-angular-very-light-grey span.label-yellow, .btn span.label-orange, span.label span.label-orange, span.label-grey span.label-orange, span.label-dark-grey span.label-orange, span.label-green span.label-orange, span.label-light-green span.label-orange, span.label-lime span.label-orange, span.label-indigo span.label-orange, span.label-blue span.label-orange, span.label-light-blue span.label-orange, span.label-red span.label-orange, span.label-yellow span.label-orange, span.label-orange span.label-orange, span.label-amber span.label-orange, span.label-black span.label-orange, span.label-very-light-grey span.label-orange, span.label-angular span.label-orange, span.label-angular-grey span.label-orange, span.label-angular-dark-grey span.label-orange, span.label-angular-green span.label-orange, span.label-angular-light-green span.label-orange, span.label-angular-lime span.label-orange, span.label-angular-indigo span.label-orange, span.label-angular-blue span.label-orange, span.label-angular-light-blue span.label-orange, span.label-angular-red span.label-orange, span.label-angular-yellow span.label-orange, span.label-angular-orange span.label-orange, span.label-angular-amber span.label-orange, span.label-angular-black span.label-orange, span.label-angular-very-light-grey span.label-orange, .btn span.label-amber, span.label span.label-amber, span.label-grey span.label-amber, span.label-dark-grey span.label-amber, span.label-green span.label-amber, span.label-light-green span.label-amber, span.label-lime span.label-amber, span.label-indigo span.label-amber, span.label-blue span.label-amber, span.label-light-blue span.label-amber, span.label-red span.label-amber, span.label-yellow span.label-amber, span.label-orange span.label-amber, span.label-amber span.label-amber, span.label-black span.label-amber, span.label-very-light-grey span.label-amber, span.label-angular span.label-amber, span.label-angular-grey span.label-amber, span.label-angular-dark-grey span.label-amber, span.label-angular-green span.label-amber, span.label-angular-light-green span.label-amber, span.label-angular-lime span.label-amber, span.label-angular-indigo span.label-amber, span.label-angular-blue span.label-amber, span.label-angular-light-blue span.label-amber, span.label-angular-red span.label-amber, span.label-angular-yellow span.label-amber, span.label-angular-orange span.label-amber, span.label-angular-amber span.label-amber, span.label-angular-black span.label-amber, span.label-angular-very-light-grey span.label-amber, .btn span.label-black, span.label span.label-black, span.label-grey span.label-black, span.label-dark-grey span.label-black, span.label-green span.label-black, span.label-light-green span.label-black, span.label-lime span.label-black, span.label-indigo span.label-black, span.label-blue span.label-black, span.label-light-blue span.label-black, span.label-red span.label-black, span.label-yellow span.label-black, span.label-orange span.label-black, span.label-amber span.label-black, span.label-black span.label-black, span.label-very-light-grey span.label-black, span.label-angular span.label-black, span.label-angular-grey span.label-black, span.label-angular-dark-grey span.label-black, span.label-angular-green span.label-black, span.label-angular-light-green span.label-black, span.label-angular-lime span.label-black, span.label-angular-indigo span.label-black, span.label-angular-blue span.label-black, span.label-angular-light-blue span.label-black, span.label-angular-red span.label-black, span.label-angular-yellow span.label-black, span.label-angular-orange span.label-black, span.label-angular-amber span.label-black, span.label-angular-black span.label-black, span.label-angular-very-light-grey span.label-black, .btn span.label-very-light-grey, span.label span.label-very-light-grey, span.label-grey span.label-very-light-grey, span.label-dark-grey span.label-very-light-grey, span.label-green span.label-very-light-grey, span.label-light-green span.label-very-light-grey, span.label-lime span.label-very-light-grey, span.label-indigo span.label-very-light-grey, span.label-blue span.label-very-light-grey, span.label-light-blue span.label-very-light-grey, span.label-red span.label-very-light-grey, span.label-yellow span.label-very-light-grey, span.label-orange span.label-very-light-grey, span.label-amber span.label-very-light-grey, span.label-black span.label-very-light-grey, span.label-very-light-grey span.label-very-light-grey, span.label-angular span.label-very-light-grey, span.label-angular-grey span.label-very-light-grey, span.label-angular-dark-grey span.label-very-light-grey, span.label-angular-green span.label-very-light-grey, span.label-angular-light-green span.label-very-light-grey, span.label-angular-lime span.label-very-light-grey, span.label-angular-indigo span.label-very-light-grey, span.label-angular-blue span.label-very-light-grey, span.label-angular-light-blue span.label-very-light-grey, span.label-angular-red span.label-very-light-grey, span.label-angular-yellow span.label-very-light-grey, span.label-angular-orange span.label-very-light-grey, span.label-angular-amber span.label-very-light-grey, span.label-angular-black span.label-very-light-grey, span.label-angular-very-light-grey span.label-very-light-grey, .btn span.label-angular, span.label span.label-angular, span.label-grey span.label-angular, span.label-dark-grey span.label-angular, span.label-green span.label-angular, span.label-light-green span.label-angular, span.label-lime span.label-angular, span.label-indigo span.label-angular, span.label-blue span.label-angular, span.label-light-blue span.label-angular, span.label-red span.label-angular, span.label-yellow span.label-angular, span.label-orange span.label-angular, span.label-amber span.label-angular, span.label-black span.label-angular, span.label-very-light-grey span.label-angular, span.label-angular span.label-angular, span.label-angular-grey span.label-angular, span.label-angular-dark-grey span.label-angular, span.label-angular-green span.label-angular, span.label-angular-light-green span.label-angular, span.label-angular-lime span.label-angular, span.label-angular-indigo span.label-angular, span.label-angular-blue span.label-angular, span.label-angular-light-blue span.label-angular, span.label-angular-red span.label-angular, span.label-angular-yellow span.label-angular, span.label-angular-orange span.label-angular, span.label-angular-amber span.label-angular, span.label-angular-black span.label-angular, span.label-angular-very-light-grey span.label-angular, .btn span.label-angular-grey, span.label span.label-angular-grey, span.label-grey span.label-angular-grey, span.label-dark-grey span.label-angular-grey, span.label-green span.label-angular-grey, span.label-light-green span.label-angular-grey, span.label-lime span.label-angular-grey, span.label-indigo span.label-angular-grey, span.label-blue span.label-angular-grey, span.label-light-blue span.label-angular-grey, span.label-red span.label-angular-grey, span.label-yellow span.label-angular-grey, span.label-orange span.label-angular-grey, span.label-amber span.label-angular-grey, span.label-black span.label-angular-grey, span.label-very-light-grey span.label-angular-grey, span.label-angular span.label-angular-grey, span.label-angular-grey span.label-angular-grey, span.label-angular-dark-grey span.label-angular-grey, span.label-angular-green span.label-angular-grey, span.label-angular-light-green span.label-angular-grey, span.label-angular-lime span.label-angular-grey, span.label-angular-indigo span.label-angular-grey, span.label-angular-blue span.label-angular-grey, span.label-angular-light-blue span.label-angular-grey, span.label-angular-red span.label-angular-grey, span.label-angular-yellow span.label-angular-grey, span.label-angular-orange span.label-angular-grey, span.label-angular-amber span.label-angular-grey, span.label-angular-black span.label-angular-grey, span.label-angular-very-light-grey span.label-angular-grey, .btn span.label-angular-dark-grey, span.label span.label-angular-dark-grey, span.label-grey span.label-angular-dark-grey, span.label-dark-grey span.label-angular-dark-grey, span.label-green span.label-angular-dark-grey, span.label-light-green span.label-angular-dark-grey, span.label-lime span.label-angular-dark-grey, span.label-indigo span.label-angular-dark-grey, span.label-blue span.label-angular-dark-grey, span.label-light-blue span.label-angular-dark-grey, span.label-red span.label-angular-dark-grey, span.label-yellow span.label-angular-dark-grey, span.label-orange span.label-angular-dark-grey, span.label-amber span.label-angular-dark-grey, span.label-black span.label-angular-dark-grey, span.label-very-light-grey span.label-angular-dark-grey, span.label-angular span.label-angular-dark-grey, span.label-angular-grey span.label-angular-dark-grey, span.label-angular-dark-grey span.label-angular-dark-grey, span.label-angular-green span.label-angular-dark-grey, span.label-angular-light-green span.label-angular-dark-grey, span.label-angular-lime span.label-angular-dark-grey, span.label-angular-indigo span.label-angular-dark-grey, span.label-angular-blue span.label-angular-dark-grey, span.label-angular-light-blue span.label-angular-dark-grey, span.label-angular-red span.label-angular-dark-grey, span.label-angular-yellow span.label-angular-dark-grey, span.label-angular-orange span.label-angular-dark-grey, span.label-angular-amber span.label-angular-dark-grey, span.label-angular-black span.label-angular-dark-grey, span.label-angular-very-light-grey span.label-angular-dark-grey, .btn span.label-angular-green, span.label span.label-angular-green, span.label-grey span.label-angular-green, span.label-dark-grey span.label-angular-green, span.label-green span.label-angular-green, span.label-light-green span.label-angular-green, span.label-lime span.label-angular-green, span.label-indigo span.label-angular-green, span.label-blue span.label-angular-green, span.label-light-blue span.label-angular-green, span.label-red span.label-angular-green, span.label-yellow span.label-angular-green, span.label-orange span.label-angular-green, span.label-amber span.label-angular-green, span.label-black span.label-angular-green, span.label-very-light-grey span.label-angular-green, span.label-angular span.label-angular-green, span.label-angular-grey span.label-angular-green, span.label-angular-dark-grey span.label-angular-green, span.label-angular-green span.label-angular-green, span.label-angular-light-green span.label-angular-green, span.label-angular-lime span.label-angular-green, span.label-angular-indigo span.label-angular-green, span.label-angular-blue span.label-angular-green, span.label-angular-light-blue span.label-angular-green, span.label-angular-red span.label-angular-green, span.label-angular-yellow span.label-angular-green, span.label-angular-orange span.label-angular-green, span.label-angular-amber span.label-angular-green, span.label-angular-black span.label-angular-green, span.label-angular-very-light-grey span.label-angular-green, .btn span.label-angular-light-green, span.label span.label-angular-light-green, span.label-grey span.label-angular-light-green, span.label-dark-grey span.label-angular-light-green, span.label-green span.label-angular-light-green, span.label-light-green span.label-angular-light-green, span.label-lime span.label-angular-light-green, span.label-indigo span.label-angular-light-green, span.label-blue span.label-angular-light-green, span.label-light-blue span.label-angular-light-green, span.label-red span.label-angular-light-green, span.label-yellow span.label-angular-light-green, span.label-orange span.label-angular-light-green, span.label-amber span.label-angular-light-green, span.label-black span.label-angular-light-green, span.label-very-light-grey span.label-angular-light-green, span.label-angular span.label-angular-light-green, span.label-angular-grey span.label-angular-light-green, span.label-angular-dark-grey span.label-angular-light-green, span.label-angular-green span.label-angular-light-green, span.label-angular-light-green span.label-angular-light-green, span.label-angular-lime span.label-angular-light-green, span.label-angular-indigo span.label-angular-light-green, span.label-angular-blue span.label-angular-light-green, span.label-angular-light-blue span.label-angular-light-green, span.label-angular-red span.label-angular-light-green, span.label-angular-yellow span.label-angular-light-green, span.label-angular-orange span.label-angular-light-green, span.label-angular-amber span.label-angular-light-green, span.label-angular-black span.label-angular-light-green, span.label-angular-very-light-grey span.label-angular-light-green, .btn span.label-angular-lime, span.label span.label-angular-lime, span.label-grey span.label-angular-lime, span.label-dark-grey span.label-angular-lime, span.label-green span.label-angular-lime, span.label-light-green span.label-angular-lime, span.label-lime span.label-angular-lime, span.label-indigo span.label-angular-lime, span.label-blue span.label-angular-lime, span.label-light-blue span.label-angular-lime, span.label-red span.label-angular-lime, span.label-yellow span.label-angular-lime, span.label-orange span.label-angular-lime, span.label-amber span.label-angular-lime, span.label-black span.label-angular-lime, span.label-very-light-grey span.label-angular-lime, span.label-angular span.label-angular-lime, span.label-angular-grey span.label-angular-lime, span.label-angular-dark-grey span.label-angular-lime, span.label-angular-green span.label-angular-lime, span.label-angular-light-green span.label-angular-lime, span.label-angular-lime span.label-angular-lime, span.label-angular-indigo span.label-angular-lime, span.label-angular-blue span.label-angular-lime, span.label-angular-light-blue span.label-angular-lime, span.label-angular-red span.label-angular-lime, span.label-angular-yellow span.label-angular-lime, span.label-angular-orange span.label-angular-lime, span.label-angular-amber span.label-angular-lime, span.label-angular-black span.label-angular-lime, span.label-angular-very-light-grey span.label-angular-lime, .btn span.label-angular-indigo, span.label span.label-angular-indigo, span.label-grey span.label-angular-indigo, span.label-dark-grey span.label-angular-indigo, span.label-green span.label-angular-indigo, span.label-light-green span.label-angular-indigo, span.label-lime span.label-angular-indigo, span.label-indigo span.label-angular-indigo, span.label-blue span.label-angular-indigo, span.label-light-blue span.label-angular-indigo, span.label-red span.label-angular-indigo, span.label-yellow span.label-angular-indigo, span.label-orange span.label-angular-indigo, span.label-amber span.label-angular-indigo, span.label-black span.label-angular-indigo, span.label-very-light-grey span.label-angular-indigo, span.label-angular span.label-angular-indigo, span.label-angular-grey span.label-angular-indigo, span.label-angular-dark-grey span.label-angular-indigo, span.label-angular-green span.label-angular-indigo, span.label-angular-light-green span.label-angular-indigo, span.label-angular-lime span.label-angular-indigo, span.label-angular-indigo span.label-angular-indigo, span.label-angular-blue span.label-angular-indigo, span.label-angular-light-blue span.label-angular-indigo, span.label-angular-red span.label-angular-indigo, span.label-angular-yellow span.label-angular-indigo, span.label-angular-orange span.label-angular-indigo, span.label-angular-amber span.label-angular-indigo, span.label-angular-black span.label-angular-indigo, span.label-angular-very-light-grey span.label-angular-indigo, .btn span.label-angular-blue, span.label span.label-angular-blue, span.label-grey span.label-angular-blue, span.label-dark-grey span.label-angular-blue, span.label-green span.label-angular-blue, span.label-light-green span.label-angular-blue, span.label-lime span.label-angular-blue, span.label-indigo span.label-angular-blue, span.label-blue span.label-angular-blue, span.label-light-blue span.label-angular-blue, span.label-red span.label-angular-blue, span.label-yellow span.label-angular-blue, span.label-orange span.label-angular-blue, span.label-amber span.label-angular-blue, span.label-black span.label-angular-blue, span.label-very-light-grey span.label-angular-blue, span.label-angular span.label-angular-blue, span.label-angular-grey span.label-angular-blue, span.label-angular-dark-grey span.label-angular-blue, span.label-angular-green span.label-angular-blue, span.label-angular-light-green span.label-angular-blue, span.label-angular-lime span.label-angular-blue, span.label-angular-indigo span.label-angular-blue, span.label-angular-blue span.label-angular-blue, span.label-angular-light-blue span.label-angular-blue, span.label-angular-red span.label-angular-blue, span.label-angular-yellow span.label-angular-blue, span.label-angular-orange span.label-angular-blue, span.label-angular-amber span.label-angular-blue, span.label-angular-black span.label-angular-blue, span.label-angular-very-light-grey span.label-angular-blue, .btn span.label-angular-light-blue, span.label span.label-angular-light-blue, span.label-grey span.label-angular-light-blue, span.label-dark-grey span.label-angular-light-blue, span.label-green span.label-angular-light-blue, span.label-light-green span.label-angular-light-blue, span.label-lime span.label-angular-light-blue, span.label-indigo span.label-angular-light-blue, span.label-blue span.label-angular-light-blue, span.label-light-blue span.label-angular-light-blue, span.label-red span.label-angular-light-blue, span.label-yellow span.label-angular-light-blue, span.label-orange span.label-angular-light-blue, span.label-amber span.label-angular-light-blue, span.label-black span.label-angular-light-blue, span.label-very-light-grey span.label-angular-light-blue, span.label-angular span.label-angular-light-blue, span.label-angular-grey span.label-angular-light-blue, span.label-angular-dark-grey span.label-angular-light-blue, span.label-angular-green span.label-angular-light-blue, span.label-angular-light-green span.label-angular-light-blue, span.label-angular-lime span.label-angular-light-blue, span.label-angular-indigo span.label-angular-light-blue, span.label-angular-blue span.label-angular-light-blue, span.label-angular-light-blue span.label-angular-light-blue, span.label-angular-red span.label-angular-light-blue, span.label-angular-yellow span.label-angular-light-blue, span.label-angular-orange span.label-angular-light-blue, span.label-angular-amber span.label-angular-light-blue, span.label-angular-black span.label-angular-light-blue, span.label-angular-very-light-grey span.label-angular-light-blue, .btn span.label-angular-red, span.label span.label-angular-red, span.label-grey span.label-angular-red, span.label-dark-grey span.label-angular-red, span.label-green span.label-angular-red, span.label-light-green span.label-angular-red, span.label-lime span.label-angular-red, span.label-indigo span.label-angular-red, span.label-blue span.label-angular-red, span.label-light-blue span.label-angular-red, span.label-red span.label-angular-red, span.label-yellow span.label-angular-red, span.label-orange span.label-angular-red, span.label-amber span.label-angular-red, span.label-black span.label-angular-red, span.label-very-light-grey span.label-angular-red, span.label-angular span.label-angular-red, span.label-angular-grey span.label-angular-red, span.label-angular-dark-grey span.label-angular-red, span.label-angular-green span.label-angular-red, span.label-angular-light-green span.label-angular-red, span.label-angular-lime span.label-angular-red, span.label-angular-indigo span.label-angular-red, span.label-angular-blue span.label-angular-red, span.label-angular-light-blue span.label-angular-red, span.label-angular-red span.label-angular-red, span.label-angular-yellow span.label-angular-red, span.label-angular-orange span.label-angular-red, span.label-angular-amber span.label-angular-red, span.label-angular-black span.label-angular-red, span.label-angular-very-light-grey span.label-angular-red, .btn span.label-angular-yellow, span.label span.label-angular-yellow, span.label-grey span.label-angular-yellow, span.label-dark-grey span.label-angular-yellow, span.label-green span.label-angular-yellow, span.label-light-green span.label-angular-yellow, span.label-lime span.label-angular-yellow, span.label-indigo span.label-angular-yellow, span.label-blue span.label-angular-yellow, span.label-light-blue span.label-angular-yellow, span.label-red span.label-angular-yellow, span.label-yellow span.label-angular-yellow, span.label-orange span.label-angular-yellow, span.label-amber span.label-angular-yellow, span.label-black span.label-angular-yellow, span.label-very-light-grey span.label-angular-yellow, span.label-angular span.label-angular-yellow, span.label-angular-grey span.label-angular-yellow, span.label-angular-dark-grey span.label-angular-yellow, span.label-angular-green span.label-angular-yellow, span.label-angular-light-green span.label-angular-yellow, span.label-angular-lime span.label-angular-yellow, span.label-angular-indigo span.label-angular-yellow, span.label-angular-blue span.label-angular-yellow, span.label-angular-light-blue span.label-angular-yellow, span.label-angular-red span.label-angular-yellow, span.label-angular-yellow span.label-angular-yellow, span.label-angular-orange span.label-angular-yellow, span.label-angular-amber span.label-angular-yellow, span.label-angular-black span.label-angular-yellow, span.label-angular-very-light-grey span.label-angular-yellow, .btn span.label-angular-orange, span.label span.label-angular-orange, span.label-grey span.label-angular-orange, span.label-dark-grey span.label-angular-orange, span.label-green span.label-angular-orange, span.label-light-green span.label-angular-orange, span.label-lime span.label-angular-orange, span.label-indigo span.label-angular-orange, span.label-blue span.label-angular-orange, span.label-light-blue span.label-angular-orange, span.label-red span.label-angular-orange, span.label-yellow span.label-angular-orange, span.label-orange span.label-angular-orange, span.label-amber span.label-angular-orange, span.label-black span.label-angular-orange, span.label-very-light-grey span.label-angular-orange, span.label-angular span.label-angular-orange, span.label-angular-grey span.label-angular-orange, span.label-angular-dark-grey span.label-angular-orange, span.label-angular-green span.label-angular-orange, span.label-angular-light-green span.label-angular-orange, span.label-angular-lime span.label-angular-orange, span.label-angular-indigo span.label-angular-orange, span.label-angular-blue span.label-angular-orange, span.label-angular-light-blue span.label-angular-orange, span.label-angular-red span.label-angular-orange, span.label-angular-yellow span.label-angular-orange, span.label-angular-orange span.label-angular-orange, span.label-angular-amber span.label-angular-orange, span.label-angular-black span.label-angular-orange, span.label-angular-very-light-grey span.label-angular-orange, .btn span.label-angular-amber, span.label span.label-angular-amber, span.label-grey span.label-angular-amber, span.label-dark-grey span.label-angular-amber, span.label-green span.label-angular-amber, span.label-light-green span.label-angular-amber, span.label-lime span.label-angular-amber, span.label-indigo span.label-angular-amber, span.label-blue span.label-angular-amber, span.label-light-blue span.label-angular-amber, span.label-red span.label-angular-amber, span.label-yellow span.label-angular-amber, span.label-orange span.label-angular-amber, span.label-amber span.label-angular-amber, span.label-black span.label-angular-amber, span.label-very-light-grey span.label-angular-amber, span.label-angular span.label-angular-amber, span.label-angular-grey span.label-angular-amber, span.label-angular-dark-grey span.label-angular-amber, span.label-angular-green span.label-angular-amber, span.label-angular-light-green span.label-angular-amber, span.label-angular-lime span.label-angular-amber, span.label-angular-indigo span.label-angular-amber, span.label-angular-blue span.label-angular-amber, span.label-angular-light-blue span.label-angular-amber, span.label-angular-red span.label-angular-amber, span.label-angular-yellow span.label-angular-amber, span.label-angular-orange span.label-angular-amber, span.label-angular-amber span.label-angular-amber, span.label-angular-black span.label-angular-amber, span.label-angular-very-light-grey span.label-angular-amber, .btn span.label-angular-black, span.label span.label-angular-black, span.label-grey span.label-angular-black, span.label-dark-grey span.label-angular-black, span.label-green span.label-angular-black, span.label-light-green span.label-angular-black, span.label-lime span.label-angular-black, span.label-indigo span.label-angular-black, span.label-blue span.label-angular-black, span.label-light-blue span.label-angular-black, span.label-red span.label-angular-black, span.label-yellow span.label-angular-black, span.label-orange span.label-angular-black, span.label-amber span.label-angular-black, span.label-black span.label-angular-black, span.label-very-light-grey span.label-angular-black, span.label-angular span.label-angular-black, span.label-angular-grey span.label-angular-black, span.label-angular-dark-grey span.label-angular-black, span.label-angular-green span.label-angular-black, span.label-angular-light-green span.label-angular-black, span.label-angular-lime span.label-angular-black, span.label-angular-indigo span.label-angular-black, span.label-angular-blue span.label-angular-black, span.label-angular-light-blue span.label-angular-black, span.label-angular-red span.label-angular-black, span.label-angular-yellow span.label-angular-black, span.label-angular-orange span.label-angular-black, span.label-angular-amber span.label-angular-black, span.label-angular-black span.label-angular-black, span.label-angular-very-light-grey span.label-angular-black, .btn span.label-angular-very-light-grey, span.label span.label-angular-very-light-grey, span.label-grey span.label-angular-very-light-grey, span.label-dark-grey span.label-angular-very-light-grey, span.label-green span.label-angular-very-light-grey, span.label-light-green span.label-angular-very-light-grey, span.label-lime span.label-angular-very-light-grey, span.label-indigo span.label-angular-very-light-grey, span.label-blue span.label-angular-very-light-grey, span.label-light-blue span.label-angular-very-light-grey, span.label-red span.label-angular-very-light-grey, span.label-yellow span.label-angular-very-light-grey, span.label-orange span.label-angular-very-light-grey, span.label-amber span.label-angular-very-light-grey, span.label-black span.label-angular-very-light-grey, span.label-very-light-grey span.label-angular-very-light-grey, span.label-angular span.label-angular-very-light-grey, span.label-angular-grey span.label-angular-very-light-grey, span.label-angular-dark-grey span.label-angular-very-light-grey, span.label-angular-green span.label-angular-very-light-grey, span.label-angular-light-green span.label-angular-very-light-grey, span.label-angular-lime span.label-angular-very-light-grey, span.label-angular-indigo span.label-angular-very-light-grey, span.label-angular-blue span.label-angular-very-light-grey, span.label-angular-light-blue span.label-angular-very-light-grey, span.label-angular-red span.label-angular-very-light-grey, span.label-angular-yellow span.label-angular-very-light-grey, span.label-angular-orange span.label-angular-very-light-grey, span.label-angular-amber span.label-angular-very-light-grey, span.label-angular-black span.label-angular-very-light-grey, span.label-angular-very-light-grey span.label-angular-very-light-grey {
+  .btn .label, span.label .label, span.label-angular .label {
     position: relative;
     top: -1px; }
 
@@ -2566,7 +2510,7 @@ a.label:hover, a.label:focus {
   src: local("Bitter-Italic"), url("../Fonts/bitter-v7-latin-italic.eot?#iefix") format("embedded-opentype"), url("../Fonts/bitter-v7-latin-italic.woff2") format("woff2"), url("../Fonts/bitter-v7-latin-italic.woff") format("woff"), url("../Fonts/bitter-v7-latin-italic.ttf") format("truetype"), url("../Fonts/bitter-v7-latin-italic.svg#Bitter") format("svg");
   /* Legacy iOS */ }
 
-.base-letter-spacing, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, .csc-default,
+.base-letter-spacing, h1, h2, h3, h4, h5, h6, .csc-default,
 .csc-wide,
 .csc-default-lbr-padding,
 .csc-default-ltr-padding,
@@ -2579,30 +2523,30 @@ ul,
 p {
   letter-spacing: 0.04rem; }
 
-h1, .h1 {
+h1 {
   font-size: 26px;
   font-size: 2.6rem;
   border-bottom: 1px solid #848484; }
 
-h2, .h2 {
+h2 {
   font-size: 24px;
   font-size: 2.4rem;
   color: #b3cb3d; }
 
-h3, .h3 {
+h3 {
   font-size: 20px;
   font-size: 2rem;
   font-weight: bold; }
 
-h4, .h4 {
+h4 {
   font-size: 20px;
   font-size: 2.0rem; }
 
-h5, .h5 {
+h5 {
   font-size: 18px;
   font-size: 1.8rem; }
 
-h6, .h6 {
+h6 {
   font-size: 16px;
   font-size: 1.6rem; }
 
@@ -2790,15 +2734,21 @@ pre {
   background-color: #f9f9f9 !important; }
 
 /* Rounded Labels */
-span.label, span.label-grey, span.label-dark-grey, span.label-green, span.label-light-green, span.label-lime, span.label-indigo, span.label-blue, span.label-light-blue, span.label-red, span.label-yellow, span.label-orange, span.label-amber, span.label-black, span.label-very-light-grey, span.label-angular, span.label-angular-grey, span.label-angular-dark-grey, span.label-angular-green, span.label-angular-light-green, span.label-angular-lime, span.label-angular-indigo, span.label-angular-blue, span.label-angular-light-blue, span.label-angular-red, span.label-angular-yellow, span.label-angular-orange, span.label-angular-amber, span.label-angular-black, span.label-angular-very-light-grey {
+span.label, span.label-angular {
   background-color: #eeeeee;
   padding: 0.3rem 0.5rem;
   color: #616161;
   font-weight: normal; }
 
-span.label:hover, span.label-grey:hover, span.label-dark-grey:hover, span.label-green:hover, span.label-light-green:hover, span.label-lime:hover, span.label-indigo:hover, span.label-blue:hover, span.label-light-blue:hover, span.label-red:hover, span.label-yellow:hover, span.label-orange:hover, span.label-amber:hover, span.label-black:hover, span.label-very-light-grey:hover, span.label-angular:hover, span.label-angular-grey:hover, span.label-angular-dark-grey:hover, span.label-angular-green:hover, span.label-angular-light-green:hover, span.label-angular-lime:hover, span.label-angular-indigo:hover, span.label-angular-blue:hover, span.label-angular-light-blue:hover, span.label-angular-red:hover, span.label-angular-yellow:hover, span.label-angular-orange:hover, span.label-angular-amber:hover, span.label-angular-black:hover, span.label-angular-very-light-grey:hover {
+span.label:hover, span.label-angular:hover {
   color: #616161 !important; }
 
+/* Non-Rounded Labels */
+span.label-angular {
+  border-radius: 0;
+  padding: 0.3rem 0.5rem; }
+
+/* Background & Text Colors */
 span.label-grey, span.label-dark-grey, span.label-green, span.label-light-green, span.label-lime, span.label-indigo, span.label-blue, span.label-light-blue, span.label-red, span.label-yellow, span.label-orange, span.label-amber, span.label-black {
   background-color: #9e9e9e;
   color: white; }
@@ -2845,63 +2795,6 @@ span.label-amber {
 span.label-black {
   background-color: #333; }
 
-/* Non-Rounded Labels */
-/* Rounded Labels */
-span.label-angular, span.label-angular-grey, span.label-angular-dark-grey, span.label-angular-green, span.label-angular-light-green, span.label-angular-lime, span.label-angular-indigo, span.label-angular-blue, span.label-angular-light-blue, span.label-angular-red, span.label-angular-yellow, span.label-angular-orange, span.label-angular-amber, span.label-angular-black, span.label-angular-very-light-grey {
-  border-radius: 0;
-  background-color: #eeeeee;
-  padding: 0.3rem 0.5rem;
-  color: #616161; }
-
-span.label-angular:hover, span.label-angular-grey:hover, span.label-angular-dark-grey:hover, span.label-angular-green:hover, span.label-angular-light-green:hover, span.label-angular-lime:hover, span.label-angular-indigo:hover, span.label-angular-blue:hover, span.label-angular-light-blue:hover, span.label-angular-red:hover, span.label-angular-yellow:hover, span.label-angular-orange:hover, span.label-angular-amber:hover, span.label-angular-black:hover, span.label-angular-very-light-grey:hover {
-  color: #616161 !important; }
-
-span.label-angular-grey, span.label-angular-dark-grey, span.label-angular-green, span.label-angular-light-green, span.label-angular-lime, span.label-angular-indigo, span.label-angular-blue, span.label-angular-light-blue, span.label-angular-red, span.label-angular-yellow, span.label-angular-orange, span.label-angular-amber, span.label-angular-black {
-  background-color: #9e9e9e;
-  color: white; }
-
-span.label-angular-grey:hover, span.label-angular-dark-grey:hover, span.label-angular-green:hover, span.label-angular-light-green:hover, span.label-angular-lime:hover, span.label-angular-indigo:hover, span.label-angular-blue:hover, span.label-angular-light-blue:hover, span.label-angular-red:hover, span.label-angular-yellow:hover, span.label-angular-orange:hover, span.label-angular-amber:hover, span.label-angular-black:hover {
-  color: white !important; }
-
-span.label-angular-very-light-grey {
-  background-color: #f9f9f9; }
-
-span.label-angular-dark-grey {
-  background-color: #616161; }
-
-span.label-angular-green {
-  background-color: #4caf50; }
-
-span.label-angular-light-green {
-  background-color: #8bc34a; }
-
-span.label-angular-lime {
-  background-color: #cddc39; }
-
-span.label-angular-indigo {
-  background-color: #3f51b5; }
-
-span.label-angular-blue {
-  background-color: #2196f3; }
-
-span.label-angular-light-blue {
-  background-color: #03a9f4; }
-
-span.label-angular-red {
-  background-color: #ef5350; }
-
-span.label-angular-yellow {
-  background-color: #ffeb3b; }
-
-span.label-angular-orange {
-  background-color: #ff9800; }
-
-span.label-angular-amber {
-  background-color: #ffc107; }
-
-span.label-angular-black {
-  background-color: #333; }
-
 /* Link Styles */
 a.internal, a.external {
   text-decoration: none;
@@ -2943,11 +2836,7 @@ img {
   height: auto; }
 
 /* Floating Boxes */
-.float-left-block, .float-left-25,
-p.float-left-25, .float-left-33,
-p.float-left-33, .float-left-40,
-p.float-left-40, .float-left-50,
-p.float-left-50 {
+p.float-left-block {
   display: block;
   float: left;
   margin-left: -1.25%;
@@ -2955,239 +2844,83 @@ p.float-left-50 {
   margin-right: 2.7rem;
   margin-bottom: 2.7rem; }
   @media screen and (min-width: 750px) {
-    .float-left-block, .float-left-25,
-    p.float-left-25, .float-left-33,
-    p.float-left-33, .float-left-40,
-    p.float-left-40, .float-left-50,
-    p.float-left-50 {
+    p.float-left-block {
       margin-left: -28px; } }
   @media screen and (min-width: 992px) {
-    .float-left-block, .float-left-25,
-    p.float-left-25, .float-left-33,
-    p.float-left-33, .float-left-40,
-    p.float-left-40, .float-left-50,
-    p.float-left-50 {
+    p.float-left-block {
       margin-left: -36.5px; } }
   @media screen and (min-width: 1170px) {
-    .float-left-block, .float-left-25,
-    p.float-left-25, .float-left-33,
-    p.float-left-33, .float-left-40,
-    p.float-left-40, .float-left-50,
-    p.float-left-50 {
+    p.float-left-block {
       margin-left: -44px; } }
-  .float-left-block img, .float-left-25 img, .float-left-33 img, .float-left-40 img, .float-left-50 img {
+  p.float-left-block img {
     border: 1.8rem solid #f9f9f9; }
 
-.csc-wide .float-left-block, .csc-wide .float-left-25, .csc-wide .float-left-33, .csc-wide .float-left-40, .csc-wide .float-left-50,
+.csc-wide .float-left-block,
 .csc-wide-lbr-padding .float-left-block,
-.csc-wide-lbr-padding .float-left-25,
-.csc-wide-lbr-padding .float-left-33,
-.csc-wide-lbr-padding .float-left-40,
-.csc-wide-lbr-padding .float-left-50,
 .csc-wide-lr-padding .float-left-block,
-.csc-wide-lr-padding .float-left-25,
-.csc-wide-lr-padding .float-left-33,
-.csc-wide-lr-padding .float-left-40,
-.csc-wide-lr-padding .float-left-50,
-.csc-wide-ltr-padding .float-left-block,
-.csc-wide-ltr-padding .float-left-25,
-.csc-wide-ltr-padding .float-left-33,
-.csc-wide-ltr-padding .float-left-40,
-.csc-wide-ltr-padding .float-left-50 {
+.csc-wide-ltr-padding .float-left-block {
   margin-left: -2.5%; }
   @media screen and (min-width: 750px) {
-    .csc-wide .float-left-block, .csc-wide .float-left-25, .csc-wide .float-left-33, .csc-wide .float-left-40, .csc-wide .float-left-50,
+    .csc-wide .float-left-block,
     .csc-wide-lbr-padding .float-left-block,
-    .csc-wide-lbr-padding .float-left-25,
-    .csc-wide-lbr-padding .float-left-33,
-    .csc-wide-lbr-padding .float-left-40,
-    .csc-wide-lbr-padding .float-left-50,
     .csc-wide-lr-padding .float-left-block,
-    .csc-wide-lr-padding .float-left-25,
-    .csc-wide-lr-padding .float-left-33,
-    .csc-wide-lr-padding .float-left-40,
-    .csc-wide-lr-padding .float-left-50,
-    .csc-wide-ltr-padding .float-left-block,
-    .csc-wide-ltr-padding .float-left-25,
-    .csc-wide-ltr-padding .float-left-33,
-    .csc-wide-ltr-padding .float-left-40,
-    .csc-wide-ltr-padding .float-left-50 {
+    .csc-wide-ltr-padding .float-left-block {
       margin-left: -56px; } }
   @media screen and (min-width: 992px) {
-    .csc-wide .float-left-block, .csc-wide .float-left-25, .csc-wide .float-left-33, .csc-wide .float-left-40, .csc-wide .float-left-50,
+    .csc-wide .float-left-block,
     .csc-wide-lbr-padding .float-left-block,
-    .csc-wide-lbr-padding .float-left-25,
-    .csc-wide-lbr-padding .float-left-33,
-    .csc-wide-lbr-padding .float-left-40,
-    .csc-wide-lbr-padding .float-left-50,
     .csc-wide-lr-padding .float-left-block,
-    .csc-wide-lr-padding .float-left-25,
-    .csc-wide-lr-padding .float-left-33,
-    .csc-wide-lr-padding .float-left-40,
-    .csc-wide-lr-padding .float-left-50,
-    .csc-wide-ltr-padding .float-left-block,
-    .csc-wide-ltr-padding .float-left-25,
-    .csc-wide-ltr-padding .float-left-33,
-    .csc-wide-ltr-padding .float-left-40,
-    .csc-wide-ltr-padding .float-left-50 {
+    .csc-wide-ltr-padding .float-left-block {
       margin-left: -73px; } }
   @media screen and (min-width: 1170px) {
-    .csc-wide .float-left-block, .csc-wide .float-left-25, .csc-wide .float-left-33, .csc-wide .float-left-40, .csc-wide .float-left-50,
+    .csc-wide .float-left-block,
     .csc-wide-lbr-padding .float-left-block,
-    .csc-wide-lbr-padding .float-left-25,
-    .csc-wide-lbr-padding .float-left-33,
-    .csc-wide-lbr-padding .float-left-40,
-    .csc-wide-lbr-padding .float-left-50,
     .csc-wide-lr-padding .float-left-block,
-    .csc-wide-lr-padding .float-left-25,
-    .csc-wide-lr-padding .float-left-33,
-    .csc-wide-lr-padding .float-left-40,
-    .csc-wide-lr-padding .float-left-50,
-    .csc-wide-ltr-padding .float-left-block,
-    .csc-wide-ltr-padding .float-left-25,
-    .csc-wide-ltr-padding .float-left-33,
-    .csc-wide-ltr-padding .float-left-40,
-    .csc-wide-ltr-padding .float-left-50 {
+    .csc-wide-ltr-padding .float-left-block {
       margin-left: -88px; } }
 
-.float-left-25,
-p.float-left-25 {
-  width: 25%; }
-
-.float-left-33,
-p.float-left-33 {
-  width: 33.33%; }
-
-.float-left-40,
-p.float-left-40 {
-  width: 40%; }
-
-.float-left-50,
-p.float-left-50 {
-  width: 50%; }
-
-.float-right-block, .float-right-25,
-p.float-right-25, .float-right-33,
-p.float-right-33, .float-right-40,
-p.float-right-40, .float-right-50,
-p.float-right-50 {
+p.float-right-block {
   display: block;
-  float: right;
+  float: right !important;
   margin-right: -1.25%;
   margin-top: 1.4rem;
   margin-left: 2.7rem;
   margin-bottom: 2.7rem; }
   @media screen and (min-width: 750px) {
-    .float-right-block, .float-right-25,
-    p.float-right-25, .float-right-33,
-    p.float-right-33, .float-right-40,
-    p.float-right-40, .float-right-50,
-    p.float-right-50 {
+    p.float-right-block {
       margin-right: -28px; } }
   @media screen and (min-width: 992px) {
-    .float-right-block, .float-right-25,
-    p.float-right-25, .float-right-33,
-    p.float-right-33, .float-right-40,
-    p.float-right-40, .float-right-50,
-    p.float-right-50 {
+    p.float-right-block {
       margin-right: -36.5px; } }
   @media screen and (min-width: 1170px) {
-    .float-right-block, .float-right-25,
-    p.float-right-25, .float-right-33,
-    p.float-right-33, .float-right-40,
-    p.float-right-40, .float-right-50,
-    p.float-right-50 {
+    p.float-right-block {
       margin-right: -44px; } }
-  .float-right-block img, .float-right-25 img, .float-right-33 img, .float-right-40 img, .float-right-50 img {
+  p.float-right-block img {
     border: 1.8rem solid #f9f9f9; }
 
-.csc-wide .float-right-block, .csc-wide .float-right-25, .csc-wide .float-right-33, .csc-wide .float-right-40, .csc-wide .float-right-50,
+.csc-wide .float-right-block,
 .csc-wide-lbr-padding .float-right-block,
-.csc-wide-lbr-padding .float-right-25,
-.csc-wide-lbr-padding .float-right-33,
-.csc-wide-lbr-padding .float-right-40,
-.csc-wide-lbr-padding .float-right-50,
 .csc-wide-lr-padding .float-right-block,
-.csc-wide-lr-padding .float-right-25,
-.csc-wide-lr-padding .float-right-33,
-.csc-wide-lr-padding .float-right-40,
-.csc-wide-lr-padding .float-right-50,
-.csc-wide-ltr-padding .float-right-block,
-.csc-wide-ltr-padding .float-right-25,
-.csc-wide-ltr-padding .float-right-33,
-.csc-wide-ltr-padding .float-right-40,
-.csc-wide-ltr-padding .float-right-50 {
+.csc-wide-ltr-padding .float-right-block {
   margin-right: -2.5%; }
   @media screen and (min-width: 750px) {
-    .csc-wide .float-right-block, .csc-wide .float-right-25, .csc-wide .float-right-33, .csc-wide .float-right-40, .csc-wide .float-right-50,
+    .csc-wide .float-right-block,
     .csc-wide-lbr-padding .float-right-block,
-    .csc-wide-lbr-padding .float-right-25,
-    .csc-wide-lbr-padding .float-right-33,
-    .csc-wide-lbr-padding .float-right-40,
-    .csc-wide-lbr-padding .float-right-50,
     .csc-wide-lr-padding .float-right-block,
-    .csc-wide-lr-padding .float-right-25,
-    .csc-wide-lr-padding .float-right-33,
-    .csc-wide-lr-padding .float-right-40,
-    .csc-wide-lr-padding .float-right-50,
-    .csc-wide-ltr-padding .float-right-block,
-    .csc-wide-ltr-padding .float-right-25,
-    .csc-wide-ltr-padding .float-right-33,
-    .csc-wide-ltr-padding .float-right-40,
-    .csc-wide-ltr-padding .float-right-50 {
+    .csc-wide-ltr-padding .float-right-block {
       margin-right: -56px; } }
   @media screen and (min-width: 992px) {
-    .csc-wide .float-right-block, .csc-wide .float-right-25, .csc-wide .float-right-33, .csc-wide .float-right-40, .csc-wide .float-right-50,
+    .csc-wide .float-right-block,
     .csc-wide-lbr-padding .float-right-block,
-    .csc-wide-lbr-padding .float-right-25,
-    .csc-wide-lbr-padding .float-right-33,
-    .csc-wide-lbr-padding .float-right-40,
-    .csc-wide-lbr-padding .float-right-50,
     .csc-wide-lr-padding .float-right-block,
-    .csc-wide-lr-padding .float-right-25,
-    .csc-wide-lr-padding .float-right-33,
-    .csc-wide-lr-padding .float-right-40,
-    .csc-wide-lr-padding .float-right-50,
-    .csc-wide-ltr-padding .float-right-block,
-    .csc-wide-ltr-padding .float-right-25,
-    .csc-wide-ltr-padding .float-right-33,
-    .csc-wide-ltr-padding .float-right-40,
-    .csc-wide-ltr-padding .float-right-50 {
+    .csc-wide-ltr-padding .float-right-block {
       margin-right: -73px; } }
   @media screen and (min-width: 1170px) {
-    .csc-wide .float-right-block, .csc-wide .float-right-25, .csc-wide .float-right-33, .csc-wide .float-right-40, .csc-wide .float-right-50,
+    .csc-wide .float-right-block,
     .csc-wide-lbr-padding .float-right-block,
-    .csc-wide-lbr-padding .float-right-25,
-    .csc-wide-lbr-padding .float-right-33,
-    .csc-wide-lbr-padding .float-right-40,
-    .csc-wide-lbr-padding .float-right-50,
     .csc-wide-lr-padding .float-right-block,
-    .csc-wide-lr-padding .float-right-25,
-    .csc-wide-lr-padding .float-right-33,
-    .csc-wide-lr-padding .float-right-40,
-    .csc-wide-lr-padding .float-right-50,
-    .csc-wide-ltr-padding .float-right-block,
-    .csc-wide-ltr-padding .float-right-25,
-    .csc-wide-ltr-padding .float-right-33,
-    .csc-wide-ltr-padding .float-right-40,
-    .csc-wide-ltr-padding .float-right-50 {
+    .csc-wide-ltr-padding .float-right-block {
       margin-right: -88px; } }
-
-.float-right-25,
-p.float-right-25 {
-  width: 25%; }
-
-.float-right-33,
-p.float-right-33 {
-  width: 33.33%; }
-
-.float-right-40,
-p.float-right-40 {
-  width: 40%; }
-
-.float-right-50,
-p.float-right-50 {
-  width: 50%; }
 
 /* Highlighted/marked Text in Paragraph */
 span.marked {
@@ -3235,6 +2968,72 @@ ul {
     display: none; }
   ul p {
     display: none; }
+
+/* Textmarkierungen: About Me Section */
+span.marked-bg-black-fg-white, span.marked-bg-black-fg-lime {
+  font-size: 2rem;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  background-color: #333;
+  color: #ffffff;
+  padding: 0.1rem 1.2rem;
+  margin-right: 2px;
+  margin-bottom: 2px; }
+  span.marked-bg-black-fg-white a, span.marked-bg-black-fg-lime a, span.marked-bg-black-fg-white a:hover, span.marked-bg-black-fg-lime a:hover, span.marked-bg-black-fg-white a:focus, span.marked-bg-black-fg-lime a:focus {
+    color: #b3cb3d; }
+
+span.marked-bg-black-fg-lime {
+  color: #b3cb3d; }
+
+p.font-size-h1,
+span.font-size-h1 {
+  font-size: 5.0rem; }
+
+p.font-size-h2,
+span.font-size-h2 {
+  font-size: 3.8rem; }
+
+p.font-size-h3,
+span.font-size-h3 {
+  font-size: 2.6rem; }
+
+p.font-size-footnote,
+span.font-size-footnote {
+  font-size: 1.4rem; }
+
+/* Bootstrap Columns */
+p.col-md-1 {
+  padding-left: 0 !important; }
+
+p.col-md-2 {
+  padding-left: 0 !important; }
+
+p.col-md-3 {
+  padding-left: 0 !important; }
+
+p.col-md-4 {
+  padding-left: 0 !important; }
+
+p.col-md-5 {
+  padding-left: 0 !important; }
+
+p.col-md-6 {
+  padding-left: 0 !important; }
+
+p.col-md-7 {
+  padding-left: 0 !important; }
+
+p.col-md-8 {
+  padding-left: 0 !important; }
+
+p.col-md-9 {
+  padding-left: 0 !important; }
+
+p.col-md-10 {
+  padding-left: 0 !important; }
+
+p.col-md-11 {
+  padding-left: 0 !important; }
 
 html {
   height: 100%;

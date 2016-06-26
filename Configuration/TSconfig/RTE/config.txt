@@ -7,36 +7,22 @@ RTE.classes {
     quote.name = Zitat
     author.name = Author
     extended-width.name = Komplette Breite verwenden
-    label.name = Abgerundetes Label (Standard)
-    label-grey.name = Abgerundetes Label (Grau)
-    label-very-light-grey.name = Abgerundetes Label (Hellgrau)
-    label-dark-grey.name = Abgerundetes Label (Dunkelgrau)
-    label-green.name = Abgerundetes Label (Grün)
-    label-light-green.name = Abgerundetes Label (Hellgrün)
-    label-lime.name = Abgerundetes Label (Lime)
-    label-indigo.name = Abgerundetes Label (Indigo)
-    label-blue.name = Abgerundetes Label (Blau)
-    label-light-blue.name = Abgerundetes Label (Hellblau)
-    label-red.name = Abgerundetes Label (Rot)
-    label-yellow.name = Abgerundetes Label (Gelb)
-    label-orange.name = Abgerundetes Label (Orange)
-    label-amber.name = Abgerundetes Label (Amber)
-    label-black.name = Abgerundetes Label (Schwarz)
-    label-angular.name = Eckiges Label (Standard)
-    label-angular-grey.name = Eckiges Label (Grau)
-    label-angular-very-light-grey.name = Eckiges Label (Hellgrau)
-    label-angular-dark-grey.name = Eckiges Label (Dunkelgrau)
-    label-angular-green.name = Eckiges Label (Grün)
-    label-angular-light-green.name = Eckiges Label (Hellgrün)
-    label-angular-lime.name = Eckiges Label (Lime)
-    label-angular-indigo.name = Eckiges Label (Indigo)
-    label-angular-blue.name = Eckiges Label (Blau)
-    label-angular-light-blue.name = Eckiges Label (Hellblau)
-    label-angular-red.name = Eckiges Label (Rot)
-    label-angular-yellow.name = Eckiges Label (Gelb)
-    label-angular-orange.name = Eckiges Label (Orange)
-    label-angular-amber.name = Eckiges Label (Amber)
-    label-angular-black.name = Eckiges Label (Schwarz)
+    label.name = Label: Abgerundet
+    label-angular.name = Label: Rechteckig
+    label-grey.name = Hintergrundfarbe: Grau
+    label-very-light-grey.name = Hintergrundfarbe: Hellgrau
+    label-dark-grey.name = Hintergrundfarbe: Dunkelgrau
+    label-green.name = Hintergrundfarbe: Grün
+    label-light-green.name = Hintergrundfarbe: Hellgrün
+    label-lime.name = Hintergrundfarbe: Lime
+    label-indigo.name = Hintergrundfarbe: Indigo
+    label-blue.name = Hintergrundfarbe: Blau
+    label-light-blue.name = Hintergrundfarbe: Hellblau
+    label-red.name = Hintergrundfarbe: Rot
+    label-yellow.name = Hintergrundfarbe: Gelb
+    label-orange.name = Hintergrundfarbe: Orange
+    label-amber.name = Hintergrundfarbe: Amber
+    label-black.name = Hintergrundfarbe: Schwarz
     internal.name = Interner Link
     external.name = Externer Link
     alert-success.name = Meldung: Erfolgreich
@@ -44,15 +30,26 @@ RTE.classes {
     alert-warning.name = Meldung: Warnung
     alert-danger.name = Meldung: Gefahr
     caption.name = Untertitel
-    float-left-25.name = Links-floating Block (25% Breite)
-    float-left-33.name = Links-floating Block (33% Breite)
-    float-left-40.name = Links-floating Block (40% Breite)
-    float-left-50.name = Links-floating Block (50% Breite)
-    float-right-25.name = Rechts-floating Block (25% Breite)
-    float-right-33.name = Rechts-floating Block (33% Breite)
-    float-right-40.name = Rechts-floating Block (40% Breite)
-    float-right-50.name = Rechts-floating Block (50% Breite)
+    float-left-block.name = Floating Block: Links
+    float-right-block.name = Floating Block: Rechts
     marked.name = Textmarkierung
+    marked-bg-black-fg-white.name = Textmarkierung: weiß auf schwarz
+    marked-bg-black-fg-lime.name = Textmarkierung: hellgrün auf schwarz
+    font-size-h1.name = Schriftgröße h1
+    font-size-h2.name = Schriftgröße h2
+    font-size-h3.name = Schriftgröße h3
+    font-size-footnote.name = Schriftgröße Fußnote
+    col-md-1.name = Spalte 01/12
+    col-md-2.name = Spalte 02/12
+    col-md-3.name = Spalte 03/12
+    col-md-4.name = Spalte 04/12
+    col-md-5.name = Spalte 05/12
+    col-md-6.name = Spalte 06/12
+    col-md-7.name = Spalte 07/12
+    col-md-8.name = Spalte 08/12
+    col-md-9.name = Spalte 09/12
+    col-md-10.name = Spalte 10/12
+    col-md-11.name = Spalte 11/12
 }
 
 RTE.default {
@@ -67,9 +64,11 @@ RTE.default {
                     allowedClasses := addToList(align-right, align-left, align-center, align-justify)
                     allowedClasses := addToList(alert-success, alert-info, alert-warning, alert-danger)
                     allowedClasses := addToList(quote, author, caption)
-                    allowedClasses := addToList(float-left-25, float-left-33, float-left-40, float-left-50)
-                    allowedClasses := addToList(float-right-25, float-right-33, float-right-40, float-right-50)
-                    allowedClasses := addToList(extended-width)
+                    allowedClasses := addToList(float-left-block, float-right-block, extended-width)
+                    allowedClasses := addToList(font-size-footnote, font-size-h1, font-size-h2, font-size-h3)
+                    allowedClasses := addToList(col-md-1, col-md-2, col-md-3, col-md-4)
+                    allowedClasses := addToList(col-md-5, col-md-6, col-md-7, col-md-8)
+                    allowedClasses := addToList(col-md-9, col-md-10, col-md-11)
                 }
             }
         }
@@ -78,6 +77,8 @@ RTE.default {
             tags {
                 span {
                     allowedClasses := addToList(increased-first-letter, marked, caption)
+                    allowedClasses := addToList(font-size-footnote, font-size-h1, font-size-h2, font-size-h3)
+                    allowedClasses := addToList(marked-bg-black-fg-white, marked-bg-black-fg-lime)
                     allowedClasses := addToList(label,label-grey,label-very-light-grey,label-dark-grey,label-green,label-light-green,label-lime,label-indigo,label-blue,label-light-blue,label-red,label-yellow,label-orange,label-amber,label-black)
                     allowedClasses := addToList(label-angular,label-angular-grey,label-angular-very-light-grey,label-angular-dark-grey,label-angular-green,label-angular-light-green,label-angular-lime,label-angular-indigo,label-angular-blue,label-angular-light-blue,label-angular-red,label-angular-yellow,label-angular-orange,label-angular-amber,label-angular-black)
                 }
@@ -85,13 +86,17 @@ RTE.default {
         }
     }
     proc {
-        allowedClasses := addToList(increased-first-letter, marked, extended-width)
+        allowedClasses := addToList(increased-first-letter, marked)
         allowedClasses := addToList(align-right, align-left, align-center, align-justify)
         allowedClasses := addToList(alert-success, alert-info, alert-warning, alert-danger)
         allowedClasses := addToList(quote, author, caption)
+        allowedClasses := addToList(font-size-footnote, font-size-h1, font-size-h2, font-size-h3)
         allowedClasses := addToList(label,label-grey,label-very-light-grey,label-dark-grey,label-green,label-light-green,label-lime,label-indigo,label-blue,label-light-blue,label-red,label-yellow,label-orange,label-amber,label-black)
         allowedClasses := addToList(label-angular,label-angular-grey,label-angular-very-light-grey,label-angular-dark-grey,label-angular-green,label-angular-light-green,label-angular-lime,label-angular-indigo,label-angular-blue,label-angular-light-blue,label-angular-red,label-angular-yellow,label-angular-orange,label-angular-amber,label-angular-black)
-        allowedClasses := addToList(float-left-25, float-left-33, float-left-40, float-left-50)
-        allowedClasses := addToList(float-right-25, float-right-33, float-right-40, float-right-50)
+        allowedClasses := addToList(float-left-block, float-right-block, extended-width)
+        allowedClasses := addToList(marked-bg-black-fg-white, marked-bg-black-fg-lime)
+        allowedClasses := addToList(col-md-1, col-md-2, col-md-3, col-md-4)
+        allowedClasses := addToList(col-md-5, col-md-6, col-md-7, col-md-8)
+        allowedClasses := addToList(col-md-9, col-md-10, col-md-11)
     }
 }
