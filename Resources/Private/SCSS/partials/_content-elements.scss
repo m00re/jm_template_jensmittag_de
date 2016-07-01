@@ -27,13 +27,12 @@
   }
 }
 .csc-default-lbr-padding {
-  padding-top: 0;
+  padding-top: 0 !important;
   padding-right: $content-container-tiny-padding;
   padding-bottom: $content-container-tiny-padding;
   padding-bottom: $content-container-tiny-padding;
   @media screen and (min-width: $break-desktop-1) {
     top: -21px;
-    padding-top: 0;
     padding-right: $content-container-tiny-padding-1;
     padding-bottom: $content-container-tiny-padding-1;
     padding-left: $content-container-tiny-padding-1;
@@ -179,5 +178,24 @@
     @include transform(rotate(1.5deg));
     right: 10px;
     left: auto;
+  }
+}
+
+/* Vary the paddings if a content element is inside of a Bootstrap column */
+.row{
+  .csc-no-padding,
+  .csc-default-lbr-padding,
+  .csc-default-lr-padding,
+  .csc-default-ltr-padding,
+  .csc-wide,
+  .csc-wide-lbr-padding,
+  .csc-wide-lr-padding,
+  .csc-wide-ltr-padding,
+  .csc-default {
+    padding: $content-container-tiny-padding-1;
+    .header-box {
+      margin-left: -($content-container-tiny-padding-1);
+      margin-right: -($content-container-tiny-padding-1);
+    }
   }
 }

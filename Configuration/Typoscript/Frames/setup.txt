@@ -5,17 +5,17 @@ tt_content.stdWrap.innerWrap.cObject {
     1101 = TEXT
     1101.value = <div class="csc-default bg-very-light-grey">|</div>
     1102 = TEXT
-    1102.value = <div class="csc-default-lr">|</div>
+    1102.value = <div class="csc-default-lr-padding">|</div>
     1103 = TEXT
-    1103.value = <div class="csc-default-lr bg-very-light-grey">|</div>
+    1103.value = <div class="csc-default-lr-padding bg-very-light-grey">|</div>
     1104 = TEXT
-    1104.value = <div class="csc-default-lbr">|</div>
+    1104.value = <div class="csc-default-lbr-padding">|</div>
     1105 = TEXT
-    1105.value = <div class="csc-default-lbr bg-very-light-grey">|</div>
+    1105.value = <div class="csc-default-lbr-padding bg-very-light-grey">|</div>
     1106 = TEXT
-    1106.value = <div class="csc-default-ltr">|</div>
+    1106.value = <div class="csc-default-ltr-padding">|</div>
     1107 = TEXT
-    1107.value = <div class="csc-default-ltr bg-very-light-grey">|</div>
+    1107.value = <div class="csc-default-ltr-padding bg-very-light-grey">|</div>
 
     1201 = TEXT
     1201.value = <div class="csc-no-padding">|</div>

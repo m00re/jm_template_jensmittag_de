@@ -2749,11 +2749,19 @@ span.label-angular {
   padding: 0.3rem 0.5rem; }
 
 /* Background & Text Colors */
-span.label-grey, span.label-dark-grey, span.label-green, span.label-light-green, span.label-lime, span.label-indigo, span.label-blue, span.label-light-blue, span.label-red, span.label-yellow, span.label-orange, span.label-amber, span.label-black {
+span.label-grey, span.label-dark-grey, span.label-green,
+span.label-light-green,
+span.label-lime, span.label-indigo,
+span.label-blue,
+span.label-light-blue, span.label-red, span.label-yellow, span.label-orange, span.label-amber, span.label-black {
   background-color: #9e9e9e;
   color: white; }
 
-span.label-grey:hover, span.label-dark-grey:hover, span.label-green:hover, span.label-light-green:hover, span.label-lime:hover, span.label-indigo:hover, span.label-blue:hover, span.label-light-blue:hover, span.label-red:hover, span.label-yellow:hover, span.label-orange:hover, span.label-amber:hover, span.label-black:hover {
+span.label-grey:hover, span.label-dark-grey:hover, span.label-green:hover,
+span.label-light-green:hover,
+span.label-lime:hover, span.label-indigo:hover,
+span.label-blue:hover,
+span.label-light-blue:hover, span.label-red:hover, span.label-yellow:hover, span.label-orange:hover, span.label-amber:hover, span.label-black:hover {
   color: white !important; }
 
 span.label-very-light-grey {
@@ -2765,18 +2773,22 @@ span.label-dark-grey {
 span.label-green {
   background-color: #4caf50; }
 
+p.label-light-green,
 span.label-light-green {
   background-color: #8bc34a; }
 
+p.label-lime,
 span.label-lime {
   background-color: #cddc39; }
 
 span.label-indigo {
   background-color: #3f51b5; }
 
+p.label-blue,
 span.label-blue {
   background-color: #2196f3; }
 
+p.label-light-blue,
 span.label-light-blue {
   background-color: #03a9f4; }
 
@@ -3034,6 +3046,25 @@ p.col-md-10 {
 
 p.col-md-11 {
   padding-left: 0 !important; }
+
+/* Header-boxen */
+.header-box,
+p.header-box {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 3.6rem; }
+
+/* Icon Font */
+.icon-font,
+span.icon-font-glyphicons {
+  font-family: 'Glyphicons Halflings';
+  font-size: 24px;
+  vertical-align: top;
+  display: inline-block; }
 
 html {
   height: 100%;

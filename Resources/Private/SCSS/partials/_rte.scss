@@ -237,10 +237,12 @@ span.label-green {
   @extend .label-grey;
   background-color: $green;
 }
+p.label-light-green,
 span.label-light-green {
   @extend .label-grey;
   background-color: $light-green;
 }
+p.label-lime,
 span.label-lime {
   @extend .label-grey;
   background-color: $lime;
@@ -249,10 +251,12 @@ span.label-indigo {
   @extend .label-grey;
   background-color: $indigo;
 }
+p.label-blue,
 span.label-blue {
   @extend .label-grey;
   background-color: $blue;
 }
+p.label-light-blue,
 span.label-light-blue {
   @extend .label-grey;
   background-color: $light-blue;
@@ -540,4 +544,25 @@ p.col-md-10 {
 p.col-md-11 {
   @extend .col-md-11;
   padding-left: 0 !important;
+}
+
+/* Header-boxen */
+.header-box,
+p.header-box {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  color: $white;
+  font-weight: 400;
+  margin-bottom: 3.6rem;
+}
+
+/* Icon Font */
+.icon-font,
+span.icon-font-glyphicons {
+  font-family: 'Glyphicons Halflings';
+  font-size: 24px;
+  vertical-align: top;
+  display: inline-block;
 }

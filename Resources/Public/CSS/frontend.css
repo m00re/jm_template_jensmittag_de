@@ -2904,11 +2904,19 @@ span.label-angular {
   padding: 0.3rem 0.5rem; }
 
 /* Background & Text Colors */
-span.label-grey, span.label-dark-grey, span.label-green, span.label-light-green, span.label-lime, span.label-indigo, span.label-blue, span.label-light-blue, span.label-red, span.label-yellow, span.label-orange, span.label-amber, span.label-black {
+span.label-grey, span.label-dark-grey, span.label-green,
+span.label-light-green,
+span.label-lime, span.label-indigo,
+span.label-blue,
+span.label-light-blue, span.label-red, span.label-yellow, span.label-orange, span.label-amber, span.label-black {
   background-color: #9e9e9e;
   color: white; }
 
-span.label-grey:hover, span.label-dark-grey:hover, span.label-green:hover, span.label-light-green:hover, span.label-lime:hover, span.label-indigo:hover, span.label-blue:hover, span.label-light-blue:hover, span.label-red:hover, span.label-yellow:hover, span.label-orange:hover, span.label-amber:hover, span.label-black:hover {
+span.label-grey:hover, span.label-dark-grey:hover, span.label-green:hover,
+span.label-light-green:hover,
+span.label-lime:hover, span.label-indigo:hover,
+span.label-blue:hover,
+span.label-light-blue:hover, span.label-red:hover, span.label-yellow:hover, span.label-orange:hover, span.label-amber:hover, span.label-black:hover {
   color: white !important; }
 
 span.label-very-light-grey {
@@ -2920,18 +2928,22 @@ span.label-dark-grey {
 span.label-green {
   background-color: #4caf50; }
 
+p.label-light-green,
 span.label-light-green {
   background-color: #8bc34a; }
 
+p.label-lime,
 span.label-lime {
   background-color: #cddc39; }
 
 span.label-indigo {
   background-color: #3f51b5; }
 
+p.label-blue,
 span.label-blue {
   background-color: #2196f3; }
 
+p.label-light-blue,
 span.label-light-blue {
   background-color: #03a9f4; }
 
@@ -3190,6 +3202,25 @@ p.col-md-10 {
 p.col-md-11 {
   padding-left: 0 !important; }
 
+/* Header-boxen */
+.header-box,
+p.header-box {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 3.6rem; }
+
+/* Icon Font */
+.icon-font,
+span.icon-font-glyphicons {
+  font-family: 'Glyphicons Halflings';
+  font-size: 24px;
+  vertical-align: top;
+  display: inline-block; }
+
 .csc-no-padding,
 .csc-default-lbr-padding,
 .csc-default-lr-padding,
@@ -3226,14 +3257,13 @@ p.col-md-11 {
       padding: 88px; } }
 
 .csc-default-lbr-padding {
-  padding-top: 0;
+  padding-top: 0 !important;
   padding-right: 2.5%;
   padding-bottom: 2.5%;
   padding-bottom: 2.5%; }
   @media screen and (min-width: 750px) {
     .csc-default-lbr-padding {
       top: -21px;
-      padding-top: 0;
       padding-right: 56px;
       padding-bottom: 56px;
       padding-left: 56px; } }
@@ -3386,6 +3416,29 @@ p.col-md-11 {
     right: 10px;
     left: auto; } }
 
+/* Vary the paddings if a content element is inside of a Bootstrap column */
+.row .csc-no-padding,
+.row .csc-default-lbr-padding,
+.row .csc-default-lr-padding,
+.row .csc-default-ltr-padding,
+.row .csc-wide,
+.row .csc-wide-lbr-padding,
+.row .csc-wide-lr-padding,
+.row .csc-wide-ltr-padding,
+.row .csc-default {
+  padding: 56px; }
+  .row .csc-no-padding .header-box,
+  .row .csc-default-lbr-padding .header-box,
+  .row .csc-default-lr-padding .header-box,
+  .row .csc-default-ltr-padding .header-box,
+  .row .csc-wide .header-box,
+  .row .csc-wide-lbr-padding .header-box,
+  .row .csc-wide-lr-padding .header-box,
+  .row .csc-wide-ltr-padding .header-box,
+  .row .csc-default .header-box {
+    margin-left: -56px;
+    margin-right: -56px; }
+
 /* Main page layout */
 .main {
   height: 100%;
@@ -3399,33 +3452,10 @@ p.col-md-11 {
   .main .container {
     margin-top: 50px;
     margin-bottom: 100px; }
-    .main .container .row .csc-default {
-      padding: 1rem 2rem; }
     .main .container .row .col-md-3 .csc-default {
       padding: 1.4rem; }
 
 /* Default page layout */
-.default .header-box {
-  width: 100%;
-  height: 100px;
-  text-align: center;
-  vertical-align: baseline;
-  color: #ffffff;
-  font-weight: 400;
-  padding-top: 20px; }
-
-.default .cv-entry {
-  padding-top: 0.4em;
-  padding-bottom: 0.4em; }
-  @media screen and (min-width: 750px) {
-    .default .cv-entry {
-      margin-left: 140px; }
-      .default .cv-entry p {
-        margin: 0; }
-      .default .cv-entry .time {
-        width: 130px;
-        float: left; } }
-
 .default figure.csc-textpic-image img {
   width: 100%;
   max-width: 100%;

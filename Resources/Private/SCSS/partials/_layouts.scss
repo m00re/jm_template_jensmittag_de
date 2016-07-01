@@ -15,9 +15,6 @@
     margin-top: 50px;
     margin-bottom: 100px;
     .row {
-      .csc-default {
-        padding: 1rem 2rem;
-      }
       .col-md-3 {
         .csc-default {
           padding: 1.4rem;
@@ -29,30 +26,6 @@
 
 /* Default page layout */
 .default {
-  .header-box {
-    width: 100%;
-    height: 100px;
-    text-align: center;
-    vertical-align: baseline;
-    color: $white;
-    font-weight: 400;
-    padding-top: 20px;
-  }
-  .cv-entry {
-    padding-top: 0.4em;
-    padding-bottom: 0.4em;
-    @media screen and (min-width: $break-desktop-1) {
-      margin-left: 140px;
-      p {
-        margin: 0;
-      }
-      .time {
-        width: 130px;
-        float: left;
-      }
-    }
-  }
-
   figure.csc-textpic-image {
     img {
       width: 100%;
