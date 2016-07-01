@@ -6,34 +6,39 @@ h1 {
   @extend .base-letter-spacing;
   font-size: 26px;
   font-size: 2.6rem;
+  clear: left;
   border-bottom: 1px solid #848484;
 }
 h2 {
   @extend .base-letter-spacing;
   font-size: 24px;
   font-size: 2.4rem;
-  color: #b3cb3d;
+  clear: left;
 }
 h3 {
   @extend .base-letter-spacing;
   font-size: 20px;
   font-size: 2rem;
+  clear: left;
   font-weight: bold;
 }
 h4 {
   @extend .base-letter-spacing;
   font-size: 20px;
   font-size: 2.0rem;
+  clear: left;
 }
 h5 {
   @extend .base-letter-spacing;
   font-size: 18px;
   font-size: 1.8rem;
+  clear: left;
 }
 h6 {
   @extend .base-letter-spacing;
   font-size: 16px;
   font-size: 1.6rem;
+  clear: left;
 }
 
 .csc-default,
