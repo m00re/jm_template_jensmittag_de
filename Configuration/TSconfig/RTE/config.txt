@@ -6,7 +6,10 @@ RTE.classes {
     increased-first-letter.name = Vergrößerter Buchstabe
     quote.name = Zitat
     author.name = Author
-    extended-width.name = Komplette Breite verwenden
+    extended-width.name = Komplette Breite (Default)
+    extended-width-no-margin-t.name = Komplette Breite (ohne Top-Margin)
+    extended-width-no-margin-b.name = Komplette Breite (ohne Bottom-Margin)
+    extended-width-no-margin-tb.name = Komplette Breite (ohne Margin)
     label.name = Label: Abgerundet
     label-angular.name = Label: Rechteckig
     label-grey.name = Hintergrundfarbe: Grau
@@ -52,6 +55,7 @@ RTE.classes {
     col-md-11.name = Spalte 11/12
     header-box.name = Header-Box
     icon-font-glyphicons.name = Font: Glyphicons
+    no-list-marker.name = Ohne Einrückung/Marker
 }
 
 RTE.default {
@@ -67,6 +71,7 @@ RTE.default {
                     allowedClasses := addToList(alert-success, alert-info, alert-warning, alert-danger)
                     allowedClasses := addToList(quote, author, caption, header-box)
                     allowedClasses := addToList(float-left-block, float-right-block, extended-width)
+                    allowedClasses := addToList(extended-width-no-margin-t, extended-width-no-margin-b, extended-width-no-margin-tb)
                     allowedClasses := addToList(font-size-footnote, font-size-h1, font-size-h2, font-size-h3)
                     allowedClasses := addToList(col-md-1, col-md-2, col-md-3, col-md-4)
                     allowedClasses := addToList(col-md-5, col-md-6, col-md-7, col-md-8)
@@ -97,9 +102,11 @@ RTE.default {
         allowedClasses := addToList(label-grey,label-very-light-grey,label-dark-grey,label-green,label-light-green,label-lime,label-indigo,label-blue,label-light-blue,label-red,label-yellow,label-orange,label-amber,label-black)
         allowedClasses := addToList(label, label-angular, icon-font-glyphicons)
         allowedClasses := addToList(float-left-block, float-right-block, extended-width)
+        allowedClasses := addToList(extended-width-no-margin-t, extended-width-no-margin-b, extended-width-no-margin-tb)
         allowedClasses := addToList(marked-bg-black-fg-white, marked-bg-black-fg-lime)
         allowedClasses := addToList(col-md-1, col-md-2, col-md-3, col-md-4)
         allowedClasses := addToList(col-md-5, col-md-6, col-md-7, col-md-8)
         allowedClasses := addToList(col-md-9, col-md-10, col-md-11)
+        allowedClasses := addToList(no-list-marker)
     }
 }

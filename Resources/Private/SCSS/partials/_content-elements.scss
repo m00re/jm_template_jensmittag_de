@@ -32,7 +32,7 @@
   padding-bottom: $content-container-tiny-padding;
   padding-bottom: $content-container-tiny-padding;
   @media screen and (min-width: $break-desktop-1) {
-    top: -21px;
+
     padding-right: $content-container-tiny-padding-1;
     padding-bottom: $content-container-tiny-padding-1;
     padding-left: $content-container-tiny-padding-1;
@@ -51,7 +51,7 @@
 .csc-default-lr-padding {
   padding: 0 $content-container-tiny-padding;
   @media screen and (min-width: $break-desktop-1) {
-    top: -21px;
+
     padding: 0 $content-container-tiny-padding-1;
   }
   @media screen and (min-width: $break-desktop-2) {
@@ -94,7 +94,7 @@
 }
 .csc-wide-lbr-padding {
   @media screen and (min-width: $break-desktop-1) {
-    top: -21px;
+
     padding-top: 0;
     padding-right: $content-container-page-padding-1;
     padding-bottom: $content-container-page-padding-1;
@@ -114,7 +114,7 @@
 .csc-wide-lr-padding {
   padding: 0 $content-container-page-padding;
   @media screen and (min-width: $break-desktop-1) {
-    top: -21px;
+
     padding: 0 $content-container-page-padding-1;
   }
   @media screen and (min-width: $break-desktop-2) {
@@ -182,7 +182,7 @@
 }
 
 /* Vary the paddings if a content element is inside of a Bootstrap column */
-.row{
+.row {
   .csc-no-padding,
   .csc-default-lbr-padding,
   .csc-default-lr-padding,
@@ -198,4 +198,10 @@
       margin-right: -($content-container-tiny-padding-1);
     }
   }
+}
+
+/* Fix flexslider styles */
+.flexslider {
+  border: 0 !important;
+  border-radius: 0 !important;
 }
