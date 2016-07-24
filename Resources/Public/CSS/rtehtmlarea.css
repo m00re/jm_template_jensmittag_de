@@ -3198,6 +3198,22 @@ span.icon-font-glyphicons {
   vertical-align: top;
   display: inline-block; }
 
+/* Bilderliste */
+p.image-list img, p.image-list-height-1 img, p.image-list-height-2 img {
+  display: inline-block !important;
+  width: auto !important;
+  margin: 0 0.9rem 0 0 !important; }
+
+p.image-list-height-1 img {
+  height: 3.6rem !important;
+  max-height: 3.6rem !important;
+  min-height: 3.6rem !important; }
+
+p.image-list-height-2 img {
+  height: 7.2rem !important;
+  max-height: 7.2rem !important;
+  min-height: 7.2rem !important; }
+
 html {
   height: 100%;
   font-size: 62.5%; }

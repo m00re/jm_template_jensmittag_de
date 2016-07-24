@@ -599,3 +599,30 @@ span.icon-font-glyphicons {
   vertical-align: top;
   display: inline-block;
 }
+
+/* Bilderliste */
+p.image-list {
+  img {
+    display: inline-block !important;
+    width: auto !important;
+    margin: 0 0.9rem 0 0 !important;
+  }
+}
+
+p.image-list-height-1 {
+  @extend .image-list;
+  img {
+    height: 3.6rem !important;
+    max-height: 3.6rem !important;
+    min-height: 3.6rem !important;
+  }
+}
+
+p.image-list-height-2 {
+  @extend .image-list;
+  img {
+    height: 7.2rem !important;
+    max-height: 7.2rem !important;
+    min-height: 7.2rem !important;
+  }
+}
