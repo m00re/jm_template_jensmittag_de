@@ -4,16 +4,13 @@
   height: 100%;
   min-height: 100%;
   overflow: scroll;
-  padding-top: 1rem;
   transition: margin 300ms;
 
-  @media screen and (min-width: $break-desktop-1) {
-    padding-top: 0;
-  }
-
   .container {
-    margin-top: 50px;
-    margin-bottom: 100px;
+    @media screen and (min-width: $break-desktop-1) {
+      margin-top: 50px;
+      margin-bottom: 100px;
+    }
     .row {
       .col-md-3 {
         .csc-default {

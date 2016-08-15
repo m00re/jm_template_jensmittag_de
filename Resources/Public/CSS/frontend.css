@@ -2602,7 +2602,8 @@ nav {
       nav .pagenav {
         float: left;
         max-height: initial;
-        visibility: visible; } }
+        visibility: visible;
+        min-width: 70%; } }
   nav .footer {
     max-height: 0;
     display: block;
@@ -3324,35 +3325,101 @@ span.font-size-footnote {
 p.col-md-1 {
   padding-left: 0 !important; }
 
+.col-md-1:not(:first-child) {
+  margin-top: 3.6rem; }
+  @media screen and (min-width: 750px) {
+    .col-md-1:not(:first-child) {
+      margin-top: 0; } }
+
 p.col-md-2 {
   padding-left: 0 !important; }
+
+.col-md-2:not(:first-child) {
+  margin-top: 3.6rem; }
+  @media screen and (min-width: 750px) {
+    .col-md-2:not(:first-child) {
+      margin-top: 0; } }
 
 p.col-md-3 {
   padding-left: 0 !important; }
 
+.col-md-3:not(:first-child) {
+  margin-top: 3.6rem; }
+  @media screen and (min-width: 750px) {
+    .col-md-3:not(:first-child) {
+      margin-top: 0; } }
+
 p.col-md-4 {
   padding-left: 0 !important; }
+
+.col-md-4:not(:first-child) {
+  margin-top: 3.6rem; }
+  @media screen and (min-width: 750px) {
+    .col-md-4:not(:first-child) {
+      margin-top: 0; } }
 
 p.col-md-5 {
   padding-left: 0 !important; }
 
+.col-md-5:not(:first-child) {
+  margin-top: 3.6rem; }
+  @media screen and (min-width: 750px) {
+    .col-md-5:not(:first-child) {
+      margin-top: 0; } }
+
 p.col-md-6 {
   padding-left: 0 !important; }
+
+.col-md-6:not(:first-child) {
+  margin-top: 3.6rem; }
+  @media screen and (min-width: 750px) {
+    .col-md-6:not(:first-child) {
+      margin-top: 0; } }
 
 p.col-md-7 {
   padding-left: 0 !important; }
 
+.col-md-7:not(:first-child) {
+  margin-top: 3.6rem; }
+  @media screen and (min-width: 750px) {
+    .col-md-7:not(:first-child) {
+      margin-top: 0; } }
+
 p.col-md-8 {
   padding-left: 0 !important; }
+
+.col-md-8:not(:first-child) {
+  margin-top: 3.6rem; }
+  @media screen and (min-width: 750px) {
+    .col-md-8:not(:first-child) {
+      margin-top: 0; } }
 
 p.col-md-9 {
   padding-left: 0 !important; }
 
+.col-md-9:not(:first-child) {
+  margin-top: 3.6rem; }
+  @media screen and (min-width: 750px) {
+    .col-md-9:not(:first-child) {
+      margin-top: 0; } }
+
 p.col-md-10 {
   padding-left: 0 !important; }
 
+.col-md-10:not(:first-child) {
+  margin-top: 3.6rem; }
+  @media screen and (min-width: 750px) {
+    .col-md-10:not(:first-child) {
+      margin-top: 0; } }
+
 p.col-md-11 {
   padding-left: 0 !important; }
+
+.col-md-11:not(:first-child) {
+  margin-top: 3.6rem; }
+  @media screen and (min-width: 750px) {
+    .col-md-11:not(:first-child) {
+      margin-top: 0; } }
 
 /* Header-boxen */
 .header-box,
@@ -3377,7 +3444,7 @@ span.icon-font-glyphicons {
 p.image-list img, p.image-list-height-1 img, p.image-list-height-2 img {
   display: inline-block !important;
   width: auto !important;
-  margin: 0 0.9rem 0 0 !important; }
+  margin: 0 0.9rem 1.4rem 0 !important; }
 
 p.image-list-height-1 img {
   height: 3.6rem !important;
@@ -3390,8 +3457,11 @@ p.image-list-height-2 img {
   min-height: 7.2rem !important; }
 
 p.indent {
-  margin: 3.6rem 0;
-  padding-left: 3.6rem; }
+  margin: 3.6rem 1.8rem; }
+  @media screen and (min-width: 750px) {
+    p.indent {
+      padding-left: 3.6rem;
+      margin: 3.6rem 0; } }
 
 .csc-no-padding,
 .csc-default-lbr-padding,
@@ -3416,23 +3486,23 @@ p.indent {
       background-color: #ffffff; } }
 
 /* Default padding frames for content elements */
-.csc-default {
-  padding: 2.5%; }
-  @media screen and (min-width: 750px) {
-    .csc-default {
-      padding: 56px; } }
-  @media screen and (min-width: 992px) {
-    .csc-default {
-      padding: 73px; } }
-  @media screen and (min-width: 1170px) {
-    .csc-default {
-      padding: 88px; } }
+@media screen and (min-width: 750px) {
+  .csc-default {
+    padding: 56px; } }
+
+@media screen and (min-width: 992px) {
+  .csc-default {
+    padding: 73px; } }
+
+@media screen and (min-width: 1170px) {
+  .csc-default {
+    padding: 88px; } }
 
 .csc-default-lbr-padding {
   padding-top: 0 !important;
-  padding-right: 2.5%;
-  padding-bottom: 2.5%;
-  padding-bottom: 2.5%; }
+  /*padding-right: $content-container-tiny-padding;
+  padding-bottom: $content-container-tiny-padding;
+  padding-bottom: $content-container-tiny-padding;*/ }
   @media screen and (min-width: 750px) {
     .csc-default-lbr-padding {
       padding-right: 56px;
@@ -3449,46 +3519,46 @@ p.indent {
       padding-bottom: 88px;
       padding-left: 88px; } }
 
-.csc-default-lr-padding {
-  padding: 0 2.5%; }
-  @media screen and (min-width: 750px) {
-    .csc-default-lr-padding {
-      padding: 0 56px; } }
-  @media screen and (min-width: 992px) {
-    .csc-default-lr-padding {
-      padding: 0 73px; } }
-  @media screen and (min-width: 1170px) {
-    .csc-default-lr-padding {
-      padding: 0 88px; } }
+@media screen and (min-width: 750px) {
+  .csc-default-lr-padding {
+    padding: 0 56px; } }
 
-.csc-default-ltr-padding {
-  padding: 2.5%; }
-  @media screen and (min-width: 750px) {
-    .csc-default-ltr-padding {
-      padding: 56px; } }
-  @media screen and (min-width: 992px) {
-    .csc-default-ltr-padding {
-      padding: 73px; } }
-  @media screen and (min-width: 1170px) {
-    .csc-default-ltr-padding {
-      padding: 88px; } }
+@media screen and (min-width: 992px) {
+  .csc-default-lr-padding {
+    padding: 0 73px; } }
+
+@media screen and (min-width: 1170px) {
+  .csc-default-lr-padding {
+    padding: 0 88px; } }
+
+@media screen and (min-width: 750px) {
+  .csc-default-ltr-padding {
+    padding: 56px; } }
+
+@media screen and (min-width: 992px) {
+  .csc-default-ltr-padding {
+    padding: 73px; } }
+
+@media screen and (min-width: 1170px) {
+  .csc-default-ltr-padding {
+    padding: 88px; } }
 
 /* No-padding frames for content elements */
 .csc-no-padding {
   padding: 0; }
 
 /* Wide padding frames for content elements */
-.csc-wide {
-  padding: 5%; }
-  @media screen and (min-width: 750px) {
-    .csc-wide {
-      padding: 112px; } }
-  @media screen and (min-width: 992px) {
-    .csc-wide {
-      padding: 146px; } }
-  @media screen and (min-width: 1170px) {
-    .csc-wide {
-      padding: 176px; } }
+@media screen and (min-width: 750px) {
+  .csc-wide {
+    padding: 112px; } }
+
+@media screen and (min-width: 992px) {
+  .csc-wide {
+    padding: 146px; } }
+
+@media screen and (min-width: 1170px) {
+  .csc-wide {
+    padding: 176px; } }
 
 @media screen and (min-width: 750px) {
   .csc-wide-lbr-padding {
@@ -3509,23 +3579,23 @@ p.indent {
     padding-bottom: 176px;
     padding-left: 176px; } }
 
-.csc-wide-lr-padding {
-  padding: 0 5%; }
-  @media screen and (min-width: 750px) {
-    .csc-wide-lr-padding {
-      padding: 0 112px; } }
-  @media screen and (min-width: 992px) {
-    .csc-wide-lr-padding {
-      padding: 0 146px; } }
-  @media screen and (min-width: 1170px) {
-    .csc-wide-lr-padding {
-      padding: 0 176px; } }
+@media screen and (min-width: 750px) {
+  .csc-wide-lr-padding {
+    padding: 0 112px; } }
+
+@media screen and (min-width: 992px) {
+  .csc-wide-lr-padding {
+    padding: 0 146px; } }
+
+@media screen and (min-width: 1170px) {
+  .csc-wide-lr-padding {
+    padding: 0 176px; } }
 
 .csc-wide-ltr-padding {
-  padding-top: 5%;
-  padding-right: 5%;
-  padding-bottom: 2.5%;
-  padding-left: 5%; }
+  /*padding-top: $content-container-page-padding;
+  padding-right: $content-container-page-padding;
+  padding-bottom: $content-container-tiny-padding;
+  padding-left: $content-container-page-padding;*/ }
   @media screen and (min-width: 750px) {
     .csc-wide-ltr-padding {
       padding-top: 112px;
@@ -3585,32 +3655,43 @@ p.indent {
     left: auto; } }
 
 /* Vary the paddings if a content element is inside of a Bootstrap column */
-.row .csc-no-padding,
-.row .csc-default-lbr-padding,
-.row .csc-default-lr-padding,
-.row .csc-default-ltr-padding,
-.row .csc-wide,
-.row .csc-wide-lbr-padding,
-.row .csc-wide-lr-padding,
-.row .csc-wide-ltr-padding,
-.row .csc-default {
-  padding: 56px; }
-  .row .csc-no-padding .header-box,
-  .row .csc-default-lbr-padding .header-box,
-  .row .csc-default-lr-padding .header-box,
-  .row .csc-default-ltr-padding .header-box,
-  .row .csc-wide .header-box,
-  .row .csc-wide-lbr-padding .header-box,
-  .row .csc-wide-lr-padding .header-box,
-  .row .csc-wide-ltr-padding .header-box,
-  .row .csc-default .header-box {
-    margin-left: -56px;
-    margin-right: -56px; }
+@media screen and (min-width: 750px) {
+  .row .csc-no-padding,
+  .row .csc-default-lbr-padding,
+  .row .csc-default-lr-padding,
+  .row .csc-default-ltr-padding,
+  .row .csc-wide,
+  .row .csc-wide-lbr-padding,
+  .row .csc-wide-lr-padding,
+  .row .csc-wide-ltr-padding,
+  .row .csc-default {
+    padding: 56px; } }
+
+.row .csc-no-padding .header-box,
+.row .csc-default-lbr-padding .header-box,
+.row .csc-default-lr-padding .header-box,
+.row .csc-default-ltr-padding .header-box,
+.row .csc-wide .header-box,
+.row .csc-wide-lbr-padding .header-box,
+.row .csc-wide-lr-padding .header-box,
+.row .csc-wide-ltr-padding .header-box,
+.row .csc-default .header-box {
+  margin-left: -56px;
+  margin-right: -56px; }
 
 /* Fix flexslider styles */
 .flexslider {
   border: 0 !important;
   border-radius: 0 !important; }
+  .flexslider .slides img {
+    display: none !important; }
+    @media screen and (min-width: 750px) {
+      .flexslider .slides img {
+        display: block !important; } }
+  .flexslider .slides .image-list img, .flexslider .slides p.image-list-height-1 img, .flexslider .slides p.image-list-height-2 img,
+  .flexslider .slides .image-list-height-1 img,
+  .flexslider .slides .image-list-height-2 img {
+    display: inline-block !important; }
 
 .flex-control-paging li a {
   border-radius: 0 !important; }
@@ -3620,16 +3701,13 @@ p.indent {
   height: 100%;
   min-height: 100%;
   overflow: scroll;
-  padding-top: 1rem;
   transition: margin 300ms; }
   @media screen and (min-width: 750px) {
-    .main {
-      padding-top: 0; } }
-  .main .container {
-    margin-top: 50px;
-    margin-bottom: 100px; }
-    .main .container .row .col-md-3 .csc-default {
-      padding: 1.4rem; }
+    .main .container {
+      margin-top: 50px;
+      margin-bottom: 100px; } }
+  .main .container .row .col-md-3 .csc-default {
+    padding: 1.4rem; }
 
 /* Default page layout */
 .default figure.csc-textpic-image img {

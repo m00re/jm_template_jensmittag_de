@@ -15,7 +15,6 @@
 
 /* Default padding frames for content elements */
 .csc-default {
-  padding: $content-container-tiny-padding;
   @media screen and (min-width: $break-desktop-1) {
     padding: $content-container-tiny-padding-1;
   }
@@ -28,11 +27,7 @@
 }
 .csc-default-lbr-padding {
   padding-top: 0 !important;
-  padding-right: $content-container-tiny-padding;
-  padding-bottom: $content-container-tiny-padding;
-  padding-bottom: $content-container-tiny-padding;
   @media screen and (min-width: $break-desktop-1) {
-
     padding-right: $content-container-tiny-padding-1;
     padding-bottom: $content-container-tiny-padding-1;
     padding-left: $content-container-tiny-padding-1;
@@ -49,7 +44,6 @@
   }
 }
 .csc-default-lr-padding {
-  padding: 0 $content-container-tiny-padding;
   @media screen and (min-width: $break-desktop-1) {
 
     padding: 0 $content-container-tiny-padding-1;
@@ -62,7 +56,6 @@
   }
 }
 .csc-default-ltr-padding {
-  padding: $content-container-tiny-padding;
   @media screen and (min-width: $break-desktop-1) {
     padding: $content-container-tiny-padding-1;
   }
@@ -81,7 +74,6 @@
 
 /* Wide padding frames for content elements */
 .csc-wide {
-  padding: $content-container-page-padding;
   @media screen and (min-width: $break-desktop-1) {
     padding: $content-container-page-padding-1;
   }
@@ -94,7 +86,6 @@
 }
 .csc-wide-lbr-padding {
   @media screen and (min-width: $break-desktop-1) {
-
     padding-top: 0;
     padding-right: $content-container-page-padding-1;
     padding-bottom: $content-container-page-padding-1;
@@ -112,9 +103,7 @@
   }
 }
 .csc-wide-lr-padding {
-  padding: 0 $content-container-page-padding;
   @media screen and (min-width: $break-desktop-1) {
-
     padding: 0 $content-container-page-padding-1;
   }
   @media screen and (min-width: $break-desktop-2) {
@@ -125,10 +114,6 @@
   }
 }
 .csc-wide-ltr-padding {
-  padding-top: $content-container-page-padding;
-  padding-right: $content-container-page-padding;
-  padding-bottom: $content-container-tiny-padding;
-  padding-left: $content-container-page-padding;
   @media screen and (min-width: $break-desktop-1) {
     padding-top: $content-container-page-padding-1;
     padding-right: $content-container-page-padding-1;
@@ -192,7 +177,9 @@
   .csc-wide-lr-padding,
   .csc-wide-ltr-padding,
   .csc-default {
-    padding: $content-container-tiny-padding-1;
+    @media screen and (min-width: $break-desktop-1) {
+      padding: $content-container-tiny-padding-1;
+    }
     .header-box {
       margin-left: -($content-container-tiny-padding-1);
       margin-right: -($content-container-tiny-padding-1);
@@ -204,6 +191,22 @@
 .flexslider {
   border: 0 !important;
   border-radius: 0 !important;
+
+  .slides {
+    img {
+      display: none !important;
+      @media screen and (min-width: $break-desktop-1) {
+        display: block !important;
+      }
+    }
+    .image-list,
+    .image-list-height-1,
+    .image-list-height-2 {
+      img {
+        display: inline-block !important;
+      }
+    }
+  }
 }
 
 .flex-control-paging li a {
