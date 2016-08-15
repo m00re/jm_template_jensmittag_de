@@ -17,7 +17,8 @@ $EM_CONF[$_EXTKEY] = array(
             'jm_highlightjs' => '9.2.0',
             'bootstrap_grids' => '1.1.4',
             'gridelements' => '7.0.4',
-            'dd_googlesitemap' => '2.0.4'
+            'dd_googlesitemap' => '2.0.4',
+            'powermail' => '3.4.0'
         ),
     )
 );
