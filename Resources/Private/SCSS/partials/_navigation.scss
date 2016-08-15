@@ -1,16 +1,41 @@
-header {
-  position: fixed;
+nav {
+  font-family: $menu-font-stack;
+  font-size: 14px;
+  font-size: 1.4rem;
+  letter-spacing: initial;
+  background-color: $light-grey;
   width: 100%;
-  z-index: 1;
-  background-color: $header-background-color;
-  transition: margin 300ms;
+  z-index: 200;
 
   @media screen and (min-width: $break-desktop-1) {
-    display: none;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 10px solid #b3cb3d;
+    transition: height 150ms, border 150ms;
+    display: block;
+    background-color: $menu-background-color;
   }
 
-  div.logo {
-    float: left;
+  #toggle {
+    position: absolute;
+    appearance: none;
+    cursor: pointer;
+    left: -100%;
+    top: -100%;
+  }
+
+  #toggle:checked ~ .pagenav {
+    max-height: 1000px;
+    margin-top: 45px;
+    visibility: visible;
+  }
+
+  #toggle:checked ~ .footer {
+    max-height: 1000px;
+    margin-bottom: 15px;
+    visibility: visible;
   }
 
   #hamburger {
@@ -18,6 +43,7 @@ header {
     display: block;
     height: 30px;
     margin: 10px;
+    margin-right: 2.5%;
     padding: 3px 4px 3px;
     position: relative;
     width: 30px;
@@ -28,66 +54,51 @@ header {
     }
 
     div {
-      background-color: #fff;
+      background-color: $dark-grey;
       height: 3px;
       margin-top: 3px;
       width: 100%;
     }
   }
-}
-
-nav {
-  font-family: $menu-font-stack;
-  font-size: 14px;
-  font-size: 1.4rem;
-  letter-spacing: initial;
-  background-color: $menu-background-color;
-  position: absolute;
-  top: 0;
-  left: -202px;
-  height: 100%;
-  z-index: 200;
-  width: 200px;
-  border-right: 2px solid #b3cb3d;
-  transition: left 300ms;
-  @media screen and (min-width: $break-desktop-1) {
-    width: 100%;
-    height: 70px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    top: initial;
-    border: 0;
-    border-top: 10px solid #b3cb3d;
-    transition: height 150ms, border 150ms;
-    display: block;
-  }
 
   div.logo {
-    width: 40px;
     height: 30px;
-    margin: 0 auto;
-    padding-top: 10px;
     text-align: center;
+    display: none;
 
     @media screen and (min-width: $break-desktop-1) {
       width: 100px;
       padding: 15px 0;
       float: left;
       margin-left: 0;
+      display: inline-block;
     }
   }
   .pagenav {
-    font-size: 1.4rem;
-    margin-top: 30px;
+    max-height: 0;
+    display: block;
+    transition: max-height 0.2s ease 0s;
+    visibility: hidden;
+    margin-left: -15px;
+    margin-right: -15px;
+
     @media screen and (min-width: $break-desktop-1) {
       float: left;
-      margin-top: 0;
+      max-height: initial;
+      visibility: visible;
     }
   }
   .footer {
+    max-height: 0;
+    display: block;
+    visibility: hidden;
+    margin-left: -15px;
+    margin-right: -15px;
+
     @media screen and (min-width: $break-desktop-1) {
       text-align: right;
+      max-height: initial;
+      visibility: visible;
     }
   }
   .footer ol,
@@ -100,33 +111,45 @@ nav {
     letter-spacing: initial;
 
     li {
-      display: inline-block;
-      margin-right: 2rem;
-      padding: 0;
+      padding: 3px 15px;
+      background-color: $very-light-grey;
+      margin: 2px 0;
       a {
         display: block;
-        color: rgba(255, 255, 255, 0.6);
+        color: $dark-grey;
         text-decoration: none;
         height: 25px;
         line-height: 25px;
         vertical-align: baseline;
+        margin-left: 5%;
 
         @media screen and (min-width: $break-desktop-1) {
           display: inline-block;
-          color: rgba(255, 255, 255, 0.6);
+          color: $grey;
           text-decoration: none;
           height: 60px;
           line-height: 60px;
+          margin-left: 0;
           vertical-align: baseline;
           transition: height 150ms, line-height 150ms;
         }
       }
       a.active {
-        color: #ffffff;
         font-weight: 600;
+        @media screen and (min-width: $break-desktop-1) {
+          color: #ffffff;
+        }
       }
       a:hover {
         color: #ffffff;
+      }
+
+      @media screen and (min-width: $break-desktop-1) {
+        display: inline-block;
+        margin: initial;
+        margin-right: 2.5%;
+        padding: initial;
+        background-color: initial;
       }
     }
   }

@@ -2530,83 +2530,90 @@ body {
 div.csc-textpic .csc-textpic-imagewrap .csc-textpic-image {
   margin-bottom: 0 !important; }
 
-header {
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-  background-color: #292929;
-  transition: margin 300ms; }
-  @media screen and (min-width: 750px) {
-    header {
-      display: none; } }
-  header div.logo {
-    float: left; }
-  header #hamburger {
-    cursor: pointer;
-    display: block;
-    height: 30px;
-    margin: 10px;
-    padding: 3px 4px 3px;
-    position: relative;
-    width: 30px;
-    float: right; }
-    @media screen and (min-width: 750px) {
-      header #hamburger {
-        display: none; } }
-    header #hamburger div {
-      background-color: #fff;
-      height: 3px;
-      margin-top: 3px;
-      width: 100%; }
-
 nav {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   letter-spacing: initial;
-  background-color: #292929;
-  position: absolute;
-  top: 0;
-  left: -202px;
-  height: 100%;
-  z-index: 200;
-  width: 200px;
-  border-right: 2px solid #b3cb3d;
-  transition: left 300ms; }
+  background-color: #eeeeee;
+  width: 100%;
+  z-index: 200; }
   @media screen and (min-width: 750px) {
     nav {
-      width: 100%;
       height: 70px;
       position: fixed;
       bottom: 0;
       left: 0;
-      top: initial;
-      border: 0;
       border-top: 10px solid #b3cb3d;
       transition: height 150ms, border 150ms;
-      display: block; } }
-  nav div.logo {
-    width: 40px;
+      display: block;
+      background-color: #292929; } }
+  nav #toggle {
+    position: absolute;
+    appearance: none;
+    cursor: pointer;
+    left: -100%;
+    top: -100%; }
+  nav #toggle:checked ~ .pagenav {
+    max-height: 1000px;
+    margin-top: 45px;
+    visibility: visible; }
+  nav #toggle:checked ~ .footer {
+    max-height: 1000px;
+    margin-bottom: 15px;
+    visibility: visible; }
+  nav #hamburger {
+    cursor: pointer;
+    display: block;
     height: 30px;
-    margin: 0 auto;
-    padding-top: 10px;
-    text-align: center; }
+    margin: 10px;
+    margin-right: 2.5%;
+    padding: 3px 4px 3px;
+    position: relative;
+    width: 30px;
+    float: right; }
+    @media screen and (min-width: 750px) {
+      nav #hamburger {
+        display: none; } }
+    nav #hamburger div {
+      background-color: #616161;
+      height: 3px;
+      margin-top: 3px;
+      width: 100%; }
+  nav div.logo {
+    height: 30px;
+    text-align: center;
+    display: none; }
     @media screen and (min-width: 750px) {
       nav div.logo {
         width: 100px;
         padding: 15px 0;
         float: left;
-        margin-left: 0; } }
+        margin-left: 0;
+        display: inline-block; } }
   nav .pagenav {
-    font-size: 1.4rem;
-    margin-top: 30px; }
+    max-height: 0;
+    display: block;
+    transition: max-height 0.2s ease 0s;
+    visibility: hidden;
+    margin-left: -15px;
+    margin-right: -15px; }
     @media screen and (min-width: 750px) {
       nav .pagenav {
         float: left;
-        margin-top: 0; } }
-  @media screen and (min-width: 750px) {
-    nav .footer {
-      text-align: right; } }
+        max-height: initial;
+        visibility: visible; } }
+  nav .footer {
+    max-height: 0;
+    display: block;
+    visibility: hidden;
+    margin-left: -15px;
+    margin-right: -15px; }
+    @media screen and (min-width: 750px) {
+      nav .footer {
+        text-align: right;
+        max-height: initial;
+        visibility: visible; } }
   nav .footer ol,
   nav .pagenav ol {
     list-style: outside none none;
@@ -2617,34 +2624,47 @@ nav {
     letter-spacing: initial; }
     nav .footer ol li,
     nav .pagenav ol li {
-      display: inline-block;
-      margin-right: 2rem;
-      padding: 0; }
+      padding: 3px 15px;
+      background-color: #f9f9f9;
+      margin: 2px 0; }
       nav .footer ol li a,
       nav .pagenav ol li a {
         display: block;
-        color: rgba(255, 255, 255, 0.6);
+        color: #616161;
         text-decoration: none;
         height: 25px;
         line-height: 25px;
-        vertical-align: baseline; }
+        vertical-align: baseline;
+        margin-left: 5%; }
         @media screen and (min-width: 750px) {
           nav .footer ol li a,
           nav .pagenav ol li a {
             display: inline-block;
-            color: rgba(255, 255, 255, 0.6);
+            color: #9e9e9e;
             text-decoration: none;
             height: 60px;
             line-height: 60px;
+            margin-left: 0;
             vertical-align: baseline;
             transition: height 150ms, line-height 150ms; } }
       nav .footer ol li a.active,
       nav .pagenav ol li a.active {
-        color: #ffffff;
         font-weight: 600; }
+        @media screen and (min-width: 750px) {
+          nav .footer ol li a.active,
+          nav .pagenav ol li a.active {
+            color: #ffffff; } }
       nav .footer ol li a:hover,
       nav .pagenav ol li a:hover {
         color: #ffffff; }
+      @media screen and (min-width: 750px) {
+        nav .footer ol li,
+        nav .pagenav ol li {
+          display: inline-block;
+          margin: initial;
+          margin-right: 2.5%;
+          padding: initial;
+          background-color: initial; } }
 
 @media screen and (min-width: 750px) {
   nav:hover {
@@ -3652,7 +3672,7 @@ p.indent {
   display: inline;
   max-width: 100%; }
   .powermail_form .powermail_field ul {
-    margin: 1.4rem 0 1.9rem 0;
+    margin: 1.5rem 0 1.9rem 0;
     border-left: 5px solid #ef5350; }
     .powermail_form .powermail_field ul li {
       list-style: none !important; }

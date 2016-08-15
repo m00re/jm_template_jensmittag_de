@@ -6,6 +6,11 @@ $quote-font-stack: 'Bitter', 'PT Sans', Tahoma, Verdana, sans-serif;
 $icon-font-stack: 'Glyphicons Halflings';
 $font-path: '../Fonts/';
 
+// RESPONSIVE BREAKPOINTS
+$break-desktop-1: 750px;
+$break-desktop-2: 992px;
+$break-desktop-3: 1170px;
+
 // FONT_SIZES
 $font-size-h1: 2.6rem;
 $font-size-h2: 2.4rem;
@@ -22,11 +27,6 @@ $font-size-increased-first-letter: 5.3rem;
 $icon-external-link: '\e164';
 $icon-chevron-right: '';
 $icon-chevron-left: '';
-
-// RESPONSIVE BREAKPOINTS
-$break-desktop-1: 750px;
-$break-desktop-2: 992px;
-$break-desktop-3: 1170px;
 
 // PADDINGS & MARGINS
 $content-container-tiny-padding: 2.5%;
