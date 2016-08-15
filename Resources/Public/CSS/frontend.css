@@ -2303,13 +2303,13 @@ input[type="button"].btn-block {
   .alert-warning .alert-link {
     color: #66512c; }
 
-.alert-danger {
+.alert-danger, .powermail_form .powermail_field ul {
   background-color: #f2dede;
   border-color: #ebccd1;
   color: #a94442; }
-  .alert-danger hr {
+  .alert-danger hr, .powermail_form .powermail_field ul hr {
     border-top-color: #e4b9c0; }
-  .alert-danger .alert-link {
+  .alert-danger .alert-link, .powermail_form .powermail_field ul .alert-link {
     color: #843534; }
 
 .label {
@@ -3369,6 +3369,10 @@ p.image-list-height-2 img {
   max-height: 7.2rem !important;
   min-height: 7.2rem !important; }
 
+p.indent {
+  margin: 3.6rem 0;
+  padding-left: 3.6rem; }
+
 .csc-no-padding,
 .csc-default-lbr-padding,
 .csc-default-lr-padding,
@@ -3624,3 +3628,55 @@ p.image-list-height-2 img {
       left: 1em;
       margin-right: 1em;
       bottom: 0; } }
+
+.powermail_form h3 {
+  display: none; }
+
+.powermail_form .powermail_legend {
+  display: none; }
+
+.powermail_form .powermail_fieldwrap {
+  margin: 0.5rem; }
+
+.powermail_form .powermail_label {
+  display: inline-block;
+  width: 200px;
+  max-width: 100%;
+  text-align: right;
+  padding-right: 1.9rem;
+  vertical-align: top;
+  height: 3.6rem;
+  padding-top: 0.6rem; }
+
+.powermail_form .powermail_field {
+  display: inline;
+  max-width: 100%; }
+  .powermail_form .powermail_field ul {
+    margin: 1.4rem 0 1.9rem 0;
+    border-left: 5px solid #ef5350; }
+    .powermail_form .powermail_field ul li {
+      list-style: none !important; }
+
+.powermail_form select,
+.powermail_form input,
+.powermail_form textarea {
+  border: 0;
+  padding: 5px 1.9rem;
+  height: 3.8rem;
+  width: 400px;
+  max-width: 100%;
+  background-color: #ffffff; }
+
+.powermail_form textarea {
+  height: 300px;
+  width: 600px;
+  max-width: 100%; }
+
+.powermail_form .powermail_fieldwrap_type_submit .powermail_field {
+  margin-left: 200px; }
+  .powermail_form .powermail_fieldwrap_type_submit .powermail_field input[type=submit] {
+    margin-left: 0.6rem;
+    border-radius: 0;
+    color: #333;
+    background-color: #eeeeee;
+    width: 300px; }

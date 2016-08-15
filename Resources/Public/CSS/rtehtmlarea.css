@@ -3214,6 +3214,10 @@ p.image-list-height-2 img {
   max-height: 7.2rem !important;
   min-height: 7.2rem !important; }
 
+p.indent {
+  margin: 3.6rem 0;
+  padding-left: 3.6rem; }
+
 html {
   height: 100%;
   font-size: 62.5%; }

@@ -626,3 +626,8 @@ p.image-list-height-2 {
     min-height: 7.2rem !important;
   }
 }
+
+p.indent {
+  margin: $paragraph-margin;
+  padding-left: 3.6rem;
+}

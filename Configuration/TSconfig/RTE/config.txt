@@ -58,6 +58,7 @@ RTE.classes {
     no-list-marker.name = Ohne Einrückung/Marker
     image-list-height-1.name = Horizontale Bilderliste (1 HE)
     image-list-height-2.name = Horizontale Bilderliste (2 HE)
+    indent.name = Eingerückt
 }
 
 RTE.default {
@@ -79,7 +80,7 @@ RTE.default {
                     allowedClasses := addToList(col-md-5, col-md-6, col-md-7, col-md-8)
                     allowedClasses := addToList(col-md-9, col-md-10, col-md-11)
                     allowedClasses := addToList(label-light-green,label-lime,label-blue,label-light-blue)
-                    allowedClasses := addToList(image-list-height-1,image-list-height-2)
+                    allowedClasses := addToList(image-list-height-1,image-list-height-2,indent)
                 }
             }
         }
@@ -111,6 +112,6 @@ RTE.default {
         allowedClasses := addToList(col-md-5, col-md-6, col-md-7, col-md-8)
         allowedClasses := addToList(col-md-9, col-md-10, col-md-11)
         allowedClasses := addToList(no-list-marker)
-        allowedClasses := addToList(image-list-height-1,image-list-height-2)
+        allowedClasses := addToList(image-list-height-1,image-list-height-2,indent)
     }
 }

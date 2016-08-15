@@ -1,0 +1,61 @@
+.powermail_form {
+  h3 {
+    display: none;
+  }
+  .powermail_legend {
+    display: none;
+  }
+  .powermail_fieldwrap {
+    margin: 0.5rem;
+  }
+  .powermail_label {
+    display: inline-block;
+    width: 200px;
+    max-width: 100%;
+    text-align: right;
+    padding-right: 1.9rem;
+    vertical-align: top;
+    height: 3.6rem;
+    padding-top: 0.6rem;
+  }
+  .powermail_field {
+    display: inline;
+    max-width: 100%;
+    ul {
+      @extend .alert-danger;
+      margin: 1.5rem 0 1.9rem 0;
+      border-left: 5px solid $red;
+      li {
+        list-style: none !important;
+      }
+    }
+  }
+  select,
+  input,
+  textarea {
+    border: 0;
+    padding: 5px 1.9rem;
+    height: 3.8rem;
+    width: 400px;
+    max-width: 100%;
+    background-color: #ffffff;
+  }
+  textarea {
+    height: 300px;
+    width: 600px;
+    max-width: 100%;
+  }
+  .powermail_fieldwrap_type_submit {
+    .powermail_field {
+      margin-left: 200px;
+      input[type=submit] {
+        margin-left: 0.6rem;
+        border-radius: 0;
+        color: $black;
+        background-color: $light-grey;
+        width: 300px;
+      }
+    }
+  }
+}
+
