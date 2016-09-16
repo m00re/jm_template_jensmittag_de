@@ -15,13 +15,18 @@
 
 /* Default padding frames for content elements */
 .csc-default {
+  padding: 15px;
   @media screen and (min-width: $break-desktop-1) {
     padding: $content-container-tiny-padding-1;
   }
   @media screen and (min-width: $break-desktop-2) {
+    padding-left: 0px;
+    padding-right: 0px;
     padding: $content-container-tiny-padding-2;
   }
   @media screen and (min-width: $break-desktop-3) {
+    padding-left: 0px;
+    padding-right: 0px;
     padding: $content-container-tiny-padding-3;
   }
 }
@@ -191,7 +196,12 @@
 .flexslider {
   border: 0 !important;
   border-radius: 0 !important;
+  margin-left: 15px !important;
+  margin-right: 15px !important;
 
+  a {
+    word-wrap: break-word;
+  }
   .slides {
     img {
       display: none !important;

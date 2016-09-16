@@ -142,7 +142,10 @@ nav {
         }
       }
       a:hover {
-        color: #ffffff;
+        color: $dark-grey;
+        @media screen and (min-width: $break-desktop-1) {
+          color: #ffffff;
+        }
       }
 
       @media screen and (min-width: $break-desktop-1) {
