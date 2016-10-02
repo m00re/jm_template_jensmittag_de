@@ -1,0 +1,13 @@
+plugin.tx_news {
+    opengraph {
+		site_name = ${plugin.tx_jmhtml5bootstrap.siteName}
+	}
+    view {
+        templateRootPath = EXT:jm_template_jensmittag_de/Resources/Private/HTML/Blog/Templates/
+        partialRootPath = EXT:jm_template_jensmittag_de/Resources/Private/HTML/Blog/Partials/
+        layoutRootPath = EXT:jm_template_jensmittag_de/Resources/Private/HTML/Blog/Layouts/
+    }
+    settings {
+        cssFile =
+    }
+}

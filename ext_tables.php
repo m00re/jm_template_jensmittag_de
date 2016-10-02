@@ -30,3 +30,8 @@ if (!defined ('TYPO3_MODE')) {
     $_EXTKEY,
     'Configuration/Typoscript/Frames/',
     'jensmittag.de - CE Frame Styles');
+
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
+    $_EXTKEY,
+    'Configuration/Typoscript/Blog/',
+    'jensmittag.de - Blog Configuration');

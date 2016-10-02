@@ -1,0 +1,73 @@
+.news {
+  input[type=checkbox] {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 36px;
+    height: 3.6rem;
+    z-index: 1;
+    opacity: 0;
+
+    &:checked {
+      &~ul {
+        display: none;
+      }
+      &~i {
+        &:before {
+          transform: translate(10px, 1px) rotate(-45deg);
+        }
+
+        &:after {
+          transform: translate(15px, 1px) rotate(45deg);
+        }
+      }
+
+    }
+  }
+
+  h2 {
+    display: inline-block;
+    font-family: $menu-font-stack;
+    font-size: 16px;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    margin: 1.8rem 0.9rem;
+  }
+
+  i {
+    transform: translate(-6px, 0);
+    transition: all 0.25s ease-in-out;
+    display: inline-block;
+    margin-right: 18px;
+
+    &:before, &:after {
+      content: "";
+      background-color: $dark-grey;
+      width: 3px;
+      height: 13px;
+      display: inherit;
+    }
+
+    &:before {
+      transform: translate(10px, 1px) rotate(45deg);
+    }
+
+    &:after {
+      transform: translate(15px, 1px) rotate(-45deg);
+    }
+
+
+
+  }
+
+  ul {
+    list-style: none;
+    margin: 0 0 1.8rem 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      padding-right: 5px;
+    }
+  }
+}

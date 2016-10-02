@@ -217,10 +217,10 @@ th {
     page-break-after: avoid; }
   .navbar {
     display: none; }
-  .btn > .caret, span.label > .caret, span.label-angular > .caret,
+  .btn > .caret, .label > .caret, .label-angular > .caret,
   .dropup > .btn > .caret,
-  .dropup > span.label > .caret,
-  .dropup > span.label-angular > .caret {
+  .dropup > .label > .caret,
+  .dropup > .label-angular > .caret {
     border-top-color: #000 !important; }
   .label {
     border: 1px solid #000; }
@@ -1932,7 +1932,9 @@ select[multiple].input-lg {
     padding-top: 6px;
     font-size: 12px; } }
 
-.btn, span.label, span.label-angular {
+.btn, .label,
+span.label, .label-angular,
+span.label-angular {
   display: inline-block;
   margin-bottom: 0;
   font-weight: normal;
@@ -1951,30 +1953,31 @@ select[multiple].input-lg {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
-  .btn:focus, span.label:focus, span.label-angular:focus, .btn.focus, span.focus.label, span.focus.label-angular, .btn:active:focus, span.label:active:focus, span.label-angular:active:focus, .btn:active.focus, span.label:active.focus, span.label-angular:active.focus, .btn.active:focus, span.active.label:focus, span.active.label-angular:focus, .btn.active.focus, span.active.focus.label, span.active.focus.label-angular {
+  .btn:focus, .label:focus, .label-angular:focus, .btn.focus, .focus.label, .focus.label-angular, .btn:active:focus, .label:active:focus, .label-angular:active:focus, .btn:active.focus, .label:active.focus, .label-angular:active.focus, .btn.active:focus, .active.label:focus, .active.label-angular:focus, .btn.active.focus, .active.focus.label, .active.focus.label-angular {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px; }
-  .btn:hover, span.label:hover, span.label-angular:hover, .btn:focus, span.label:focus, span.label-angular:focus, .btn.focus, span.focus.label, span.focus.label-angular {
+  .btn:hover, .label:hover, .label-angular:hover, .btn:focus, .label:focus, .label-angular:focus, .btn.focus, .focus.label, .focus.label-angular {
     color: #333;
     text-decoration: none; }
-  .btn:active, span.label:active, span.label-angular:active, .btn.active, span.active.label, span.active.label-angular {
+  .btn:active, .label:active, .label-angular:active, .btn.active, .active.label, .active.label-angular {
     outline: 0;
     background-image: none;
     -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
-  .btn.disabled, span.disabled.label, span.disabled.label-angular, .btn[disabled], span[disabled].label, span[disabled].label-angular,
+  .btn.disabled, .disabled.label, .disabled.label-angular, .btn[disabled], [disabled].label, [disabled].label-angular,
   fieldset[disabled] .btn,
-  fieldset[disabled] span.label,
-  fieldset[disabled] span.label-angular {
+  fieldset[disabled] .label,
+  fieldset[disabled] .label-angular {
     cursor: not-allowed;
     opacity: 0.65;
     filter: alpha(opacity=65);
     -webkit-box-shadow: none;
     box-shadow: none; }
 
-a.btn.disabled,
-fieldset[disabled] a.btn {
+a.btn.disabled, a.disabled.label,
+fieldset[disabled] a.btn,
+fieldset[disabled] a.label {
   pointer-events: none; }
 
 .btn-default {
@@ -2325,7 +2328,7 @@ input[type="button"].btn-block {
   border-radius: .25em; }
   .label:empty {
     display: none; }
-  .btn .label, span.label .label, span.label-angular .label {
+  .btn .label, .label .label, .label-angular .label {
     position: relative;
     top: -1px; }
 
@@ -3037,76 +3040,129 @@ pre {
   background-color: #f9f9f9 !important; }
 
 /* Rounded Labels */
-span.label, span.label-angular {
+.label,
+span.label,
+.label-angular,
+span.label-angular {
   background-color: #eeeeee;
   padding: 0.3rem 0.5rem;
   color: #616161;
   font-weight: normal; }
 
-span.label:hover, span.label-angular:hover {
+.label:hover,
+span.label:hover,
+.label-angular:hover {
   color: #616161 !important; }
 
 /* Non-Rounded Labels */
+.label-angular,
 span.label-angular {
   border-radius: 0;
   padding: 0.3rem 0.5rem; }
 
 /* Background & Text Colors */
-span.label-grey, span.label-dark-grey, span.label-green,
+.label-grey, .label-dark-grey,
+span.label-dark-grey, .label-green,
+span.label-green, .label-light-green,
+p.label-light-green,
+span.label-light-green, .label-lime,
+p.label-lime,
+span.label-lime, .label-indigo,
+span.label-indigo, .label-blue,
+p.label-blue,
+span.label-blue, .label-light-blue,
+p.label-light-blue,
+span.label-light-blue, .label-red,
+span.label-red, .label-yellow,
+span.label-yellow, .label-orange,
+span.label-orange, .label-amber,
+span.label-amber, .label-black,
+span.label-black,
+span.label-grey,
+span.label-dark-grey,
+span.label-green,
 span.label-light-green,
-span.label-lime, span.label-indigo,
+span.label-lime,
+span.label-indigo,
 span.label-blue,
-span.label-light-blue, span.label-red, span.label-yellow, span.label-orange, span.label-amber, span.label-black {
+span.label-light-blue,
+span.label-red,
+span.label-yellow,
+span.label-orange,
+span.label-amber,
+span.label-black {
   background-color: #9e9e9e;
   color: white; }
 
-span.label-grey:hover, span.label-dark-grey:hover, span.label-green:hover,
+.label-grey:hover, .label-dark-grey:hover, .label-green:hover, .label-light-green:hover, .label-lime:hover, .label-indigo:hover, .label-blue:hover, .label-light-blue:hover, .label-red:hover, .label-yellow:hover, .label-orange:hover, .label-amber:hover, .label-black:hover,
+span.label-grey:hover,
+span.label-dark-grey:hover,
+span.label-green:hover,
 span.label-light-green:hover,
-span.label-lime:hover, span.label-indigo:hover,
+span.label-lime:hover,
+span.label-indigo:hover,
 span.label-blue:hover,
-span.label-light-blue:hover, span.label-red:hover, span.label-yellow:hover, span.label-orange:hover, span.label-amber:hover, span.label-black:hover {
+span.label-light-blue:hover,
+span.label-red:hover,
+span.label-yellow:hover,
+span.label-orange:hover,
+span.label-amber:hover,
+span.label-black:hover {
   color: white !important; }
 
+.label-very-light-grey,
 span.label-very-light-grey {
   background-color: #f9f9f9; }
 
+.label-dark-grey,
 span.label-dark-grey {
   background-color: #616161; }
 
+.label-green,
 span.label-green {
   background-color: #4caf50; }
 
+.label-light-green,
 p.label-light-green,
 span.label-light-green {
   background-color: #8bc34a; }
 
+.label-lime,
 p.label-lime,
 span.label-lime {
   background-color: #cddc39; }
 
+.label-indigo,
 span.label-indigo {
   background-color: #3f51b5; }
 
+.label-blue,
 p.label-blue,
 span.label-blue {
   background-color: #2196f3; }
 
+.label-light-blue,
 p.label-light-blue,
 span.label-light-blue {
   background-color: #03a9f4; }
 
+.label-red,
 span.label-red {
   background-color: #ef5350; }
 
+.label-yellow,
 span.label-yellow {
   background-color: #ffeb3b; }
 
+.label-orange,
 span.label-orange {
   background-color: #ff9800; }
 
+.label-amber,
 span.label-amber {
   background-color: #ffc107; }
 
+.label-black,
 span.label-black {
   background-color: #333; }
 
@@ -3817,3 +3873,50 @@ p.indent {
     .powermail_form .powermail_fieldwrap_type_submit .powermail_field input[type=submit] {
       width: 300px;
       margin-left: 0.6rem; } }
+
+.news input[type=checkbox] {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 36px;
+  height: 3.6rem;
+  z-index: 1;
+  opacity: 0; }
+  .news input[type=checkbox]:checked ~ ul {
+    display: none; }
+  .news input[type=checkbox]:checked ~ i:before {
+    transform: translate(10px, 1px) rotate(-45deg); }
+  .news input[type=checkbox]:checked ~ i:after {
+    transform: translate(15px, 1px) rotate(45deg); }
+
+.news h2 {
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin: 1.8rem 0.9rem; }
+
+.news i {
+  transform: translate(-6px, 0);
+  transition: all 0.25s ease-in-out;
+  display: inline-block;
+  margin-right: 18px; }
+  .news i:before, .news i:after {
+    content: "";
+    background-color: #616161;
+    width: 3px;
+    height: 13px;
+    display: inherit; }
+  .news i:before {
+    transform: translate(10px, 1px) rotate(45deg); }
+  .news i:after {
+    transform: translate(15px, 1px) rotate(-45deg); }
+
+.news ul {
+  list-style: none;
+  margin: 0 0 1.8rem 0;
+  padding: 0; }
+  .news ul li {
+    display: inline-block;
+    padding-right: 5px; }

@@ -219,6 +219,7 @@ pre {
 }
 
 /* Rounded Labels */
+.label,
 span.label {
   @extend .btn;
   background-color: $light-grey;
@@ -226,11 +227,13 @@ span.label {
   color: $dark-grey;
   font-weight: normal;
 }
+.label:hover,
 span.label:hover {
   color: $dark-grey!important;
 }
 
 /* Non-Rounded Labels */
+.label-angular,
 span.label-angular {
   @extend span.label;
   border-radius: 0;
@@ -238,64 +241,79 @@ span.label-angular {
 }
 
 /* Background & Text Colors */
+.label-grey,
 span.label-grey {
   background-color: $grey;
   color: white;
 }
+.label-grey:hover,
 span.label-grey:hover {
   color: white!important;
 }
+.label-very-light-grey,
 span.label-very-light-grey {
   background-color: $very-light-grey;
 }
+.label-dark-grey,
 span.label-dark-grey {
   @extend .label-grey;
   background-color: $dark-grey;
 }
+.label-green,
 span.label-green {
   @extend .label-grey;
   background-color: $green;
 }
+.label-light-green,
 p.label-light-green,
 span.label-light-green {
   @extend .label-grey;
   background-color: $light-green;
 }
+.label-lime,
 p.label-lime,
 span.label-lime {
   @extend .label-grey;
   background-color: $lime;
 }
+.label-indigo,
 span.label-indigo {
   @extend .label-grey;
   background-color: $indigo;
 }
+.label-blue,
 p.label-blue,
 span.label-blue {
   @extend .label-grey;
   background-color: $blue;
 }
+.label-light-blue,
 p.label-light-blue,
 span.label-light-blue {
   @extend .label-grey;
   background-color: $light-blue;
 }
+.label-red,
 span.label-red {
   @extend .label-grey;
   background-color: $red;
 }
+.label-yellow,
 span.label-yellow {
   @extend .label-grey;
   background-color: $yellow;
 }
+.label-orange,
 span.label-orange {
   @extend .label-grey;
   background-color: $orange;
 }
+.label-amber,
 span.label-amber {
   @extend .label-grey;
   background-color: $amber;
 }
+.label-black,
 span.label-black {
   @extend .label-grey;
   background-color: $black;
