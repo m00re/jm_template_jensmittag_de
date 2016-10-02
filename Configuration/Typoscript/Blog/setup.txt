@@ -1,0 +1,4 @@
+config {
+    language = en
+    locale_all = en_US.UTF-8
+}

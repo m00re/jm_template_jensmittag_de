@@ -2642,7 +2642,11 @@ p.caption {
   color: #333; }
 
 /* Allow containers that are wider than parent */
-p.extended-width, p.extended-width-no-margin-t, p.extended-width-no-margin-b, p.extended-width-no-margin-tb {
+.extended-width, p.extended-width-no-margin-t, p.extended-width-no-margin-b, p.extended-width-no-margin-tb,
+p.extended-width,
+p.extended-width-no-margin-t,
+p.extended-width-no-margin-b,
+p.extended-width-no-margin-tb {
   background-color: #eeeeee;
   margin: 3.6rem 0; }
 
@@ -2867,7 +2871,7 @@ span.label-angular {
   background-color: #eeeeee;
   padding: 0.3rem 0.5rem;
   color: #616161;
-  font-weight: normal; }
+  font-weight: bold; }
 
 .label:hover,
 span.label:hover,

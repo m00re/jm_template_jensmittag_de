@@ -124,6 +124,7 @@ p.caption {
 }
 
 /* Allow containers that are wider than parent */
+.extended-width,
 p.extended-width {
   background-color: $light-grey;
   margin: $paragraph-margin;
@@ -225,7 +226,7 @@ span.label {
   background-color: $light-grey;
   padding: $button-padding;
   color: $dark-grey;
-  font-weight: normal;
+  font-weight: bold;
 }
 .label:hover,
 span.label:hover {

@@ -19,6 +19,11 @@
 <f:section name="categoryTree">
 	<input type="checkbox" checked><i></i><h2>Filter by category</h2>
 	<ul>
+		<li>
+			<f:link.page title="Reset filter" class="label-angular label" pageUid="{settings.listPid}">
+				<span class="glyphicon glyphicon-remove"></span>
+			</f:link.page>
+		</li>
 		<f:for each="{categories}" as="category">
 			<li>
 				<f:if condition="{category.item.uid} == {overwriteDemand.categories}">
