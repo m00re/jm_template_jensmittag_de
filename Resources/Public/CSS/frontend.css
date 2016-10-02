@@ -3476,7 +3476,9 @@ p.indent {
 .csc-wide-lr-padding,
 .csc-wide-ltr-padding,
 .csc-default {
-  position: relative; }
+  position: relative;
+  display: inline-block;
+  width: 100%; }
   @media screen and (min-width: 750px) {
     .csc-no-padding,
     .csc-default-lbr-padding,

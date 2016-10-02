@@ -8,6 +8,8 @@
 .csc-wide-ltr-padding,
 .csc-default {
   position: relative;
+  display: inline-block;
+  width: 100%;
   @media screen and (min-width: $break-desktop-1) {
     background-color: $white;
   }
