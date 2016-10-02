@@ -4681,7 +4681,7 @@ p.indent {
       width: 300px;
       margin-left: 0.6rem; } }
 
-.news input[type=checkbox] {
+.news .category-tree input[type=checkbox] {
   position: absolute;
   cursor: pointer;
   width: 100%;
@@ -4689,14 +4689,14 @@ p.indent {
   height: 3.8rem;
   z-index: 1;
   opacity: 0; }
-  .news input[type=checkbox]:checked ~ ul {
+  .news .category-tree input[type=checkbox]:checked ~ ul {
     display: none; }
-  .news input[type=checkbox]:checked ~ i:before {
+  .news .category-tree input[type=checkbox]:checked ~ i:before {
     transform: translate(13px, 1px) rotate(-45deg); }
-  .news input[type=checkbox]:checked ~ i:after {
+  .news .category-tree input[type=checkbox]:checked ~ i:after {
     transform: translate(18px, 1px) rotate(45deg); }
 
-.news h2 {
+.news .category-tree h2 {
   display: inline-block;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -4704,20 +4704,20 @@ p.indent {
   text-transform: uppercase;
   margin: 1.9rem 0.95rem; }
 
-.news i {
+.news .category-tree i {
   transform: translate(-6px, 0);
   transition: all 0.25s ease-in-out;
   display: inline-block;
   margin-right: 18px; }
-  .news i:before, .news i:after {
+  .news .category-tree i:before, .news .category-tree i:after {
     content: "";
     background-color: #616161;
     width: 3px;
     height: 13px;
     display: inherit; }
-  .news i:before {
+  .news .category-tree i:before {
     transform: translate(13px, 1px) rotate(45deg); }
-  .news i:after {
+  .news .category-tree i:after {
     transform: translate(18px, 1px) rotate(-45deg); }
 
 .news ul {
@@ -4754,7 +4754,7 @@ p.indent {
 .news .news-list-view .article .header {
   position: relative;
   width: 100%; }
-  .news .news-list-view .article .header h3 {
+  .news .news-list-view .article .header h2 {
     margin-bottom: 0; }
   .news .news-list-view .article .header .subheader {
     margin-left: 1.9rem; }
