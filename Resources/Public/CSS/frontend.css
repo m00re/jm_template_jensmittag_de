@@ -4728,16 +4728,19 @@ p.indent {
     display: inline-block; }
 
 @media screen and (min-width: 750px) {
+  .news .news-list-view .page-navigation,
   .news .news-list-view .article {
     padding: 56px;
     padding-bottom: 28px; } }
 
 @media screen and (min-width: 992px) {
+  .news .news-list-view .page-navigation,
   .news .news-list-view .article {
     padding: 73px;
     padding-bottom: 36.5px; } }
 
 @media screen and (min-width: 1170px) {
+  .news .news-list-view .page-navigation,
   .news .news-list-view .article {
     padding: 88px;
     padding-bottom: 44px; } }
@@ -4779,3 +4782,23 @@ p.indent {
 
 .news .news-list-view .article ul.categories {
   margin-top: 3.8rem; }
+
+@media screen and (min-width: 750px) {
+  .news .news-list-view .page-navigation {
+    padding-top: 28px; } }
+
+@media screen and (min-width: 992px) {
+  .news .news-list-view .page-navigation {
+    padding-top: 36.5px; } }
+
+@media screen and (min-width: 1170px) {
+  .news .news-list-view .page-navigation {
+    padding-top: 44px; } }
+
+.news .news-list-view .page-navigation p {
+  display: inline-block;
+  margin: 0; }
+
+.news .news-list-view .page-navigation .f3-widget-paginator {
+  margin: 0;
+  float: right; }

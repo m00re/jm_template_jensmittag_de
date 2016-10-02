@@ -2,3 +2,16 @@ config {
     language = en
     locale_all = en_US.UTF-8
 }
+
+plugin.tx_news {
+    settings {
+        list {
+            paginate {
+                itemsPerPage = 2
+                insertAbove = 0
+                insertBelow = 1
+                templatePath = EXT:jm_template_jensmittag_de/Resources/Private/HTML/Blog/Templates/ViewHelpers/Widget/Paginate/Index.html
+            }
+        }
+    }
+}
