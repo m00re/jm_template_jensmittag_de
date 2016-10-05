@@ -4371,23 +4371,26 @@ p.indent {
       padding-right: 0px;
       padding: 88px; } }
 
-.csc-default-lbr-padding {
-  padding-top: 0 !important; }
-  @media screen and (min-width: 750px) {
-    .csc-default-lbr-padding {
-      padding-right: 56px;
-      padding-bottom: 56px;
-      padding-left: 56px; } }
-  @media screen and (min-width: 992px) {
-    .csc-default-lbr-padding {
-      padding-right: 73px;
-      padding-bottom: 73px;
-      padding-left: 73px; } }
-  @media screen and (min-width: 1170px) {
-    .csc-default-lbr-padding {
-      padding-right: 88px;
-      padding-bottom: 88px;
-      padding-left: 88px; } }
+@media screen and (min-width: 750px) {
+  .csc-default-lbr-padding {
+    padding-top: 0 !important;
+    padding-right: 56px;
+    padding-bottom: 56px;
+    padding-left: 56px; } }
+
+@media screen and (min-width: 992px) {
+  .csc-default-lbr-padding {
+    padding-top: 0 !important;
+    padding-right: 73px;
+    padding-bottom: 73px;
+    padding-left: 73px; } }
+
+@media screen and (min-width: 1170px) {
+  .csc-default-lbr-padding {
+    padding-top: 0 !important;
+    padding-right: 88px;
+    padding-bottom: 88px;
+    padding-left: 88px; } }
 
 @media screen and (min-width: 750px) {
   .csc-default-lr-padding {
@@ -4403,15 +4406,18 @@ p.indent {
 
 @media screen and (min-width: 750px) {
   .csc-default-ltr-padding {
-    padding: 56px; } }
+    padding: 56px;
+    padding-bottom: 0; } }
 
 @media screen and (min-width: 992px) {
   .csc-default-ltr-padding {
-    padding: 73px; } }
+    padding: 73px;
+    padding-bottom: 0; } }
 
 @media screen and (min-width: 1170px) {
   .csc-default-ltr-padding {
-    padding: 88px; } }
+    padding: 88px;
+    padding-bottom: 0; } }
 
 /* No-padding frames for content elements */
 .csc-no-padding {
@@ -4439,12 +4445,14 @@ p.indent {
 
 @media screen and (min-width: 992px) {
   .csc-wide-lbr-padding {
+    padding-top: 0;
     padding-right: 146px;
     padding-bottom: 146px;
     padding-left: 146px; } }
 
 @media screen and (min-width: 1170px) {
   .csc-wide-lbr-padding {
+    padding-top: 0;
     padding-right: 176px;
     padding-bottom: 176px;
     padding-left: 176px; } }
@@ -4465,21 +4473,21 @@ p.indent {
   .csc-wide-ltr-padding {
     padding-top: 112px;
     padding-right: 112px;
-    padding-bottom: 56px;
+    padding-bottom: 0;
     padding-left: 112px; } }
 
 @media screen and (min-width: 992px) {
   .csc-wide-ltr-padding {
     padding-top: 146px;
     padding-right: 146px;
-    padding-bottom: 73px;
+    padding-bottom: 0;
     padding-left: 146px; } }
 
 @media screen and (min-width: 1170px) {
   .csc-wide-ltr-padding {
     padding-top: 176px;
     padding-right: 176px;
-    padding-bottom: 88px;
+    padding-bottom: 0;
     padding-left: 176px; } }
 
 /* Define drop shadow effect below content element blocks */
