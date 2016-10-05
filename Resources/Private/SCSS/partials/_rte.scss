@@ -195,14 +195,17 @@ p.extended-width {
   }
 }
 
+.extended-width-no-margin-t,
 p.extended-width-no-margin-t {
   @extend .extended-width;
   margin-top: 0 !important;
 }
+.extended-width-no-margin-b,
 p.extended-width-no-margin-b {
   @extend .extended-width;
   margin-bottom: 0 !important;
 }
+.extended-width-no-margin-tb,
 p.extended-width-no-margin-tb {
   @extend .extended-width;
   margin-top: 0 !important;

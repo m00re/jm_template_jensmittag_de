@@ -2642,7 +2642,10 @@ p.caption {
   color: #333; }
 
 /* Allow containers that are wider than parent */
-.extended-width, p.extended-width-no-margin-t, p.extended-width-no-margin-b, p.extended-width-no-margin-tb,
+.extended-width, .extended-width-no-margin-t,
+p.extended-width-no-margin-t, .extended-width-no-margin-b,
+p.extended-width-no-margin-b, .extended-width-no-margin-tb,
+p.extended-width-no-margin-tb,
 p.extended-width,
 p.extended-width-no-margin-t,
 p.extended-width-no-margin-b,
@@ -2651,205 +2654,208 @@ p.extended-width-no-margin-tb {
   margin: 3.6rem 0; }
 
 @media screen and (min-width: 750px) {
-  .csc-default .extended-width, .csc-default p.extended-width-no-margin-t, .csc-default p.extended-width-no-margin-b, .csc-default p.extended-width-no-margin-tb,
+  .csc-default .extended-width, .csc-default .extended-width-no-margin-t, .csc-default .extended-width-no-margin-b, .csc-default .extended-width-no-margin-tb,
   .csc-default-lbr-padding .extended-width,
-  .csc-default-lbr-padding p.extended-width-no-margin-t,
-  .csc-default-lbr-padding p.extended-width-no-margin-b,
-  .csc-default-lbr-padding p.extended-width-no-margin-tb,
+  .csc-default-lbr-padding .extended-width-no-margin-t,
+  .csc-default-lbr-padding .extended-width-no-margin-b,
+  .csc-default-lbr-padding .extended-width-no-margin-tb,
   .csc-default-ltr-padding .extended-width,
-  .csc-default-ltr-padding p.extended-width-no-margin-t,
-  .csc-default-ltr-padding p.extended-width-no-margin-b,
-  .csc-default-ltr-padding p.extended-width-no-margin-tb,
+  .csc-default-ltr-padding .extended-width-no-margin-t,
+  .csc-default-ltr-padding .extended-width-no-margin-b,
+  .csc-default-ltr-padding .extended-width-no-margin-tb,
   .csc-default-lr-padding .extended-width,
-  .csc-default-lr-padding p.extended-width-no-margin-t,
-  .csc-default-lr-padding p.extended-width-no-margin-b,
-  .csc-default-lr-padding p.extended-width-no-margin-tb {
+  .csc-default-lr-padding .extended-width-no-margin-t,
+  .csc-default-lr-padding .extended-width-no-margin-b,
+  .csc-default-lr-padding .extended-width-no-margin-tb {
     margin-left: -56px;
     margin-right: -56px; }
-    .csc-default .extended-width .caption, .csc-default p.extended-width-no-margin-t .caption, .csc-default p.extended-width-no-margin-b .caption, .csc-default p.extended-width-no-margin-tb .caption,
+    .csc-default .extended-width .caption, .csc-default .extended-width-no-margin-t .caption, .csc-default .extended-width-no-margin-b .caption, .csc-default .extended-width-no-margin-tb .caption,
     .csc-default-lbr-padding .extended-width .caption,
-    .csc-default-lbr-padding p.extended-width-no-margin-t .caption,
-    .csc-default-lbr-padding p.extended-width-no-margin-b .caption,
-    .csc-default-lbr-padding p.extended-width-no-margin-tb .caption,
+    .csc-default-lbr-padding .extended-width-no-margin-t .caption,
+    .csc-default-lbr-padding .extended-width-no-margin-b .caption,
+    .csc-default-lbr-padding .extended-width-no-margin-tb .caption,
     .csc-default-ltr-padding .extended-width .caption,
-    .csc-default-ltr-padding p.extended-width-no-margin-t .caption,
-    .csc-default-ltr-padding p.extended-width-no-margin-b .caption,
-    .csc-default-ltr-padding p.extended-width-no-margin-tb .caption,
+    .csc-default-ltr-padding .extended-width-no-margin-t .caption,
+    .csc-default-ltr-padding .extended-width-no-margin-b .caption,
+    .csc-default-ltr-padding .extended-width-no-margin-tb .caption,
     .csc-default-lr-padding .extended-width .caption,
-    .csc-default-lr-padding p.extended-width-no-margin-t .caption,
-    .csc-default-lr-padding p.extended-width-no-margin-b .caption,
-    .csc-default-lr-padding p.extended-width-no-margin-tb .caption {
+    .csc-default-lr-padding .extended-width-no-margin-t .caption,
+    .csc-default-lr-padding .extended-width-no-margin-b .caption,
+    .csc-default-lr-padding .extended-width-no-margin-tb .caption {
       padding-left: 28px;
       padding-right: 28px; } }
 
 @media screen and (min-width: 992px) {
-  .csc-default .extended-width, .csc-default p.extended-width-no-margin-t, .csc-default p.extended-width-no-margin-b, .csc-default p.extended-width-no-margin-tb,
+  .csc-default .extended-width, .csc-default .extended-width-no-margin-t, .csc-default .extended-width-no-margin-b, .csc-default .extended-width-no-margin-tb,
   .csc-default-lbr-padding .extended-width,
-  .csc-default-lbr-padding p.extended-width-no-margin-t,
-  .csc-default-lbr-padding p.extended-width-no-margin-b,
-  .csc-default-lbr-padding p.extended-width-no-margin-tb,
+  .csc-default-lbr-padding .extended-width-no-margin-t,
+  .csc-default-lbr-padding .extended-width-no-margin-b,
+  .csc-default-lbr-padding .extended-width-no-margin-tb,
   .csc-default-ltr-padding .extended-width,
-  .csc-default-ltr-padding p.extended-width-no-margin-t,
-  .csc-default-ltr-padding p.extended-width-no-margin-b,
-  .csc-default-ltr-padding p.extended-width-no-margin-tb,
+  .csc-default-ltr-padding .extended-width-no-margin-t,
+  .csc-default-ltr-padding .extended-width-no-margin-b,
+  .csc-default-ltr-padding .extended-width-no-margin-tb,
   .csc-default-lr-padding .extended-width,
-  .csc-default-lr-padding p.extended-width-no-margin-t,
-  .csc-default-lr-padding p.extended-width-no-margin-b,
-  .csc-default-lr-padding p.extended-width-no-margin-tb {
+  .csc-default-lr-padding .extended-width-no-margin-t,
+  .csc-default-lr-padding .extended-width-no-margin-b,
+  .csc-default-lr-padding .extended-width-no-margin-tb {
     margin-left: -73px;
     margin-right: -73px; }
-    .csc-default .extended-width .caption, .csc-default p.extended-width-no-margin-t .caption, .csc-default p.extended-width-no-margin-b .caption, .csc-default p.extended-width-no-margin-tb .caption,
+    .csc-default .extended-width .caption, .csc-default .extended-width-no-margin-t .caption, .csc-default .extended-width-no-margin-b .caption, .csc-default .extended-width-no-margin-tb .caption,
     .csc-default-lbr-padding .extended-width .caption,
-    .csc-default-lbr-padding p.extended-width-no-margin-t .caption,
-    .csc-default-lbr-padding p.extended-width-no-margin-b .caption,
-    .csc-default-lbr-padding p.extended-width-no-margin-tb .caption,
+    .csc-default-lbr-padding .extended-width-no-margin-t .caption,
+    .csc-default-lbr-padding .extended-width-no-margin-b .caption,
+    .csc-default-lbr-padding .extended-width-no-margin-tb .caption,
     .csc-default-ltr-padding .extended-width .caption,
-    .csc-default-ltr-padding p.extended-width-no-margin-t .caption,
-    .csc-default-ltr-padding p.extended-width-no-margin-b .caption,
-    .csc-default-ltr-padding p.extended-width-no-margin-tb .caption,
+    .csc-default-ltr-padding .extended-width-no-margin-t .caption,
+    .csc-default-ltr-padding .extended-width-no-margin-b .caption,
+    .csc-default-ltr-padding .extended-width-no-margin-tb .caption,
     .csc-default-lr-padding .extended-width .caption,
-    .csc-default-lr-padding p.extended-width-no-margin-t .caption,
-    .csc-default-lr-padding p.extended-width-no-margin-b .caption,
-    .csc-default-lr-padding p.extended-width-no-margin-tb .caption {
+    .csc-default-lr-padding .extended-width-no-margin-t .caption,
+    .csc-default-lr-padding .extended-width-no-margin-b .caption,
+    .csc-default-lr-padding .extended-width-no-margin-tb .caption {
       padding-left: 36.5px;
       padding-right: 36.5px; } }
 
 @media screen and (min-width: 1170px) {
-  .csc-default .extended-width, .csc-default p.extended-width-no-margin-t, .csc-default p.extended-width-no-margin-b, .csc-default p.extended-width-no-margin-tb,
+  .csc-default .extended-width, .csc-default .extended-width-no-margin-t, .csc-default .extended-width-no-margin-b, .csc-default .extended-width-no-margin-tb,
   .csc-default-lbr-padding .extended-width,
-  .csc-default-lbr-padding p.extended-width-no-margin-t,
-  .csc-default-lbr-padding p.extended-width-no-margin-b,
-  .csc-default-lbr-padding p.extended-width-no-margin-tb,
+  .csc-default-lbr-padding .extended-width-no-margin-t,
+  .csc-default-lbr-padding .extended-width-no-margin-b,
+  .csc-default-lbr-padding .extended-width-no-margin-tb,
   .csc-default-ltr-padding .extended-width,
-  .csc-default-ltr-padding p.extended-width-no-margin-t,
-  .csc-default-ltr-padding p.extended-width-no-margin-b,
-  .csc-default-ltr-padding p.extended-width-no-margin-tb,
+  .csc-default-ltr-padding .extended-width-no-margin-t,
+  .csc-default-ltr-padding .extended-width-no-margin-b,
+  .csc-default-ltr-padding .extended-width-no-margin-tb,
   .csc-default-lr-padding .extended-width,
-  .csc-default-lr-padding p.extended-width-no-margin-t,
-  .csc-default-lr-padding p.extended-width-no-margin-b,
-  .csc-default-lr-padding p.extended-width-no-margin-tb {
+  .csc-default-lr-padding .extended-width-no-margin-t,
+  .csc-default-lr-padding .extended-width-no-margin-b,
+  .csc-default-lr-padding .extended-width-no-margin-tb {
     margin: 5.4rem 0;
     margin-left: -88px;
     margin-right: -88px; }
-    .csc-default .extended-width .caption, .csc-default p.extended-width-no-margin-t .caption, .csc-default p.extended-width-no-margin-b .caption, .csc-default p.extended-width-no-margin-tb .caption,
+    .csc-default .extended-width .caption, .csc-default .extended-width-no-margin-t .caption, .csc-default .extended-width-no-margin-b .caption, .csc-default .extended-width-no-margin-tb .caption,
     .csc-default-lbr-padding .extended-width .caption,
-    .csc-default-lbr-padding p.extended-width-no-margin-t .caption,
-    .csc-default-lbr-padding p.extended-width-no-margin-b .caption,
-    .csc-default-lbr-padding p.extended-width-no-margin-tb .caption,
+    .csc-default-lbr-padding .extended-width-no-margin-t .caption,
+    .csc-default-lbr-padding .extended-width-no-margin-b .caption,
+    .csc-default-lbr-padding .extended-width-no-margin-tb .caption,
     .csc-default-ltr-padding .extended-width .caption,
-    .csc-default-ltr-padding p.extended-width-no-margin-t .caption,
-    .csc-default-ltr-padding p.extended-width-no-margin-b .caption,
-    .csc-default-ltr-padding p.extended-width-no-margin-tb .caption,
+    .csc-default-ltr-padding .extended-width-no-margin-t .caption,
+    .csc-default-ltr-padding .extended-width-no-margin-b .caption,
+    .csc-default-ltr-padding .extended-width-no-margin-tb .caption,
     .csc-default-lr-padding .extended-width .caption,
-    .csc-default-lr-padding p.extended-width-no-margin-t .caption,
-    .csc-default-lr-padding p.extended-width-no-margin-b .caption,
-    .csc-default-lr-padding p.extended-width-no-margin-tb .caption {
+    .csc-default-lr-padding .extended-width-no-margin-t .caption,
+    .csc-default-lr-padding .extended-width-no-margin-b .caption,
+    .csc-default-lr-padding .extended-width-no-margin-tb .caption {
       padding-left: 44px;
       padding-right: 44px; } }
 
 @media screen and (min-width: 750px) {
-  .csc-wide .extended-width, .csc-wide p.extended-width-no-margin-t, .csc-wide p.extended-width-no-margin-b, .csc-wide p.extended-width-no-margin-tb,
+  .csc-wide .extended-width, .csc-wide .extended-width-no-margin-t, .csc-wide .extended-width-no-margin-b, .csc-wide .extended-width-no-margin-tb,
   .csc-wide-lbr-padding .extended-width,
-  .csc-wide-lbr-padding p.extended-width-no-margin-t,
-  .csc-wide-lbr-padding p.extended-width-no-margin-b,
-  .csc-wide-lbr-padding p.extended-width-no-margin-tb,
+  .csc-wide-lbr-padding .extended-width-no-margin-t,
+  .csc-wide-lbr-padding .extended-width-no-margin-b,
+  .csc-wide-lbr-padding .extended-width-no-margin-tb,
   .csc-wide-ltr-padding .extended-width,
-  .csc-wide-ltr-padding p.extended-width-no-margin-t,
-  .csc-wide-ltr-padding p.extended-width-no-margin-b,
-  .csc-wide-ltr-padding p.extended-width-no-margin-tb,
+  .csc-wide-ltr-padding .extended-width-no-margin-t,
+  .csc-wide-ltr-padding .extended-width-no-margin-b,
+  .csc-wide-ltr-padding .extended-width-no-margin-tb,
   .csc-wide-lr-padding .extended-width,
-  .csc-wide-lr-padding p.extended-width-no-margin-t,
-  .csc-wide-lr-padding p.extended-width-no-margin-b,
-  .csc-wide-lr-padding p.extended-width-no-margin-tb {
+  .csc-wide-lr-padding .extended-width-no-margin-t,
+  .csc-wide-lr-padding .extended-width-no-margin-b,
+  .csc-wide-lr-padding .extended-width-no-margin-tb {
     margin-left: -112px;
     margin-right: -112px; }
-    .csc-wide .extended-width .caption, .csc-wide p.extended-width-no-margin-t .caption, .csc-wide p.extended-width-no-margin-b .caption, .csc-wide p.extended-width-no-margin-tb .caption,
+    .csc-wide .extended-width .caption, .csc-wide .extended-width-no-margin-t .caption, .csc-wide .extended-width-no-margin-b .caption, .csc-wide .extended-width-no-margin-tb .caption,
     .csc-wide-lbr-padding .extended-width .caption,
-    .csc-wide-lbr-padding p.extended-width-no-margin-t .caption,
-    .csc-wide-lbr-padding p.extended-width-no-margin-b .caption,
-    .csc-wide-lbr-padding p.extended-width-no-margin-tb .caption,
+    .csc-wide-lbr-padding .extended-width-no-margin-t .caption,
+    .csc-wide-lbr-padding .extended-width-no-margin-b .caption,
+    .csc-wide-lbr-padding .extended-width-no-margin-tb .caption,
     .csc-wide-ltr-padding .extended-width .caption,
-    .csc-wide-ltr-padding p.extended-width-no-margin-t .caption,
-    .csc-wide-ltr-padding p.extended-width-no-margin-b .caption,
-    .csc-wide-ltr-padding p.extended-width-no-margin-tb .caption,
+    .csc-wide-ltr-padding .extended-width-no-margin-t .caption,
+    .csc-wide-ltr-padding .extended-width-no-margin-b .caption,
+    .csc-wide-ltr-padding .extended-width-no-margin-tb .caption,
     .csc-wide-lr-padding .extended-width .caption,
-    .csc-wide-lr-padding p.extended-width-no-margin-t .caption,
-    .csc-wide-lr-padding p.extended-width-no-margin-b .caption,
-    .csc-wide-lr-padding p.extended-width-no-margin-tb .caption {
+    .csc-wide-lr-padding .extended-width-no-margin-t .caption,
+    .csc-wide-lr-padding .extended-width-no-margin-b .caption,
+    .csc-wide-lr-padding .extended-width-no-margin-tb .caption {
       padding-left: 56px;
       padding-right: 56px; } }
 
 @media screen and (min-width: 992px) {
-  .csc-wide .extended-width, .csc-wide p.extended-width-no-margin-t, .csc-wide p.extended-width-no-margin-b, .csc-wide p.extended-width-no-margin-tb,
+  .csc-wide .extended-width, .csc-wide .extended-width-no-margin-t, .csc-wide .extended-width-no-margin-b, .csc-wide .extended-width-no-margin-tb,
   .csc-wide-lbr-padding .extended-width,
-  .csc-wide-lbr-padding p.extended-width-no-margin-t,
-  .csc-wide-lbr-padding p.extended-width-no-margin-b,
-  .csc-wide-lbr-padding p.extended-width-no-margin-tb,
+  .csc-wide-lbr-padding .extended-width-no-margin-t,
+  .csc-wide-lbr-padding .extended-width-no-margin-b,
+  .csc-wide-lbr-padding .extended-width-no-margin-tb,
   .csc-wide-ltr-padding .extended-width,
-  .csc-wide-ltr-padding p.extended-width-no-margin-t,
-  .csc-wide-ltr-padding p.extended-width-no-margin-b,
-  .csc-wide-ltr-padding p.extended-width-no-margin-tb,
+  .csc-wide-ltr-padding .extended-width-no-margin-t,
+  .csc-wide-ltr-padding .extended-width-no-margin-b,
+  .csc-wide-ltr-padding .extended-width-no-margin-tb,
   .csc-wide-lr-padding .extended-width,
-  .csc-wide-lr-padding p.extended-width-no-margin-t,
-  .csc-wide-lr-padding p.extended-width-no-margin-b,
-  .csc-wide-lr-padding p.extended-width-no-margin-tb {
+  .csc-wide-lr-padding .extended-width-no-margin-t,
+  .csc-wide-lr-padding .extended-width-no-margin-b,
+  .csc-wide-lr-padding .extended-width-no-margin-tb {
     margin-left: -146px;
     margin-right: -146px; }
-    .csc-wide .extended-width .caption, .csc-wide p.extended-width-no-margin-t .caption, .csc-wide p.extended-width-no-margin-b .caption, .csc-wide p.extended-width-no-margin-tb .caption,
+    .csc-wide .extended-width .caption, .csc-wide .extended-width-no-margin-t .caption, .csc-wide .extended-width-no-margin-b .caption, .csc-wide .extended-width-no-margin-tb .caption,
     .csc-wide-lbr-padding .extended-width .caption,
-    .csc-wide-lbr-padding p.extended-width-no-margin-t .caption,
-    .csc-wide-lbr-padding p.extended-width-no-margin-b .caption,
-    .csc-wide-lbr-padding p.extended-width-no-margin-tb .caption,
+    .csc-wide-lbr-padding .extended-width-no-margin-t .caption,
+    .csc-wide-lbr-padding .extended-width-no-margin-b .caption,
+    .csc-wide-lbr-padding .extended-width-no-margin-tb .caption,
     .csc-wide-ltr-padding .extended-width .caption,
-    .csc-wide-ltr-padding p.extended-width-no-margin-t .caption,
-    .csc-wide-ltr-padding p.extended-width-no-margin-b .caption,
-    .csc-wide-ltr-padding p.extended-width-no-margin-tb .caption,
+    .csc-wide-ltr-padding .extended-width-no-margin-t .caption,
+    .csc-wide-ltr-padding .extended-width-no-margin-b .caption,
+    .csc-wide-ltr-padding .extended-width-no-margin-tb .caption,
     .csc-wide-lr-padding .extended-width .caption,
-    .csc-wide-lr-padding p.extended-width-no-margin-t .caption,
-    .csc-wide-lr-padding p.extended-width-no-margin-b .caption,
-    .csc-wide-lr-padding p.extended-width-no-margin-tb .caption {
+    .csc-wide-lr-padding .extended-width-no-margin-t .caption,
+    .csc-wide-lr-padding .extended-width-no-margin-b .caption,
+    .csc-wide-lr-padding .extended-width-no-margin-tb .caption {
       padding-left: 73px;
       padding-right: 73px; } }
 
 @media screen and (min-width: 1170px) {
-  .csc-wide .extended-width, .csc-wide p.extended-width-no-margin-t, .csc-wide p.extended-width-no-margin-b, .csc-wide p.extended-width-no-margin-tb,
+  .csc-wide .extended-width, .csc-wide .extended-width-no-margin-t, .csc-wide .extended-width-no-margin-b, .csc-wide .extended-width-no-margin-tb,
   .csc-wide-lbr-padding .extended-width,
-  .csc-wide-lbr-padding p.extended-width-no-margin-t,
-  .csc-wide-lbr-padding p.extended-width-no-margin-b,
-  .csc-wide-lbr-padding p.extended-width-no-margin-tb,
+  .csc-wide-lbr-padding .extended-width-no-margin-t,
+  .csc-wide-lbr-padding .extended-width-no-margin-b,
+  .csc-wide-lbr-padding .extended-width-no-margin-tb,
   .csc-wide-ltr-padding .extended-width,
-  .csc-wide-ltr-padding p.extended-width-no-margin-t,
-  .csc-wide-ltr-padding p.extended-width-no-margin-b,
-  .csc-wide-ltr-padding p.extended-width-no-margin-tb,
+  .csc-wide-ltr-padding .extended-width-no-margin-t,
+  .csc-wide-ltr-padding .extended-width-no-margin-b,
+  .csc-wide-ltr-padding .extended-width-no-margin-tb,
   .csc-wide-lr-padding .extended-width,
-  .csc-wide-lr-padding p.extended-width-no-margin-t,
-  .csc-wide-lr-padding p.extended-width-no-margin-b,
-  .csc-wide-lr-padding p.extended-width-no-margin-tb {
+  .csc-wide-lr-padding .extended-width-no-margin-t,
+  .csc-wide-lr-padding .extended-width-no-margin-b,
+  .csc-wide-lr-padding .extended-width-no-margin-tb {
     margin: 5.4rem 0;
     margin-left: -176px;
     margin-right: -176px; }
-    .csc-wide .extended-width .caption, .csc-wide p.extended-width-no-margin-t .caption, .csc-wide p.extended-width-no-margin-b .caption, .csc-wide p.extended-width-no-margin-tb .caption,
+    .csc-wide .extended-width .caption, .csc-wide .extended-width-no-margin-t .caption, .csc-wide .extended-width-no-margin-b .caption, .csc-wide .extended-width-no-margin-tb .caption,
     .csc-wide-lbr-padding .extended-width .caption,
-    .csc-wide-lbr-padding p.extended-width-no-margin-t .caption,
-    .csc-wide-lbr-padding p.extended-width-no-margin-b .caption,
-    .csc-wide-lbr-padding p.extended-width-no-margin-tb .caption,
+    .csc-wide-lbr-padding .extended-width-no-margin-t .caption,
+    .csc-wide-lbr-padding .extended-width-no-margin-b .caption,
+    .csc-wide-lbr-padding .extended-width-no-margin-tb .caption,
     .csc-wide-ltr-padding .extended-width .caption,
-    .csc-wide-ltr-padding p.extended-width-no-margin-t .caption,
-    .csc-wide-ltr-padding p.extended-width-no-margin-b .caption,
-    .csc-wide-ltr-padding p.extended-width-no-margin-tb .caption,
+    .csc-wide-ltr-padding .extended-width-no-margin-t .caption,
+    .csc-wide-ltr-padding .extended-width-no-margin-b .caption,
+    .csc-wide-ltr-padding .extended-width-no-margin-tb .caption,
     .csc-wide-lr-padding .extended-width .caption,
-    .csc-wide-lr-padding p.extended-width-no-margin-t .caption,
-    .csc-wide-lr-padding p.extended-width-no-margin-b .caption,
-    .csc-wide-lr-padding p.extended-width-no-margin-tb .caption {
+    .csc-wide-lr-padding .extended-width-no-margin-t .caption,
+    .csc-wide-lr-padding .extended-width-no-margin-b .caption,
+    .csc-wide-lr-padding .extended-width-no-margin-tb .caption {
       padding-left: 88px;
       padding-right: 88px; } }
 
+.extended-width-no-margin-t,
 p.extended-width-no-margin-t {
   margin-top: 0 !important; }
 
+.extended-width-no-margin-b,
 p.extended-width-no-margin-b {
   margin-bottom: 0 !important; }
 
+.extended-width-no-margin-tb,
 p.extended-width-no-margin-tb {
   margin-top: 0 !important;
   margin-bottom: 0 !important; }
