@@ -1,7 +1,7 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = array(
-    'title' => 'Typo3 Website Template for www.jensmittag.de',
+    'title' => 'Template for www.jensmittag.de',
     'description' => 'Responsive website template for www.jensmittag.de',
     'category' => 'fe',
     'author' => 'Jens Mittag',
@@ -15,6 +15,7 @@ $EM_CONF[$_EXTKEY] = array(
             'jm_html5_bootstrap' => '0.1.0',
             'jm_imagecollection_rendering' => '1.0.0',
             'jm_highlightjs' => '9.2.0',
+            'jm_viewhelpers' => '1.0.0',
             'bootstrap_grids' => '1.1.4',
             'gridelements' => '7.0.4',
             'dd_googlesitemap' => '2.0.4',

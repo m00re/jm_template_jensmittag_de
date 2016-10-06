@@ -1,4 +1,5 @@
 {namespace n=GeorgRinger\News\ViewHelpers}
+{namespace d=Jm\JmViewhelpers\ViewHelpers}
 
 <f:layout name="Detail.html" />
 
@@ -57,26 +58,27 @@
 				<f:format.html>{newsItem.bodytext}</f:format.html>
 			</div>
 
-			<div class="extended-width-no-margin-b bg-very-light-grey footer">
-				<f:if condition="{settings.backPid}">
-					<!-- Link Back -->
-					<div class="news-backlink-wrap">
-						<f:link.page pageUid="{settings.backPid}">
-							&laquo; Back to Blog
-						</f:link.page>
-					</div>
-				</f:if>
-
-				<f:if condition="{settings.detail.showSocialShareButtons}">
-
-				</f:if>
-
-				<f:if condition="{settings.detail.disqusShortname}">
-					<div id="disqus_thread"></div>
-					<n:social.disqus newsItem="{newsItem}"
-									 shortName="{settings.detail.disqusShortname}"
-									 link="{n:link(newsItem:newsItem, settings:settings, uriOnly:1, configuration:'{forceAbsoluteUrl:1}')}" />
-				</f:if>
+			<div class="extended-width-no-margin-b bg-very-light-grey footer comments">
+				<input type="checkbox" checked><i></i><h2>Show Comments</h2>
+				<div class="comments-disqus">
+					<div class="disqus_thread"></div>
+					<script type="text/javascript">
+						(function() { // DON'T EDIT BELOW THIS LINE
+							var d = document, s = d.createElement('script');
+							s.src = '//jensmittag.disqus.com/embed.js';
+							s.setAttribute('data-timestamp', +new Date());
+							(d.head || d.body).appendChild(s);
+						})();
+					</script>
+					<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+				</div>
+			</div>
+			<div class="extended-width-no-margin-tb bg-white footer">
+				<div class="news-backlink-wrap">
+					<f:link.page pageUid="{settings.backPid}">
+						&laquo; Back to Blog
+					</f:link.page>
+				</div>
 			</div>
 
 		</f:then>

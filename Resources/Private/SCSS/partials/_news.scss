@@ -1,4 +1,5 @@
 .news {
+  .comments,
   .category-tree {
     input[type=checkbox] {
       position: absolute;
@@ -10,6 +11,7 @@
       opacity: 0;
 
       &:checked {
+        & ~ .comments-disqus,
         & ~ ul {
           display: none;
         }
@@ -175,6 +177,18 @@
     }
     @media screen and (min-width: $break-desktop-3) {
       padding: (0.5 * $content-container-tiny-padding-3) $content-container-tiny-padding-3;
+    }
+  }
+  .comments {
+    padding: 15px;
+    @media screen and (min-width: $break-desktop-1) {
+      padding: 15px $content-container-tiny-padding-1;
+    }
+    @media screen and (min-width: $break-desktop-2) {
+      padding: 15px $content-container-tiny-padding-2;
+    }
+    @media screen and (min-width: $break-desktop-3) {
+      padding: 15px $content-container-tiny-padding-3;
     }
   }
 }
