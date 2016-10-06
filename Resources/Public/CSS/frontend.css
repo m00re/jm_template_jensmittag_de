@@ -4881,7 +4881,28 @@ p.indent {
 .news-single .share-buttons {
   position: fixed;
   left: 0;
-  top: 30%; }
+  top: 30%;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  -moz-animation: showAfterFiveSeconds 0s ease-in 5s forwards;
+  -webkit-animation: showAfterFiveSeconds 0s ease-in 5s forwards;
+  -o-animation: showAfterFiveSeconds 0s ease-in 5s forwards;
+  animation: showAfterFiveSeconds 0s ease-in 5s forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+
+@keyframes showAfterFiveSeconds {
+  to {
+    width: auto;
+    height: auto;
+    overflow: visible; } }
+
+@-webkit-keyframes showAfterFiveSeconds {
+  to {
+    width: auto;
+    height: auto;
+    overflow: visible; } }
   .news-single .share-buttons ul {
     list-style: none;
     margin: 0;
