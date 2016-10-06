@@ -80,6 +80,30 @@
 					</f:link.page>
 				</div>
 			</div>
+			<div class="share-buttons">
+				<ul>
+					<li class="bg-light-blue">
+						<a href="{d:share(network: 'twitter', get: 'shareUrl', message: '', link: '{n:link(newsItem: newsItem, settings: settings, uriOnly: 1, configuration: { forceAbsoluteUrl: 1 })}', title: '{newsItem.title}', forceSSL: 1)}" target="_twitter">
+							<span class="fa fa-twitter"></span>
+						</a>
+					</li>
+					<li class="bg-indigo">
+						<a href="{d:share(network: 'facebook', get: 'shareUrl', message: '', link: '{n:link(newsItem: newsItem, settings: settings, uriOnly: 1, configuration: { forceAbsoluteUrl: 1 })}', title: '{newsItem.title}', forceSSL: 1)}" target="_twitter">
+							<span class="fa fa-facebook"></span>
+						</a>
+					</li>
+					<li class="bg-light-green">
+						<a href="{d:share(network: 'google-plus', get: 'shareUrl', message: '', link: '{n:link(newsItem: newsItem, settings: settings, uriOnly: 1, configuration: { forceAbsoluteUrl: 1 })}', title: '{newsItem.title}', forceSSL: 1)}" target="_twitter">
+							<span class="fa fa-google-plus"></span>
+						</a>
+					</li>
+					<li class="bg-lime">
+						<a href="{d:share(network: 'linkedin', get: 'shareUrl', message: '', link: '{n:link(newsItem: newsItem, settings: settings, uriOnly: 1, configuration: { forceAbsoluteUrl: 1 })}', title: '{newsItem.title}', forceSSL: 1)}" target="_twitter">
+							<span class="fa fa-linkedin"></span>
+						</a>
+					</li>
+				</ul>
+			</div>
 
 		</f:then>
 	</f:if>
