@@ -221,6 +221,21 @@
       }
     }
 
+    h2 {
+      display: block;
+      color: $white;
+      background-color: $menu-background-color;
+      width: 100%;
+      text-align: center;
+      margin: 0;
+      padding: 5px 0;
+      font-size: 1.2rem;
+      line-height: 1.2rem;
+      vertical-align: baseline;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
     ul {
       list-style: none;
       margin: 0;
