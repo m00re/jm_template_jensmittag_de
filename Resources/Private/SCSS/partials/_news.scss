@@ -180,6 +180,12 @@ $share-buttons-height: 60px;
 }
 
 .news-single {
+  margin-left: -15px;
+  margin-right: -15px;
+  @media screen and (min-width: $break-desktop-1) {
+    margin-left: 0;
+    margin-right: 0;
+  }
   .article {
     padding-left: 15px;
     padding-right: 15px;
