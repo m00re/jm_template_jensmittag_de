@@ -3237,24 +3237,12 @@ p.col-md-1 {
     p.col-md-1 {
       padding-right: 15px; } }
 
-.col-md-1:not(:first-child) {
-  margin-top: 3.6rem; }
-  @media screen and (min-width: 750px) {
-    .col-md-1:not(:first-child) {
-      margin-top: 0; } }
-
 p.col-md-2 {
   padding-left: 0 !important;
   padding-right: 0 !important; }
   @media screen and (min-width: 750px) {
     p.col-md-2 {
       padding-right: 15px; } }
-
-.col-md-2:not(:first-child) {
-  margin-top: 3.6rem; }
-  @media screen and (min-width: 750px) {
-    .col-md-2:not(:first-child) {
-      margin-top: 0; } }
 
 p.col-md-3 {
   padding-left: 0 !important;
@@ -3263,24 +3251,12 @@ p.col-md-3 {
     p.col-md-3 {
       padding-right: 15px; } }
 
-.col-md-3:not(:first-child) {
-  margin-top: 3.6rem; }
-  @media screen and (min-width: 750px) {
-    .col-md-3:not(:first-child) {
-      margin-top: 0; } }
-
 p.col-md-4 {
   padding-left: 0 !important;
   padding-right: 0 !important; }
   @media screen and (min-width: 750px) {
     p.col-md-4 {
       padding-right: 15px; } }
-
-.col-md-4:not(:first-child) {
-  margin-top: 3.6rem; }
-  @media screen and (min-width: 750px) {
-    .col-md-4:not(:first-child) {
-      margin-top: 0; } }
 
 p.col-md-5 {
   padding-left: 0 !important;
@@ -3289,24 +3265,12 @@ p.col-md-5 {
     p.col-md-5 {
       padding-right: 15px; } }
 
-.col-md-5:not(:first-child) {
-  margin-top: 3.6rem; }
-  @media screen and (min-width: 750px) {
-    .col-md-5:not(:first-child) {
-      margin-top: 0; } }
-
 p.col-md-6 {
   padding-left: 0 !important;
   padding-right: 0 !important; }
   @media screen and (min-width: 750px) {
     p.col-md-6 {
       padding-right: 15px; } }
-
-.col-md-6:not(:first-child) {
-  margin-top: 3.6rem; }
-  @media screen and (min-width: 750px) {
-    .col-md-6:not(:first-child) {
-      margin-top: 0; } }
 
 p.col-md-7 {
   padding-left: 0 !important;
@@ -3315,24 +3279,12 @@ p.col-md-7 {
     p.col-md-7 {
       padding-right: 15px; } }
 
-.col-md-7:not(:first-child) {
-  margin-top: 3.6rem; }
-  @media screen and (min-width: 750px) {
-    .col-md-7:not(:first-child) {
-      margin-top: 0; } }
-
 p.col-md-8 {
   padding-left: 0 !important;
   padding-right: 0 !important; }
   @media screen and (min-width: 750px) {
     p.col-md-8 {
       padding-right: 15px; } }
-
-.col-md-8:not(:first-child) {
-  margin-top: 3.6rem; }
-  @media screen and (min-width: 750px) {
-    .col-md-8:not(:first-child) {
-      margin-top: 0; } }
 
 p.col-md-9 {
   padding-left: 0 !important;
@@ -3341,24 +3293,12 @@ p.col-md-9 {
     p.col-md-9 {
       padding-right: 15px; } }
 
-.col-md-9:not(:first-child) {
-  margin-top: 3.6rem; }
-  @media screen and (min-width: 750px) {
-    .col-md-9:not(:first-child) {
-      margin-top: 0; } }
-
 p.col-md-10 {
   padding-left: 0 !important;
   padding-right: 0 !important; }
   @media screen and (min-width: 750px) {
     p.col-md-10 {
       padding-right: 15px; } }
-
-.col-md-10:not(:first-child) {
-  margin-top: 3.6rem; }
-  @media screen and (min-width: 750px) {
-    .col-md-10:not(:first-child) {
-      margin-top: 0; } }
 
 p.col-md-11 {
   padding-left: 0 !important;
@@ -3367,10 +3307,28 @@ p.col-md-11 {
     p.col-md-11 {
       padding-right: 15px; } }
 
-.col-md-11:not(:first-child) {
-  margin-top: 3.6rem; }
+.col-md-1:not(:first-child),
+.col-md-2:not(:first-child),
+.col-md-3:not(:first-child),
+.col-md-4:not(:first-child),
+.col-md-5:not(:first-child),
+.col-md-6:not(:first-child),
+.col-md-7:not(:first-child),
+.col-md-8:not(:first-child),
+.col-md-9:not(:first-child),
+.col-md-10:not(:first-child) .col-md-11:not(:first-child) {
+  margin-top: 1.9rem; }
   @media screen and (min-width: 750px) {
-    .col-md-11:not(:first-child) {
+    .col-md-1:not(:first-child),
+    .col-md-2:not(:first-child),
+    .col-md-3:not(:first-child),
+    .col-md-4:not(:first-child),
+    .col-md-5:not(:first-child),
+    .col-md-6:not(:first-child),
+    .col-md-7:not(:first-child),
+    .col-md-8:not(:first-child),
+    .col-md-9:not(:first-child),
+    .col-md-10:not(:first-child) .col-md-11:not(:first-child) {
       margin-top: 0; } }
 
 /* Header-boxen */

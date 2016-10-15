@@ -6,10 +6,6 @@ $share-buttons-height: 60px;
 .news {
   .comments,
   .category-tree {
-    padding: 0 15px;
-    @media screen and (min-width: $break-desktop-1) {
-      padding: 0;
-    }
     input[type=checkbox] {
       position: absolute;
       cursor: pointer;
