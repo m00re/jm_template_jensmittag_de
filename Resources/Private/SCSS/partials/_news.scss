@@ -1,10 +1,18 @@
+// CONFIGURATION
+$share-buttons-show-after: 5s;
+$share-buttons-height: 60px;
+
+// STYLES
 .news {
   .comments,
   .category-tree {
+    padding: 0 15px;
+    @media screen and (min-width: $break-desktop-1) {
+      padding: 0;
+    }
     input[type=checkbox] {
       position: absolute;
       cursor: pointer;
-      width: 100%;
       height: 36px;
       height: 2 * $font-size-paragraph;
       z-index: 1;
@@ -72,6 +80,7 @@
   .news-list-view {
     .page-navigation,
     .article {
+      padding: 0 15px $font-size-paragraph 15px;
       @media screen and (min-width: $break-desktop-1) {
         padding: $content-container-tiny-padding-1;
         padding-bottom: 0.5 * $content-container-tiny-padding-1;
@@ -84,6 +93,12 @@
         padding: $content-container-tiny-padding-3;
         padding-bottom: 0.5 * $content-container-tiny-padding-3;
       }
+      .news-img-wrap {
+        margin: 0 -15px;
+        @media screen and (min-width: $break-desktop-1) {
+          margin: 0;
+        }
+      }
     }
   }
 }
@@ -95,11 +110,11 @@
       background-color: $very-light-grey;
     }
     .news-img-wrap {
-      margin-bottom: 3 * $font-size-paragraph;
+      @media screen and (min-width: $break-desktop-1) {
+        margin-bottom: 3 * $font-size-paragraph;
+      }
     }
     .header {
-      position: relative;
-      width: 100%;
       h2 {
         margin-bottom: 0;
       }
@@ -135,7 +150,12 @@
       }
     }
     ul.categories {
-      margin-top: 2 * $font-size-paragraph;
+      margin-top: $font-size-paragraph;
+      margin-bottom: 2 * $font-size-paragraph;
+      @media screen and (min-width: $break-desktop-1) {
+        margin-top: 2 * $font-size-paragraph;
+        margin-bottom: $font-size-paragraph;
+      }
     }
   }
   .page-navigation {
@@ -160,15 +180,62 @@
 }
 
 .news-single {
+  .article {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: $share-buttons-height - 10px;
+    @media screen and (min-width: $break-desktop-1) {
+      padding-bottom: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
   .extended-width-no-margin-t {
-    margin-bottom: 4 * $font-size-paragraph;
+    margin-bottom: $font-size-paragraph;
+    @media screen and (min-width: $break-desktop-1) {
+      margin-bottom: 4 * $font-size-paragraph;
+    }
   }
   .header {
-    margin-top: 4 * $font-size-paragraph;
-    margin-bottom: 4 * $font-size-paragraph;
+    @media screen and (min-width: $break-desktop-1) {
+      margin: 4 * $font-size-paragraph 15px;
+    }
+  }
+  .news-text-wrap {
+    @media screen and (min-width: $break-desktop-1) {
+      padding: 0;
+    }
+  }
+  .news-backlink-wrap {
+    i {
+      transform: translate(-6px, 0);
+      transition: all 0.25s ease-in-out;
+      display: inline-block;
+      margin-right: 21px;
+
+      &:before, &:after {
+        content: "";
+        background-color: #337ab7;
+        width: 3px;
+        height: 13px;
+        display: inherit;
+      }
+      &:before {
+        transform: translate(17px, -3px) rotate(45deg);
+      }
+      &:after {
+        transform: translate(14px, 5px) rotate(-45deg);
+      }
+    }
+    a {
+      font-family: $menu-font-stack;
+      font-size: 16px;
+      font-size: 1.6rem;
+      text-transform: uppercase;
+    }
   }
   .footer {
-    padding: 15px;
+    padding: $font-size-paragraph 15px;
     @media screen and (min-width: $break-desktop-1) {
       padding: (0.5 * $content-container-tiny-padding-1) $content-container-tiny-padding-1;
     }
@@ -180,7 +247,7 @@
     }
   }
   .comments {
-    padding: 15px;
+    padding: 0 15px;
     @media screen and (min-width: $break-desktop-1) {
       padding: 15px $content-container-tiny-padding-1;
     }
@@ -194,38 +261,65 @@
   .share-buttons {
     position: fixed;
     left: 0;
-    top: 30%;
+    bottom: 0;
     width: 0;
     height: 0;
     overflow: hidden;
 
-    -moz-animation: showAfterFiveSeconds 0s ease-in 5s forwards;
-    -webkit-animation: showAfterFiveSeconds 0s ease-in 5s forwards;
-    -o-animation: showAfterFiveSeconds 0s ease-in 5s forwards;
-    animation: showAfterFiveSeconds 0s ease-in 5s forwards;
+    @media screen and (min-width: $break-desktop-1) {
+      left: 0;
+      top: 30%;
+      -moz-animation: showAfterFiveSeconds 0s ease-in $share-buttons-show-after forwards;
+      -webkit-animation: showAfterFiveSeconds 0s ease-in $share-buttons-show-after forwards;
+      -o-animation: showAfterFiveSeconds 0s ease-in $share-buttons-show-after forwards;
+      animation: showAfterFiveSeconds 0s ease-in $share-buttons-show-after forwards;
+    }
+
+    -moz-animation: showAfterFiveSeconds100percent 0s ease-in $share-buttons-show-after forwards;
+    -webkit-animation: showAfterFiveSeconds100percent 0s ease-in $share-buttons-show-after forwards;
+    -o-animation: showAfterFiveSeconds100percent 0s ease-in $share-buttons-show-after forwards;
+    animation: showAfterFiveSeconds100percent 0s ease-in $share-buttons-show-after forwards;
+
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 
     @keyframes showAfterFiveSeconds {
       to {
-        width: auto;
         height: auto;
+        width: auto;
         overflow: visible;
+
       }
     }
     @-webkit-keyframes showAfterFiveSeconds {
       to {
-        width: auto;
         height: auto;
+        width: auto;
+        overflow: visible;
+      }
+    }
+
+    @keyframes showAfterFiveSeconds100percent {
+      to {
+        height: auto;
+        width: 100%;
+        overflow: visible;
+
+      }
+    }
+    @-webkit-keyframes showAfterFiveSeconds100percent {
+      to {
+        height: auto;
+        width: 100%;
         overflow: visible;
       }
     }
 
     h2 {
-      display: block;
+      display: none;
       color: $white;
       background-color: $menu-background-color;
-      width: 100%;
+      width: $share-buttons-height;
       text-align: center;
       margin: 0;
       padding: 5px 0;
@@ -234,27 +328,48 @@
       vertical-align: baseline;
       font-weight: bold;
       text-transform: uppercase;
+      @media screen and (min-width: $break-desktop-1) {
+        display: block;
+      }
     }
 
     ul {
       list-style: none;
       margin: 0;
       padding: 0;
+      display: block;
+      width: 100%;
+      @media screen and (min-width: $break-desktop-1) {
+        width: $share-buttons-height;
+      }
+
       li {
         display: block;
+        float: left;
         margin: 0;
         padding: 0;
-        width: 60px;
-        height: 60px;
+        width: 25%;
+        height: $share-buttons-height - 10px;
+        @media screen and (min-width: $break-desktop-1) {
+          float: none;
+          width: $share-buttons-height;
+          height: $share-buttons-height;
+        }
         a {
           font-size: 24px;
+          font-size: 2.4rem;
           color: $white;
-          width: 60px;
-          height: 60px;
+          width: 100%;
+          @media screen and (min-width: $break-desktop-1) {
+            width: $share-buttons-height;
+            height: $share-buttons-height;
+            line-height: $share-buttons-height - 10px;
+          }
+          height: $share-buttons-height - 10px;
           text-align: center;
           display: block;
           vertical-align: baseline;
-          line-height: 60px;
+          line-height: $share-buttons-height;
         }
       }
     }

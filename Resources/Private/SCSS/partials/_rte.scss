@@ -135,6 +135,8 @@ p.extended-width {
 .csc-default-ltr-padding,
 .csc-default-lr-padding {
   .extended-width {
+    margin-left: -15px;
+    margin-right: -15px;
     @media screen and (min-width: $break-desktop-1) {
       margin-left: -$content-container-tiny-padding-1;
       margin-right: -$content-container-tiny-padding-1;
@@ -167,6 +169,8 @@ p.extended-width {
 .csc-wide-ltr-padding,
 .csc-wide-lr-padding {
   .extended-width {
+    margin-left: -15px;
+    margin-right: -15px;
     @media screen and (min-width: $break-desktop-1) {
       margin-left: -$content-container-page-padding-1;
       margin-right: -$content-container-page-padding-1;
@@ -377,12 +381,11 @@ img {
 /* Floating Boxes */
 p.float-left-block {
   display: block;
-  float: left;
-  margin-left: -($content-container-tiny-padding / 2);
-  margin-top: 1.4rem;
-  margin-right: 2.7rem;
-  margin-bottom: 2.7rem;
   @media screen and (min-width: $break-desktop-1) {
+    float: left;
+    margin-top: 1.4rem;
+    margin-right: 2.7rem;
+    margin-bottom: 2.7rem;
     margin-left: -($content-container-tiny-padding-1 / 2);
   }
   @media screen and (min-width: $break-desktop-2) {
@@ -400,7 +403,6 @@ p.float-left-block {
 .csc-wide-lr-padding,
 .csc-wide-ltr-padding {
   .float-left-block {
-    margin-left: -($content-container-page-padding / 2);
     @media screen and (min-width: $break-desktop-1) {
       margin-left: -($content-container-page-padding-1 / 2);
     }
@@ -414,12 +416,11 @@ p.float-left-block {
 }
 p.float-right-block {
   display: block;
-  float: right !important;
-  margin-right: -($content-container-tiny-padding / 2);
-  margin-top: 1.4rem;
-  margin-left: 2.7rem;
-  margin-bottom: 2.7rem;
   @media screen and (min-width: $break-desktop-1) {
+    float: right !important;
+    margin-top: 1.4rem;
+    margin-left: 2.7rem;
+    margin-bottom: 2.7rem;
     margin-right: -($content-container-tiny-padding-1 / 2);
   }
   @media screen and (min-width: $break-desktop-2) {
@@ -437,7 +438,6 @@ p.float-right-block {
 .csc-wide-lr-padding,
 .csc-wide-ltr-padding {
   .float-right-block {
-    margin-right: -($content-container-page-padding / 2);
     @media screen and (min-width: $break-desktop-1) {
       margin-right: -($content-container-page-padding-1 / 2);
     }
@@ -559,6 +559,10 @@ span.font-size-footnote {
 p.col-md-1 {
   @extend .col-md-1;
   padding-left: 0 !important;
+  padding-right: 0 !important;
+  @media screen and (min-width: $break-desktop-1) {
+    padding-right: 15px;
+  }
 }
 .col-md-1:not(:first-child) {
   margin-top: 3.6rem;
@@ -569,6 +573,10 @@ p.col-md-1 {
 p.col-md-2 {
   @extend .col-md-2;
   padding-left: 0 !important;
+  padding-right: 0 !important;
+  @media screen and (min-width: $break-desktop-1) {
+    padding-right: 15px;
+  }
 }
 .col-md-2:not(:first-child) {
   margin-top: 3.6rem;
@@ -579,6 +587,10 @@ p.col-md-2 {
 p.col-md-3 {
   @extend .col-md-3;
   padding-left: 0 !important;
+  padding-right: 0 !important;
+  @media screen and (min-width: $break-desktop-1) {
+    padding-right: 15px;
+  }
 }
 .col-md-3:not(:first-child) {
   margin-top: 3.6rem;
@@ -589,6 +601,10 @@ p.col-md-3 {
 p.col-md-4 {
   @extend .col-md-4;
   padding-left: 0 !important;
+  padding-right: 0 !important;
+  @media screen and (min-width: $break-desktop-1) {
+    padding-right: 15px;
+  }
 }
 .col-md-4:not(:first-child) {
   margin-top: 3.6rem;
@@ -599,6 +615,10 @@ p.col-md-4 {
 p.col-md-5 {
   @extend .col-md-5;
   padding-left: 0 !important;
+  padding-right: 0 !important;
+  @media screen and (min-width: $break-desktop-1) {
+    padding-right: 15px;
+  }
 }
 .col-md-5:not(:first-child) {
   margin-top: 3.6rem;
@@ -609,6 +629,10 @@ p.col-md-5 {
 p.col-md-6 {
   @extend .col-md-6;
   padding-left: 0 !important;
+  padding-right: 0 !important;
+  @media screen and (min-width: $break-desktop-1) {
+    padding-right: 15px;
+  }
 }
 .col-md-6:not(:first-child) {
   margin-top: 3.6rem;
@@ -619,6 +643,10 @@ p.col-md-6 {
 p.col-md-7 {
   @extend .col-md-7;
   padding-left: 0 !important;
+  padding-right: 0 !important;
+  @media screen and (min-width: $break-desktop-1) {
+    padding-right: 15px;
+  }
 }
 .col-md-7:not(:first-child) {
   margin-top: 3.6rem;
@@ -629,6 +657,10 @@ p.col-md-7 {
 p.col-md-8 {
   @extend .col-md-8;
   padding-left: 0 !important;
+  padding-right: 0 !important;
+  @media screen and (min-width: $break-desktop-1) {
+    padding-right: 15px;
+  }
 }
 .col-md-8:not(:first-child) {
   margin-top: 3.6rem;
@@ -639,6 +671,10 @@ p.col-md-8 {
 p.col-md-9 {
   @extend .col-md-9;
   padding-left: 0 !important;
+  padding-right: 0 !important;
+  @media screen and (min-width: $break-desktop-1) {
+    padding-right: 15px;
+  }
 }
 .col-md-9:not(:first-child) {
   margin-top: 3.6rem;
@@ -649,6 +685,10 @@ p.col-md-9 {
 p.col-md-10 {
   @extend .col-md-10;
   padding-left: 0 !important;
+  padding-right: 0 !important;
+  @media screen and (min-width: $break-desktop-1) {
+    padding-right: 15px;
+  }
 }
 .col-md-10:not(:first-child) {
   margin-top: 3.6rem;
@@ -659,6 +699,10 @@ p.col-md-10 {
 p.col-md-11 {
   @extend .col-md-11;
   padding-left: 0 !important;
+  padding-right: 0 !important;
+  @media screen and (min-width: $break-desktop-1) {
+    padding-right: 15px;
+  }
 }
 .col-md-11:not(:first-child) {
   margin-top: 3.6rem;

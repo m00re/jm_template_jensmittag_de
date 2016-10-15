@@ -123,8 +123,10 @@ nav {
         line-height: 25px;
         vertical-align: baseline;
         margin-left: 5%;
+        text-transform: uppercase;
 
         @media screen and (min-width: $break-desktop-1) {
+          text-transform: none;
           display: inline-block;
           color: $grey;
           text-decoration: none;
