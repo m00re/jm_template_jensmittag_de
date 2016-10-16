@@ -1,5 +1,7 @@
 .base-letter-spacing {
-  letter-spacing: 0.04rem;
+  @media screen and (min-width: $break-desktop-1) {
+    letter-spacing: 0.04rem;
+  }
 }
 
 h1 {
@@ -7,38 +9,65 @@ h1 {
   font-size: 26px;
   font-size: 2.6rem;
   clear: left;
-  border-bottom: 1px solid #848484;
+  color: $dark-grey;
+  margin: ($font-size-paragraph * 2.6) 0 $font-size-paragraph 0;
+  &:first-of-type {
+    margin-top: 0;
+  }
 }
 h2 {
   @extend .base-letter-spacing;
   font-size: 24px;
   font-size: 2.4rem;
   clear: left;
+  color: $dark-grey;
+  margin: ($font-size-paragraph * 2.4) 0 $paragraph-margin 0;
+  &:first-of-type {
+    margin-top: 0;
+  }
 }
 h3 {
   @extend .base-letter-spacing;
   font-size: 20px;
   font-size: 2rem;
   clear: left;
-  font-weight: bold;
+  color: $dark-grey;
+  margin: ($font-size-paragraph * 2.0) 0 $paragraph-margin 0;
+  &:first-of-type {
+    margin-top: 0;
+  }
 }
 h4 {
   @extend .base-letter-spacing;
   font-size: 20px;
   font-size: 2.0rem;
   clear: left;
+  color: $dark-grey;
+  margin: ($font-size-paragraph * 2.0) 0 $paragraph-margin 0;
+  &:first-of-type {
+    margin-top: 0;
+  }
 }
 h5 {
   @extend .base-letter-spacing;
   font-size: 18px;
   font-size: 1.8rem;
   clear: left;
+  color: $dark-grey;
+  margin: ($font-size-paragraph * 1.8) 0 $paragraph-margin 0;
+  &:first-of-type {
+    margin-top: 0;
+  }
 }
 h6 {
   @extend .base-letter-spacing;
   font-size: 16px;
   font-size: 1.6rem;
   clear: left;
+  margin: ($font-size-paragraph * 1.6) 0 $paragraph-margin 0;
+  &:first-of-type {
+    margin-top: 0;
+  }
 }
 
 .csc-default,
@@ -58,7 +87,7 @@ p {
 }
 
 p.bodytext {
-  margin: $paragraph-margin 0;
+  margin: ($paragraph-margin / 2) 0 $paragraph-margin 0;
 }
 
 blockquote.align-right,

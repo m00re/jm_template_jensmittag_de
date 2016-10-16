@@ -39,7 +39,7 @@ $content-container-tiny-padding-3: 88px;
 $content-container-page-padding-3: 176px;
 
 $increased-first-letter-padding: 0.1rem 0.5rem 0 0;
-$paragraph-margin: 3.6rem 0;
+$paragraph-margin: $font-size-paragraph 0 (2 * $font-size-paragraph) 0;
 $blockquote-margin: 3.6rem 0;
 $blockquote-quotes-margin: 0.2rem;
 $button-padding: 0.3rem 0.5rem;

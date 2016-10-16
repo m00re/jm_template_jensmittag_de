@@ -2513,50 +2513,72 @@ a.label:hover, a.label:focus {
   src: local("Bitter-Italic"), url("../Fonts/bitter-v7-latin-italic.eot?#iefix") format("embedded-opentype"), url("../Fonts/bitter-v7-latin-italic.woff2") format("woff2"), url("../Fonts/bitter-v7-latin-italic.woff") format("woff"), url("../Fonts/bitter-v7-latin-italic.ttf") format("truetype"), url("../Fonts/bitter-v7-latin-italic.svg#Bitter") format("svg");
   /* Legacy iOS */ }
 
-.base-letter-spacing, h1, h2, h3, h4, h5, h6, .csc-default,
-.csc-wide,
-.csc-default-lbr-padding,
-.csc-default-ltr-padding,
-.csc-default-lr-padding,
-.csc-wide-lbr-padding,
-.csc-wide-ltr-padding,
-.csc-wide-lr-padding,
-ol,
-ul,
-p {
-  letter-spacing: 0.04rem; }
+@media screen and (min-width: 750px) {
+  .base-letter-spacing, h1, h2, h3, h4, h5, h6, .csc-default,
+  .csc-wide,
+  .csc-default-lbr-padding,
+  .csc-default-ltr-padding,
+  .csc-default-lr-padding,
+  .csc-wide-lbr-padding,
+  .csc-wide-ltr-padding,
+  .csc-wide-lr-padding,
+  ol,
+  ul,
+  p {
+    letter-spacing: 0.04rem; } }
 
 h1 {
   font-size: 26px;
   font-size: 2.6rem;
   clear: left;
-  border-bottom: 1px solid #848484; }
+  color: #616161;
+  margin: 4.94rem 0 1.9rem 0; }
+  h1:first-of-type {
+    margin-top: 0; }
 
 h2 {
   font-size: 24px;
   font-size: 2.4rem;
-  clear: left; }
+  clear: left;
+  color: #616161;
+  margin: 4.56rem 0 1.9rem 0 3.8rem 0 0; }
+  h2:first-of-type {
+    margin-top: 0; }
 
 h3 {
   font-size: 20px;
   font-size: 2rem;
   clear: left;
-  font-weight: bold; }
+  color: #616161;
+  margin: 3.8rem 0 1.9rem 0 3.8rem 0 0; }
+  h3:first-of-type {
+    margin-top: 0; }
 
 h4 {
   font-size: 20px;
   font-size: 2.0rem;
-  clear: left; }
+  clear: left;
+  color: #616161;
+  margin: 3.8rem 0 1.9rem 0 3.8rem 0 0; }
+  h4:first-of-type {
+    margin-top: 0; }
 
 h5 {
   font-size: 18px;
   font-size: 1.8rem;
-  clear: left; }
+  clear: left;
+  color: #616161;
+  margin: 3.42rem 0 1.9rem 0 3.8rem 0 0; }
+  h5:first-of-type {
+    margin-top: 0; }
 
 h6 {
   font-size: 16px;
   font-size: 1.6rem;
-  clear: left; }
+  clear: left;
+  margin: 3.04rem 0 1.9rem 0 3.8rem 0 0; }
+  h6:first-of-type {
+    margin-top: 0; }
 
 .csc-default,
 .csc-wide,
@@ -2573,7 +2595,7 @@ p {
   font-size: 1.9rem; }
 
 p.bodytext {
-  margin: 3.6rem 0 0; }
+  margin: 1.9rem 0 3.8rem 0/2 0 1.9rem 0 3.8rem 0 0; }
 
 blockquote.align-right,
 p.align-right {
@@ -2651,7 +2673,7 @@ p.extended-width-no-margin-t,
 p.extended-width-no-margin-b,
 p.extended-width-no-margin-tb {
   background-color: #eeeeee;
-  margin: 3.6rem 0; }
+  margin: 1.9rem 0 3.8rem 0; }
 
 .csc-default .extended-width, .csc-default .extended-width-no-margin-t, .csc-default .extended-width-no-margin-b, .csc-default .extended-width-no-margin-tb,
 .csc-default-lbr-padding .extended-width,
@@ -2891,7 +2913,7 @@ pre {
   border: 0;
   border-radius: 0 !important;
   padding: 2.7rem !important;
-  margin: 3.6rem 0;
+  margin: 1.9rem 0 3.8rem 0;
   margin-bottom: 0;
   background-color: #f9f9f9 !important; }
 
@@ -3149,7 +3171,7 @@ span.marked {
 /* Ordered lists, down to level 3 */
 ol {
   list-style-type: decimal;
-  margin: 3.6rem 0; }
+  margin: 1.9rem 0 3.8rem 0; }
   ol li ol {
     list-style: lower-latin;
     margin: 0.9rem 0; }
@@ -3170,7 +3192,7 @@ ol {
     display: none; }
 
 ul {
-  margin: 3.6rem 0; }
+  margin: 1.9rem 0 3.8rem 0; }
   ul li ul {
     margin: 0.9rem 0; }
     ul li ul li ul {
@@ -3371,7 +3393,7 @@ p.indent {
   @media screen and (min-width: 750px) {
     p.indent {
       padding-left: 3.6rem;
-      margin: 3.6rem 0; } }
+      margin: 1.9rem 0 3.8rem 0; } }
 
 html {
   height: 100%;
