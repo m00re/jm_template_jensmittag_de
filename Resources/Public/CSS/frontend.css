@@ -4587,8 +4587,8 @@ p.indent {
 .row .csc-wide-lr-padding .header-box,
 .row .csc-wide-ltr-padding .header-box,
 .row .csc-default .header-box {
-  margin-left: -15px;
-  margin-right: -15px; }
+  margin-left: -30px;
+  margin-right: -30px; }
   @media screen and (min-width: 750px) {
     .row .csc-no-padding .header-box,
     .row .csc-default-lbr-padding .header-box,
