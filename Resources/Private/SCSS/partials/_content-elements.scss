@@ -209,8 +209,12 @@
       padding: $content-container-tiny-padding-1;
     }
     .header-box {
-      margin-left: -($content-container-tiny-padding-1);
-      margin-right: -($content-container-tiny-padding-1);
+      margin-left: -30px;
+      margin-right: -30px;
+      @media screen and (min-width: $break-desktop-1) {
+        margin-left: -($content-container-tiny-padding-1);
+        margin-right: -($content-container-tiny-padding-1);
+      }
     }
   }
 }
