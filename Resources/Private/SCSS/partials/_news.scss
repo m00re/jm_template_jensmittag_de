@@ -76,7 +76,7 @@ $share-buttons-height: 60px;
   .news-list-view {
     .page-navigation,
     .article {
-      padding: 0 15px $font-size-paragraph 15px;
+      padding: $font-size-paragraph 15px (2 * $font-size-paragraph) 15px;
       @media screen and (min-width: $break-desktop-1) {
         padding: $content-container-tiny-padding-1;
         padding-bottom: 0.5 * $content-container-tiny-padding-1;
@@ -90,9 +90,9 @@ $share-buttons-height: 60px;
         padding-bottom: 0.5 * $content-container-tiny-padding-3;
       }
       .news-img-wrap {
-        margin: 0 -15px;
+        margin: -$font-size-paragraph -15px (2 * $font-size-paragraph) -15px;
         @media screen and (min-width: $break-desktop-1) {
-          margin: 0;
+          margin: 0 0 (2 * $font-size-paragraph) 0;
         }
       }
     }
@@ -187,11 +187,9 @@ $share-buttons-height: 60px;
       }
     }
     ul.categories {
-      margin-top: $font-size-paragraph;
-      margin-bottom: 2 * $font-size-paragraph;
+      margin: $font-size-paragraph 0 0 0;
       @media screen and (min-width: $break-desktop-1) {
-        margin-top: 2 * $font-size-paragraph;
-        margin-bottom: $font-size-paragraph;
+        margin: (2 * $font-size-paragraph) 0 $font-size-paragraph 0;
       }
     }
   }
@@ -244,6 +242,7 @@ $share-buttons-height: 60px;
     }
   }
   .header {
+    margin-bottom: 2 * $font-size-paragraph;
     @media screen and (min-width: $break-desktop-1) {
       margin: 4 * $font-size-paragraph 15px;
     }

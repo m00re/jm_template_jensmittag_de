@@ -512,7 +512,7 @@ ol {
 }
 
 ul {
-  margin: $paragraph-margin;
+  margin: $font-size-paragraph $font-size-paragraph (2 * $font-size-paragraph) 0;
   li {
     ul {
       margin: 0.9rem 0;
@@ -537,7 +537,7 @@ ul.no-list-marker {
   padding-left: 0 !important;
   li {
     list-style: none !important;
-    margin-bottom: 0.9rem !important;
+    margin-bottom: $font-size-paragraph !important;
   }
 }
 

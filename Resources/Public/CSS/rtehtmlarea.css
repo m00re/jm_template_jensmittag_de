@@ -3192,7 +3192,7 @@ ol {
     display: none; }
 
 ul {
-  margin: 1.9rem 0 3.8rem 0; }
+  margin: 1.9rem 1.9rem 3.8rem 0; }
   ul li ul {
     margin: 0.9rem 0; }
     ul li ul li ul {
@@ -3214,7 +3214,7 @@ ul.no-list-marker {
   padding-left: 0 !important; }
   ul.no-list-marker li {
     list-style: none !important;
-    margin-bottom: 0.9rem !important; }
+    margin-bottom: 1.9rem !important; }
 
 ul.slides p {
   display: block; }
