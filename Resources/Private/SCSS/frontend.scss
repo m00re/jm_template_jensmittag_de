@@ -49,7 +49,7 @@ body {
   overflow-x: hidden;
 
   @media screen and (min-width: $break-desktop-1) {
-    background: url('../Images/background.svg');
+    background: url('../Images/background.svg.gz');
     background-color: $light-grey;
   }
 }

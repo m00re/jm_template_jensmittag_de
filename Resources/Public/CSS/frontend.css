@@ -3330,7 +3330,7 @@ body {
   overflow-x: hidden; }
   @media screen and (min-width: 750px) {
     body {
-      background: url("../Images/background.svg");
+      background: url("../Images/background.svg.gz");
       background-color: #eeeeee; } }
 
 div.csc-textpic .csc-textpic-imagewrap .csc-textpic-image {
@@ -3491,7 +3491,7 @@ nav:hover span.logo {
   margin-top: 15px; }
 
 span.logo {
-  background-image: url("../Images/logo.svg");
+  background-image: url("../Images/logo.svg.gz");
   background-size: cover;
   width: 40px;
   height: 30px;
