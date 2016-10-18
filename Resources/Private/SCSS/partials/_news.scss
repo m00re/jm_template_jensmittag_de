@@ -244,12 +244,25 @@ $share-buttons-height: 60px;
   .header {
     margin-bottom: 2 * $font-size-paragraph;
     @media screen and (min-width: $break-desktop-1) {
-      margin: 4 * $font-size-paragraph 15px;
+      margin: $content-container-page-padding-1 15px (4 * $font-size-paragraph) 15px;
+    }
+    @media screen and (min-width: $break-desktop-2) {
+      margin: $content-container-page-padding-2 15px (4 * $font-size-paragraph) 15px;
+    }
+    @media screen and (min-width: $break-desktop-3) {
+      margin: $content-container-page-padding-3 15px (4 * $font-size-paragraph) 15px;
     }
   }
   .news-text-wrap {
     @media screen and (min-width: $break-desktop-1) {
       padding: 0;
+      margin-bottom: $content-container-page-padding-1;
+    }
+    @media screen and (min-width: $break-desktop-2) {
+      margin-bottom: $content-container-page-padding-2;
+    }
+    @media screen and (min-width: $break-desktop-3) {
+      margin-bottom: $content-container-page-padding-3;
     }
   }
   .news-backlink-wrap {

@@ -4989,10 +4989,23 @@ p.indent {
     margin-bottom: 3.8rem; }
     @media screen and (min-width: 750px) {
       .news-single .header {
-        margin: 7.6rem 15px; } }
+        margin: 112px 15px 7.6rem 15px; } }
+    @media screen and (min-width: 992px) {
+      .news-single .header {
+        margin: 146px 15px 7.6rem 15px; } }
+    @media screen and (min-width: 1170px) {
+      .news-single .header {
+        margin: 176px 15px 7.6rem 15px; } }
   @media screen and (min-width: 750px) {
     .news-single .news-text-wrap {
-      padding: 0; } }
+      padding: 0;
+      margin-bottom: 112px; } }
+  @media screen and (min-width: 992px) {
+    .news-single .news-text-wrap {
+      margin-bottom: 146px; } }
+  @media screen and (min-width: 1170px) {
+    .news-single .news-text-wrap {
+      margin-bottom: 176px; } }
   .news-single .news-backlink-wrap a {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
