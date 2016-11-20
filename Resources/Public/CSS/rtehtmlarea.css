@@ -2458,11 +2458,6 @@ a.label:hover, a.label:focus {
   color: #333; }
 
 @font-face {
-  font-family: 'Glyphicons Halflings';
-  src: url("../Fonts/glyphicons-halflings-regular.eot");
-  src: url("../Fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../Fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../Fonts/glyphicons-halflings-regular.woff") format("woff"), url("../Fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../Fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
-
-@font-face {
   font-family: 'Antic';
   src: url("../Fonts/antic-v7-latin-regular.eot");
   src: url("../Fonts/antic-v7-latin-regular.eot?#iefix") format("embedded-opentype"), url("../Fonts/antic-v7-latin-regular.woff2") format("woff2"), url("../Fonts/antic-v7-latin-regular.woff") format("woff"), url("../Fonts/antic-v7-latin-regular.ttf") format("truetype"), url("../Fonts/antic-v7-latin-regular.svg#Antic") format("svg"); }
